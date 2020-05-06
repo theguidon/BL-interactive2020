@@ -1,20 +1,31 @@
 import React from "react"
 import { Link } from "gatsby"
+import "../styles/style.scss"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Admin from "../components/admin"
+import Journalists from "../components/journalists"
+import Graph from "../components/graph"
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Admin />
+    <Journalists />
+    <Graph />
+
+    <footer>
+
+
+      <p>ABOUT THE INTERACTIVE</p>
+      <p> An immersive journalism project by The GUIDON in 2020 </p>
+      <p>Interactive by Bea Martin, Bea Sison, Cobbie Quintos, Giddy Garcia, and Harvey Sison </p>
+      © {new Date().getFullYear()}, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </footer>
   </Layout>
 )
 
