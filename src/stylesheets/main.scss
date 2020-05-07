@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+$black: #242423;
+$darker: #1e1e1e;
+$grey: #797979;
+$offwhite: #CCCCCC;
+$red: #8E0000;
+$orange: #C23A3A;
+$pink: #DE8484;
+
+@font-face {
+  font-family: TiempoBold;
+  src: url('../fonts/Tiempos\ Text\ -\ Semibold.otf');
+}
+
+@font-face {
+  font-family: Tiempo;
+  src: url('../fonts/Tiempos\ Text\ -\ Regular.otf');
+}
+
+html,
+body {
+  background: $black;
+  color: $offwhite;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  .inner-header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 20px 0;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px #707070 solid;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+
+  .admin-intro {
+    width: 70%;
+    margin: 0 auto;
+
+    .admin-header {
+      color: $orange;
+      text-align: center;
+
+      .admin-name {
+        font-family: TiempoBold, sans-serif;
+        font-weight: 1000;
+        font-size: 22pt;
+      }
+
+      .admin-year {
+        font-family: Tiempo, sans-serif;
+        font-size: 18pt;
+        margin-bottom: 15px;
+      }
+    }
+
+    .admin-desc {
+      line-height: 150%;
+    }
+  }
+
+  .journ-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 95%;
+    justify-content: flex-start;
+
+    .journalist {
+      margin: 30px 50px;
+      flex: 0 0 25%;
+
+      .name {
+        color: $pink;
+        font-weight: 700;
+        font-size: 18pt;
+      }
+    }
+
+    padding: 40px 0;
+  }
+
+}

@@ -14,7 +14,7 @@ import SEO from "./seo"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "normalize.css"
-import "../stylesheets/main.css"
+import "../stylesheets/main.scss"
 
 const Main = styled.main`
   min-height: 100vh;

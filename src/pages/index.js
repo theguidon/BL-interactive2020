@@ -1,6 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import "../stylesheets/index.css"
+import Admin from "../components/Admin"
+import Journalists from "../components/Journalists"
+import Graph from "../components/Graph"
+import "../stylesheets/index.scss"
+
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +17,9 @@ const IndexPage = () => (
     <h4>
       The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
     </h4>
+    <Admin />
+    <Journalists />
+    <Graph />
   </Layout>
 )
 
