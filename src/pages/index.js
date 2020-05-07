@@ -1,31 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
-import "../styles/style.scss"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import "../stylesheets/index.scss"
 import Admin from "../components/admin"
 import Journalists from "../components/journalists"
 import Graph from "../components/graph"
 
-
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <h1>Under Fire</h1>
+    <div id="red-line" />
+    <h2>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
+    <h4>
+      The Philippines is among the most dangerous countries for journalists. Only a handful of other countries compare to it in this regard. According to the Committee to Protect Journalists, “the countries with the highest media impunities represent both conflict-ridden and more stable regions where criminal groups, politicians, government officials, and other powerful actors resort to violence to silence critical and investigative reporting.”
+    </h4>
+    <h4>
+      The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
+    </h4>
     <Admin />
     <Journalists />
     <Graph />
-
-    <footer>
-
-
-      <p>ABOUT THE INTERACTIVE</p>
-      <p> An immersive journalism project by The GUIDON in 2020 </p>
-      <p>Interactive by Bea Martin, Bea Sison, Cobbie Quintos, Giddy Garcia, and Harvey Sison </p>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </footer>
   </Layout>
 )
 

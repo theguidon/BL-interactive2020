@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
 $black: #242423;
 $darker: #1e1e1e;
 $grey: #797979;
@@ -8,21 +11,34 @@ $pink: #DE8484;
 
 @font-face {
   font-family: TiempoBold;
-  src: url('Tiempos Text - Semibold.otf');
+  src: url('../fonts/Tiempos\ Text\ -\ Semibold.otf');
 }
+
 @font-face {
   font-family: Tiempo;
-  src: url('Tiempos Text - Regular.otf');
+  src: url('../fonts/Tiempos\ Text\ -\ Regular.otf');
 }
+
+html,
 body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: $black;
+  background: $black;
   color: $offwhite;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-  font-size: 14pt;
+  margin: 0;
+  padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   .inner-header {
     display: flex;
@@ -38,23 +54,28 @@ header {
 .wrapper {
   margin: 0 auto;
   width: 100%;
+
   .admin-intro {
     width: 70%;
     margin: 0 auto;
+
     .admin-header {
       color: $orange;
       text-align: center;
+
       .admin-name {
-        font-family: TiempoBold, sans-serif;  
+        font-family: TiempoBold, sans-serif;
         font-weight: 1000;
         font-size: 22pt;
       }
-      .admin-year { 
-        font-family: Tiempo, sans-serif;  
+
+      .admin-year {
+        font-family: Tiempo, sans-serif;
         font-size: 18pt;
         margin-bottom: 15px;
       }
     }
+
     .admin-desc {
       line-height: 150%;
     }
@@ -66,24 +87,19 @@ header {
     margin: 0 auto;
     width: 95%;
     justify-content: flex-start;
+
     .journalist {
       margin: 30px 50px;
       flex: 0 0 25%;
+
       .name {
         color: $pink;
         font-weight: 700;
         font-size: 18pt;
       }
     }
+
     padding: 40px 0;
   }
 
-}
-
-footer {
-  background-color: $darker;
-  color: #bdbdbd;
-  font-family: Tiempo, sans-serif;
-  padding: 100px;
-  line-height: 0pt;
 }

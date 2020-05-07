@@ -23,7 +23,7 @@ function Admin() {
   function Arroyo() {
     setName('Gloria Macapagal Arroyo');
     setYear('2001-2010');
-    setDesc('The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the \"Maguindanao massacre.\" The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency');
+    setDesc('The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the "Maguindanao massacre." The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency');
   }
   function Aquino() {
     setName('Benigno Aquino III');
