@@ -9,6 +9,9 @@ import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import Navbar from "./Navbar"
+import Admin from "./Admin"
+import Journalists from "./Journalists"
+import Graph from "./Graph"
 import Footer from "./Footer"
 import SEO from "./seo"
 import { useStaticQuery, graphql } from "gatsby"
@@ -42,6 +45,9 @@ const Layout = ({ children }) => {
       <Main>
         <Fragment>{children}</Fragment>
       </Main>
+      <Admin />
+      <Journalists />
+      <Graph />
       <Footer />
     </>
   )

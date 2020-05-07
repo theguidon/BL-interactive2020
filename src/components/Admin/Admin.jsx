@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Wrapper, Header,  Name, Year, Desc } from "./styles"
 
 function Admin() {
   const [name, setName] = useState('Corazon Aquino');
@@ -37,7 +38,7 @@ function Admin() {
   }
 
   return (
-    <div>
+    <>
       <button onClick={() => Corazon()}> Corazon </button>
       <button onClick={() => Ramos()}> Fidel Ramos </button>
 
@@ -49,16 +50,14 @@ function Admin() {
 
       <button onClick={() => Duterte()}> Duterte </button>
 
-      <div className="admin-intro">
-        <div className="admin-header">
-          <div className="admin-name">{name}</div>
-          <div className="admin-year">({year})</div>
-        </div>
-        <div className="admin-desc">
-          {desc}
-        </div>
-      </div>
-    </div>
+      <Wrapper>
+        <Header>
+          <Name>{name}</Name>
+          <Year>({year})</Year>
+        </Header>
+        <Desc>{desc}</Desc>
+      </Wrapper>
+      </>
   );
 }
 
