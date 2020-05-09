@@ -18,7 +18,7 @@ import "../stylesheets/main.scss"
 
 const Main = styled.main`
   min-height: 100vh;
-  width: 75%;
+  width: 90%;
   margin: auto;
   padding: 90px 0;
 `

@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
-import { Wrapper, Header,  Name, Year, Desc } from "./styles"
+import { SliderWrapper, PresWrapper, ImgWrapper, Btn, Line, Wrapper, Header,  Name, Year, Desc } from "./styles"
+import AquinoImg from "../../images/Aquino.jpg"
+import RamosImg from "../../images/Ramos.jpg"
+import EstradaImg from "../../images/Estrada.jpg"
+import ArroyoImg from "../../images/Arroyo.jpg"
+import AquinoIIIImg from "../../images/AquinoIII.jpg"
+import DuterteImg from "../../images/Duterte.jpg"
 
 function Admin() {
   const [name, setName] = useState('Corazon Aquino');
@@ -39,16 +45,20 @@ function Admin() {
 
   return (
     <>
-      <button onClick={() => Corazon()}> Corazon </button>
-      <button onClick={() => Ramos()}> Fidel Ramos </button>
 
-      <button onClick={() => Estrada()}> Joseph Estrada </button>
+      <SliderWrapper>
+        <PresWrapper onClick={() => Corazon()}> <ImgWrapper> <img src={AquinoImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Corazon <Btn /> </PresWrapper>
+        <PresWrapper onClick={() => Ramos()}> <ImgWrapper> <img src={RamosImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Fidel Ramos <Btn /> </PresWrapper>
 
-      <button onClick={() => Arroyo()}> Arroyo </button>
+        <PresWrapper onClick={() => Estrada()}> <ImgWrapper> <img src={EstradaImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Joseph Estrada <Btn />  </PresWrapper>
 
-      <button onClick={() => Aquino()}> Aquino III </button>
+        <PresWrapper onClick={() => Arroyo()}> <ImgWrapper> <img src={ArroyoImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Arroyo <Btn /> </PresWrapper>
 
-      <button onClick={() => Duterte()}> Duterte </button>
+        <PresWrapper onClick={() => Aquino()}> <ImgWrapper> <img src={AquinoIIIImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Aquino III <Btn /> </PresWrapper>
+
+        <PresWrapper onClick={() => Duterte()}> <ImgWrapper> <img src={DuterteImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Duterte <Btn />  </PresWrapper>
+      </SliderWrapper>
+      <Line />
 
       <Wrapper>
         <Header>
