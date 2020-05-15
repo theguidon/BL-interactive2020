@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { SliderWrapper, PresWrapper, ImgWrapper, Btn, Line, Wrapper, Header,  Name, Year, Desc } from "./styles"
 import AquinoImg from "../../images/Aquino.jpg"
 import RamosImg from "../../images/Ramos.jpg"
 import EstradaImg from "../../images/Estrada.jpg"
 import ArroyoImg from "../../images/Arroyo.jpg"
 import AquinoIIIImg from "../../images/AquinoIII.jpg"
 import DuterteImg from "../../images/Duterte.jpg"
+import "./style.scss"
 
 function Admin() {
   const [name, setName] = useState('Corazon Aquino');
@@ -43,30 +43,48 @@ function Admin() {
     setDesc('A feature of the Duterte presidency has been the crackdown on dissent. With two more years to go in his term, data from several sources reveal at least 14 journalists have been killed under Duterte.');
   }
 
+  var btns = document.getElementsByClassName("PresWrapper");
+
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+
+
+      this.className += " active";
+    });
+  }
+
+
+
   return (
     <>
 
-      <SliderWrapper>
-        <PresWrapper onClick={() => Corazon()}> <ImgWrapper> <img src={AquinoImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Corazon <Btn /> </PresWrapper>
-        <PresWrapper onClick={() => Ramos()}> <ImgWrapper> <img src={RamosImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Fidel Ramos <Btn /> </PresWrapper>
+      <div className="SliderWrapper">
+        <div className="PresWrapper active" onClick={() => Corazon()}> <div className="ImgWrapper"> <img src={AquinoImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Corazon Aquino <div className="circle"> </div> </div>
+        
+        <div className="PresWrapper" onClick={() => Ramos()}> <div className="ImgWrapper"> <img src={RamosImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Fidel <br></br> Ramos <div className="circle"></div> </div>
 
-        <PresWrapper onClick={() => Estrada()}> <ImgWrapper> <img src={EstradaImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Joseph Estrada <Btn />  </PresWrapper>
+        <div className="PresWrapper" onClick={() => Estrada()}> <div className="ImgWrapper"> <img src={EstradaImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Joseph Estrada <div className="circle"></div> </div>
 
-        <PresWrapper onClick={() => Arroyo()}> <ImgWrapper> <img src={ArroyoImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Arroyo <Btn /> </PresWrapper>
+        <div className="PresWrapper" onClick={() => Arroyo()}> <div className="ImgWrapper"> <img src={ArroyoImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Gloria Macapagal Arroyo <div className="circle"></div> </div>
 
-        <PresWrapper onClick={() => Aquino()}> <ImgWrapper> <img src={AquinoIIIImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Aquino III <Btn /> </PresWrapper>
+        <div className="PresWrapper" onClick={() => Aquino()}> <div className="ImgWrapper"> <img src={AquinoIIIImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Benigno Aquino III <div className="circle"></div> </div>
 
-        <PresWrapper onClick={() => Duterte()}> <ImgWrapper> <img src={DuterteImg} alt="logo" style={{ width: 100 + '%' }} /> </ImgWrapper> Duterte <Btn />  </PresWrapper>
-      </SliderWrapper>
-      <Line />
+        <div className="PresWrapper" onClick={() => Duterte()}> <div className="ImgWrapper"> <img src={DuterteImg} alt="logo" style={{ width: 100 + '%' }} /> </div> Rodrigo Duterte <div className="circle"></div>  </div>
+      </div>
+      <div className="Line"></div>
 
-      <Wrapper>
-        <Header>
-          <Name>{name}</Name>
-          <Year>({year})</Year>
-        </Header>
-        <Desc>{desc}</Desc>
-      </Wrapper>
+      <div className="Wrapper">
+        <div className="Header">
+          <div className="Name">{name}</div>
+          <div className="Year">({year})</div>
+        </div>
+        <div className="desc">{desc}</div>
+      </div>
       </>
   );
 }

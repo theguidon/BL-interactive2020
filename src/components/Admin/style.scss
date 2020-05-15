@@ -1,13 +1,13 @@
-import styled from "styled-components"
-
-export const SliderWrapper = styled.div`
-  display: flex;
-  flex-direction: row ;
-  justify-content: center;
-  width: 100%;
-`
-
-export const PresWrapper = styled.div`
+.active {
+  color: #c23a3a;
+  .ImgWrapper {
+    opacity: 1;
+  }
+  .circle {
+    background-color: #c23a3a;
+  }
+}
+.PresWrapper {
   margin: 0 40px;
   cursor: pointer;
   display: flex;
@@ -17,49 +17,55 @@ export const PresWrapper = styled.div`
   justify-content: center;
   align-items: center;
   color: #797979;
-`
-
-export const ImgWrapper = styled.div`
+}
+.ImgWrapper {
   width: 100px;
   height: 150px;
   margin: 0 auto;
-`
-
-export const Btn = styled.div`
+  opacity: 0.3;
+}
+.circle {
   z-index: 1;
   border-radius: 50%;
   width: 20px;
   height: 20px;
   margin: 0 auto;
-  background-color: #79797979;
+  background-color: #797979;
   margin: 20px 40px;
-`
-export const Line = styled.div`
+}
+.SliderWrapper {
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  width: 100%;
+}
+.Line{
   height: 3px;
   width: 100%;
   background: #797979;
-  margin: 0 auto;
-`
+  margin: -30px auto 0 auto;
+  z-index: 999;
+}
 
-export const Wrapper = styled.div`
+.Wrapper {
   width: 70%;
-  margin: 0 auto;
-`
-export const Header = styled.div`
+  margin: 50px auto;
+}
+
+.Header {
   color: #c23a3a;
   text-align: center;
-`
-export const Name = styled.div`
+}
+.Name {
   font-family: TiempoBold, sans-serif;
   font-weight: 1000;
   font-size: 22pt;
-`
-export const Year = styled.div`
+}
+.Year {
   font-family: Tiempo, sans-serif;
   font-size: 18pt;
   margin-bottom: 15px;
-`
-export const Desc = styled.div`
+}
+.Desc {
   line-height: 150%;
-`
-
+}
