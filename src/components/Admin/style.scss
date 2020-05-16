@@ -1,29 +1,34 @@
-.active {
-  color: #c23a3a;
-  .ImgWrapper {
-    opacity: 1;
-  }
-  .circle {
-    background-color: #c23a3a;
-  }
-}
 .PresWrapper {
   margin: 0 40px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.PresWrapper span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  /* Gray 2 */
+
   color: #797979;
 }
+
 .ImgWrapper {
-  width: 100px;
-  height: 150px;
+  height: 240px;
   margin: 0 auto;
   opacity: 0.3;
 }
+
 .circle {
   z-index: 1;
   border-radius: 50%;
@@ -33,13 +38,15 @@
   background-color: #797979;
   margin: 20px 40px;
 }
+
 .SliderWrapper {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
 }
-.Line{
+
+.Line {
   height: 3px;
   width: 100%;
   background: #797979;
@@ -56,16 +63,35 @@
   color: #c23a3a;
   text-align: center;
 }
+
 .Name {
   font-family: TiempoBold, sans-serif;
   font-weight: 1000;
   font-size: 22pt;
 }
+
 .Year {
   font-family: Tiempo, sans-serif;
   font-size: 18pt;
   margin-bottom: 15px;
 }
+
 .Desc {
   line-height: 150%;
+}
+
+.active {
+  span {
+    color: #c23a3a;
+    font-weight: 800;
+  }
+
+
+  .ImgWrapper {
+    opacity: 1;
+  }
+
+  .circle {
+    background-color: #c23a3a;
+  }
 }
