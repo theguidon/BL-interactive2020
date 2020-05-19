@@ -12,7 +12,7 @@ const data = [
     name: "Corazon Aquino",
     year: "1986-1992",
     desc:
-      "The Center for Media Freedom and Responsibility estimates that `at least 21 journalists were killed during Corazon Aquino's administration.",
+      "The Center for Media Freedom and Responsibility estimates that at least 21 journalists were killed during Corazon Aquino's administration.",
   },
   {
     name: "Fidel Ramos",
@@ -75,84 +75,84 @@ function Admin() {
           className={president === 0 ? "PresWrapper active" : "PresWrapper"}
           onClick={Corazon}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
-            <img src={AquinoImg} alt="logo" style={{ width: 100 + "%" }} />{" "}
-          </div>{" "}
-          <span>Corazon Aquino</span> <div className="circle"> </div>{" "}
+            
+            <img src={AquinoImg} alt="logo" style={{ width: 100 + "%" }} />
+          </div>
+          <span>Corazon Aquino</span> <div className="circle"> </div>
         </div>
 
         <div
           className={president === 1 ? "PresWrapper active" : "PresWrapper"}
           onClick={Ramos}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
-            <img src={RamosImg} alt="logo" style={{ width: 100 + "%" }} />{" "}
-          </div>{" "}
-          <span>Fidel Ramos</span> <div className="circle"></div>{" "}
+            
+            <img src={RamosImg} alt="logo" style={{ width: 100 + "%" }} />
+          </div>
+          <span>Fidel Ramos</span> <div className="circle"></div>
         </div>
 
         <div
           className={president === 2 ? "PresWrapper active" : "PresWrapper"}
           onClick={Estrada}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
+            
             <img
               src={EstradaImg}
               alt="logo"
               style={{ width: 100 + "%" }}
-            />{" "}
-          </div>{" "}
-          <span>Joseph Estrada</span> <div className="circle"></div>{" "}
+            />
+          </div>
+          <span>Joseph Estrada</span> <div className="circle"></div>
         </div>
 
         <div
           className={president === 3 ? "PresWrapper active" : "PresWrapper"}
           onClick={Arroyo}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
-            <img src={ArroyoImg} alt="logo" style={{ width: 100 + "%" }} />{" "}
-          </div>{" "}
-          <span>Gloria Macapagal Arroyo</span> <div className="circle"></div>{" "}
+            
+            <img src={ArroyoImg} alt="logo" style={{ width: 100 + "%" }} />
+          </div>
+          <span>Gloria Macapagal Arroyo</span> <div className="circle"></div>
         </div>
 
         <div
           className={president === 4 ? "PresWrapper active" : "PresWrapper"}
           onClick={Aquino}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
+            
             <img
               src={AquinoIIIImg}
               alt="logo"
               style={{ width: 100 + "%" }}
-            />{" "}
-          </div>{" "}
-          <span>Benigno Aquino III</span> <div className="circle"></div>{" "}
+            />
+          </div>
+          <span>Benigno Aquino III</span> <div className="circle"></div>
         </div>
 
         <div
           className={president === 5 ? "PresWrapper active" : "PresWrapper"}
           onClick={Duterte}
         >
-          {" "}
+          
           <div className="ImgWrapper">
-            {" "}
+            
             <img
               src={DuterteImg}
               alt="logo"
               style={{ width: 100 + "%" }}
-            />{" "}
-          </div>{" "}
-          <span>Rodrigo Duterte</span> <div className="circle"></div>{" "}
+            />
+          </div>
+          <span>Rodrigo Duterte</span> <div className="circle"></div>
         </div>
       </div>
       <div className="Line"></div>

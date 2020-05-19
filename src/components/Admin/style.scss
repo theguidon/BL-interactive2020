@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -24,13 +24,14 @@
 }
 
 .ImgWrapper {
-  height: 240px;
+  height: 208px;
+  width: 140px;
   margin: 0 auto;
   opacity: 0.3;
 }
 
 .circle {
-  z-index: 1;
+  z-index: 999;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -49,35 +50,40 @@
 .Line {
   height: 3px;
   width: 100%;
+  left: 0;
+  position: absolute;
   background: #797979;
-  margin: -30px auto 0 auto;
-  z-index: 999;
+  z-index: 1;
+  margin: -30px auto 40px auto; /* temporarily hardcoded */
 }
 
 .Wrapper {
   width: 70%;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .Header {
-  color: #c23a3a;
+  color: #C23A3A;
   text-align: center;
+  line-height: 30px;
 }
 
 .Name {
   font-family: TiempoBold, sans-serif;
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 22pt;
 }
 
 .Year {
   font-family: Tiempo, sans-serif;
-  font-size: 18pt;
+  font-size: 24px;
   margin-bottom: 15px;
+  font-weight: 500;
 }
 
 .Desc {
-  line-height: 150%;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .active {
