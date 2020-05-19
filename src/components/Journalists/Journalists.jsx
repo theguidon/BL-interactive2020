@@ -6,6 +6,7 @@ const Journalists = ({ journalists }) => (
   <Wrapper>
     {journalists.map((journalist, index) => (
       <JournalistBox
+        event={journalist.event}
         name={journalist.name}
         date={journalist.date}
         place={journalist.place}

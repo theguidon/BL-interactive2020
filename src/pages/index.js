@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import Admin from "../components/Admin"
 import Journalists from "../components/Journalists"
+import Ampatuan from "../components/Ampatuan"
 import Graph from "../components/Graph"
 import "../stylesheets/index.scss"
 
@@ -494,7 +495,6 @@ const data = [
         place: "Labason, Zamboanga del Norte",
         description: "Pasigna was an anchor for South Express Balita of B-96 FM. He was on his way to work when an assailant gunned him down. Police and the local mayor believe his murder to be related to an approaching election. Pasigna had also discussed a controversy over a certificate of candidacy prior."
       }
-      // insert Ampatuan Victims
     ]
   },
   {
@@ -840,6 +840,7 @@ const IndexPage = () => {
     </h4>
       <Admin {...{ data, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
       <Journalists journalists={data[president].journalists} />
+      <Ampatuan />
       <Graph />
     </Layout>
   )

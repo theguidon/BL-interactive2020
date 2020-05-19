@@ -1,0 +1,32 @@
+.wrapper {
+  width: 92%;
+}
+.event {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #8E0000;
+}
+.details {
+  font-size: 16px;
+  line-height: 22px;
+  u {
+    text-decoration-color: #8E0000;
+  }
+}
+
+
+.name-wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  color: #DE8484;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 20px auto;
+  p {
+    flex: 0 0 20%;
+  }
+}
