@@ -91,7 +91,7 @@ function Admin({
                 <div className="Name">{name}</div>
                 <div className="Year">({year})</div>
               </div>
-              <div className="desc">{desc}</div>
+              <div className="Desc">{desc}</div>
             </div>
           )
         }

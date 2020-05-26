@@ -20,36 +20,38 @@ const Ampatuan = () => (
     </div> 
 
     <div className="name-wrapper">
-        <p>Henry Araneta</p>
-        <p>Mark Gilbert Arriola </p>
-        <p>Rubello Batulana </p>
-        <p>Arturo Betia </p>
-        <p>Romeo Jimmy Cabillo </p>
-        <p>Martires Cablitas</p> 
-        <p>Hannibal Cachuel</p> 
-        <p>Jepon Cadagdagon</p> 
-        <p>John Caniban</p> 
-        <p>Lea Dalmacio</p>
-        <p>Noel Decina</p>
-        <p>Gina Dela Cruz</p>
-        <p>Jhoy Duhay</p>
-        <p>Jolito Evardo</p>
-        <p>Bienvenido Legarte Jr.</p>
-        <p>Santos Gatchalian</p>
-        <p>Lindo Lupogan</p>
-        <p>Ernesto Maravilla</p>
-        <p>Rey Merisco</p>
-        <p>Reynaldo Momay</p>
-        <p>Marife Montaño</p>
-        <p>Rosell Morales</p>
-        <p>Victor Nuñez</p>
-        <p>Ronnie Perante</p>
-        <p>Joel Parcon</p>
-        <p>Fernando Razon</p>
-        <p>Alejandro Reblando</p>
-        <p>Napoleon Salaysay</p>
-        <p>Ian Subang</p>
-        <p>Andres Teodoro</p>
+        <div>Henry Araneta</div>
+        <div>Mark Gilbert Arriola </div>
+        <div>Rubello Batulana </div>
+        <div>Arturo Betia </div>
+        <div>Romeo Jimmy Cabillo </div>
+        <div>Martires Cablitas</div> 
+        <div>Hannibal Cachuel</div> 
+        <div>Jepon Cadagdagon</div> 
+        <div>John Caniban</div> 
+        <div>Lea Dalmacio</div>
+        <div>Noel Decina</div>
+        <div>Gina Dela Cruz</div>
+        <div>Jhoy Duhay</div>
+        <div>Jolito Evardo</div>
+        <div>Bienvenido Legarte Jr.</div>
+        <div>Santos Gatchalian</div>
+        <div>Lindo Lupogan</div>
+        <div>Ernesto Maravilla</div>
+        <div>Rey Merisco</div>
+        <div>Reynaldo Momay</div>
+        <div>Marife Montaño</div>
+        <div>Rosell Morales</div>
+        <div>Victor Nuñez</div>
+        <div>Ronnie Perante</div>
+        <div>Joel Parcon</div>
+        <div>Fernando Razon</div>
+        <div>Alejandro Reblando</div>
+        <div>Napoleon Salaysay</div>
+        <div>Ian Subang</div>
+        <div>Andres Teodoro</div>
+        <div></div>
+        <div></div>
     </div>
     </div>
  </>

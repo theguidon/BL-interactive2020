@@ -1,5 +1,6 @@
 .wrapper {
-  width: 92%;
+  width: 80%;
+  margin: 0 auto;
 }
 .event {
   font-size: 22px;
@@ -10,6 +11,7 @@
 .details {
   font-size: 16px;
   line-height: 22px;
+  width: 100%;
   u {
     text-decoration-color: #8E0000;
   }
@@ -18,15 +20,22 @@
 
 .name-wrapper {
   width: 100%;
+  margin: 20px auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  align-items: center;
   color: #DE8484;
   font-size: 22px;
   font-weight: bold;
   line-height: 30px;
-  margin: 20px auto;
-  p {
-    flex: 0 0 20%;
+  div {
+    flex: 1 1 20%;
+    margin: 4px 2px;
+  }
+  @media screen and (max-width: 767px) {
+    div {
+      flex: 1 1 100%;
+    }
   }
 }
