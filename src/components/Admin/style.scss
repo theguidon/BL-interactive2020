@@ -9,7 +9,7 @@
   width: 95%;
 }
 
-.PresWrapper span {
+.PresWrapper span, .mobileName {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -50,7 +50,7 @@
   margin: 20px 40px;
 }
 
-.SliderWrapper {
+.sliderWrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,9 +70,6 @@
 .Wrapper {
   width: 50%;
   margin: 30px auto;
-  @media only screen and (max-width: 767px) {
-    width: 90%;
-  }
 }
 
 .Header {
@@ -84,7 +81,7 @@
 .Name {
   font-family: TiempoBold, sans-serif;
   font-weight: 900;
-  font-size: 22pt;
+  font-size: 28px;
 }
 
 .Year {
@@ -100,7 +97,7 @@
 }
 
 .active {
-  span {
+  span, .mobileName {
     color: #c23a3a;
     font-weight: 800;
   }
@@ -113,4 +110,69 @@
   .circle {
     background-color: #c23a3a;
   }
+}
+
+.mobileWrapper {
+  display: none;
+}
+
+.controls .prev,
+.controls .next{
+  position: absolute;
+  z-index:2;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color:#FFFFFF;
+  background-color: #797979;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 90px 10px; 
+}
+
+.controls .prev {
+ left:0;
+}
+ .controls .next {
+ right:0;
+}
+
+
+@media screen and (max-width: 767px) {
+  .Name {
+    font-size: 24px;
+  }
+  .Year {
+    font-size: 18px;
+  }
+  .Line, .sliderWrapper {
+    display: none;
+  }
+  .Wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mobileWrapper {
+    display: block;
+    .mobilePres {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px auto;
+    }
+    .mobileImg {
+      width: 160px;
+      height: 208px;
+      img {
+        width: 100%;
+      }
+    .mobileName {
+      align-self: flex-end;
+      width: 50%;
+    }
+    }
+  } 
 }

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import AquinoImg from "../../images/Aquino.jpg"
 import RamosImg from "../../images/Ramos.jpg"
 import EstradaImg from "../../images/Estrada.jpg"
@@ -10,16 +10,18 @@ import "./style.scss"
 function Admin({
   data,
   president,
+  setPresident,
   Corazon,
   Ramos,
   Estrada,
   Arroyo,
   Aquino,
   Duterte,
-}) {
+}) 
+{  
   return (
     <section>
-      <div className="SliderWrapper">
+      <div className="sliderWrapper">
         <div
           className={president === 0 ? "PresWrapper active" : "PresWrapper"}
           onClick={Corazon}
@@ -81,6 +83,30 @@ function Admin({
         </div>
       </div>
       <div className="Line"></div>
+
+      {data.map((datum,index) => {
+        if (index === president) {
+          const { image, name } = datum
+          return (
+          <div className="mobileWrapper">
+
+            <div class="controls">
+                <div class="prev" onClick={() => { president === 0 ? setPresident(president) : setPresident(president - 1) }} style={president === 0 ? { display: 'none' } : { display: 'block' }}> &#10094; </div>
+
+                <div class="next" onClick={() => { president === 5 ? setPresident(president) : setPresident(president + 1) }} style={president === 5 ? { display: 'none' } : { display: 'block' }}> &#10095; </div>
+            </div>
+            
+            <div className="mobilePres active">
+              <div className="mobileImg">
+                <img src={image} alt={name} />
+              </div>
+              <div className="mobileName">{name}</div>
+            </div>
+
+          </div>
+          )
+        }
+      })}
 
       {data.map((datum, index) => {
         if (index === president) {

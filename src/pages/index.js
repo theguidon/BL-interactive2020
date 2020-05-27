@@ -5,9 +5,17 @@ import Journalists from "../components/Journalists"
 import Ampatuan from "../components/Ampatuan"
 import Graph from "../components/Graph"
 import "../stylesheets/index.scss"
+import AquinoImg from "../images/Aquino.jpg"
+import RamosImg from "../images/Ramos.jpg"
+import EstradaImg from "../images/Estrada.jpg"
+import ArroyoImg from "../images/Arroyo.jpg"
+import AquinoIIIImg from "../images/AquinoIII.jpg"
+import DuterteImg from "../images/Duterte.jpg"
+
 
 const data = [
   {
+    image: AquinoImg,
     name: "Corazon Aquino",
     year: "1986-1992",
     desc:
@@ -126,6 +134,7 @@ const data = [
     ]
   },
   {
+    image: RamosImg,
     name: "Fidel V. Ramos",
     year: "1992-1998",
     desc:
@@ -170,6 +179,7 @@ const data = [
     ]
   },
   {
+    image: EstradaImg,
     name: "Joseph Estrada",
     year: "1998-2001",
     desc:
@@ -203,6 +213,7 @@ const data = [
     ]
   },
   {
+    image: ArroyoImg,
     name: "Gloria Macapagal Arroyo",
     year: "2001-2010",
     desc: `The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the "Maguindanao massacre." The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency`,
@@ -498,6 +509,7 @@ const data = [
     ]
   },
   {
+    image: AquinoIIIImg,
     name: "Benigno Aquino III",
     year: "2010-2016",
     desc:
@@ -710,6 +722,7 @@ const data = [
     ]
   },
   {
+    image: DuterteImg,
     name: "Rodrigo Duterte",
     year: "2016 to present",
     desc:
@@ -809,11 +822,9 @@ const IndexPage = () => {
   function Corazon() {
     return setPresident(0)
   }
-
   function Ramos() {
     return setPresident(1)
   }
-
   function Estrada() {
     return setPresident(2)
   }
@@ -829,16 +840,20 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <h1>Under Fire</h1>
-      <div id="red-line" />
-      <h2>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
+      <div className="heading"> 
+        <h1>Under Fire</h1>
+        <div id="red-line" />
+        <h2>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
+      </div>
       <h4>
         The Philippines is among the most dangerous countries for journalists. Only a handful of other countries compare to it in this regard. According to the Committee to Protect Journalists, “the countries with the highest media impunities represent both conflict-ridden and more stable regions where criminal groups, politicians, government officials, and other powerful actors resort to violence to silence critical and investigative reporting.”
     </h4>
       <h4>
         The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
     </h4>
-      <Admin {...{ data, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
+      <h4 className="mobileGuide">Click on the arrows to know the names of the journalists who died under each administration.</h4>
+
+      <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
       <Journalists journalists={data[president].journalists} />
       <Ampatuan />
       <Graph />

@@ -1,6 +1,7 @@
 import React from "react"
-import { Wrapper } from "./styles"
+import { Wrapper, Pagination, Prev, PagesWrapper, Page, Next } from "./styles"
 import JournalistBox from "../JournalistBox"
+import "./pagiStyles.scss"
 
 const Journalists = ({ journalists }) => (
   <Wrapper>
@@ -13,7 +14,20 @@ const Journalists = ({ journalists }) => (
         description={journalist.description}
       />
     ))}
+    <Pagination>
+      <Prev> &#10094; </Prev>
+      <PagesWrapper>
+        <Page /> 
+        <Page />
+        <Page />
+      </PagesWrapper>
+
+      <Next> &#10095; </Next>
+
+    </Pagination>
   </Wrapper>
+
+  
 )
 
 export default Journalists
