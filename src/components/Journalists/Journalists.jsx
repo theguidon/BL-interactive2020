@@ -64,5 +64,5 @@ const Journalists = ({ journalists }) => {
     </div>
   )
 }
-
+  
 export default Journalists

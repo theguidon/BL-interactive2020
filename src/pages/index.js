@@ -861,7 +861,6 @@ const IndexPage = () => {
       <Graph />
     </Layout>
   )
-
 }
 
 export default IndexPage
