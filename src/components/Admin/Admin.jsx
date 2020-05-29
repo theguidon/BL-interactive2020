@@ -1,10 +1,10 @@
 import React, { useState } from "react"
-import AquinoImg from "../../images/Aquino.jpg"
-import RamosImg from "../../images/Ramos.jpg"
-import EstradaImg from "../../images/Estrada.jpg"
-import ArroyoImg from "../../images/Arroyo.jpg"
-import AquinoIIIImg from "../../images/AquinoIII.jpg"
-import DuterteImg from "../../images/Duterte.jpg"
+import AquinoImg from "../../images/Aquino.svg"
+import RamosImg from "../../images/Ramos.svg"
+import EstradaImg from "../../images/Estrada.svg"
+import ArroyoImg from "../../images/Arroyo.svg"
+import AquinoIIIImg from "../../images/AquinoIII.svg"
+import DuterteImg from "../../images/Duterte.svg"
 import "./style.scss"
 
 function Admin({
@@ -17,11 +17,13 @@ function Admin({
   Arroyo,
   Aquino,
   Duterte,
-}) 
-{  
+}) {
   return (
     <section>
-      <div className="guide">Click on the dots to know the names of the journalists who died under each administration.</div>
+      <div className="guide">
+        Click on the dots to know the names of the journalists who died under
+        each administration.
+      </div>
       {/* change dots' to 'arrows' on mobile */}
 
       <div className="sliderWrapper">
@@ -87,26 +89,50 @@ function Admin({
       </div>
       <div className="Line"></div>
 
-      {data.map((datum,index) => {
+      {data.map((datum, index) => {
         if (index === president) {
           const { image, name } = datum
           return (
-          <div className="mobileWrapper">
+            <div className="mobileWrapper">
+              <div class="controls">
+                <div
+                  class="prev"
+                  onClick={() => {
+                    president === 0
+                      ? setPresident(president)
+                      : setPresident(president - 1)
+                  }}
+                  style={
+                    president === 0 ? { display: "none" } : { display: "block" }
+                  }
+                >
+                  {" "}
+                  &#10094;{" "}
+                </div>
 
-            <div class="controls">
-                <div class="prev" onClick={() => { president === 0 ? setPresident(president) : setPresident(president - 1) }} style={president === 0 ? { display: 'none' } : { display: 'block' }}> &#10094; </div>
-
-                <div class="next" onClick={() => { president === 5 ? setPresident(president) : setPresident(president + 1) }} style={president === 5 ? { display: 'none' } : { display: 'block' }}> &#10095; </div>
-            </div>
-            
-            <div className="mobilePres active">
-              <div className="mobileImg">
-                <img src={image} alt={name} />
+                <div
+                  class="next"
+                  onClick={() => {
+                    president === 5
+                      ? setPresident(president)
+                      : setPresident(president + 1)
+                  }}
+                  style={
+                    president === 5 ? { display: "none" } : { display: "block" }
+                  }
+                >
+                  {" "}
+                  &#10095;{" "}
+                </div>
               </div>
-              <div className="mobileName">{name}</div>
-            </div>
 
-          </div>
+              <div className="mobilePres active">
+                <div className="mobileImg">
+                  <img src={image} alt={name} />
+                </div>
+                <div className="mobileName">{name}</div>
+              </div>
+            </div>
           )
         }
       })}
