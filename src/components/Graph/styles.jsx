@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const Wrapper = styled.div`
   display: flex;
   width: 90%;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: 28vh;
+  }
 `
 
 export const Img = styled.img`
@@ -14,7 +18,6 @@ export const Img = styled.img`
 export const Center = styled.div`
   display: flex;
   justify-content: center;
-
   @media (max-width: 768px) {
     justify-content: flex-start;
   }

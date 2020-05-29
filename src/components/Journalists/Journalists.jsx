@@ -1,83 +1,68 @@
-import React from "react"
-import { Wrapper, Item, Name, Desc } from "./styles"
+import React, { useState } from "react"
+import {
+  WebWrapper,
+  MobileWrapper,
+  Pagination,
+  Prev,
+  PagesWrapper,
+  Page,
+  Next,
+} from "./styles"
+import JournalistBox from "../JournalistBox"
 
+const Journalists = ({ journalists }) => {
+  const [page, setPage] = useState(1)
 
-const Journalists = () => (
-  <Wrapper>
-    <Item>
-      <Name>Name Name</Name>
-      <Desc>
-        Month ##, Year <br></br>
-        Place, Place
-        <br></br>
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci
-        arcu, porta non dolor vitae, cursus ultricies quam. Ut non mauris vel
-        justo semper tincidunt vel sed dui. Etiam tincidunt turpis vestibulum
-        malesuada rhoncus. Nulla eleifend bibendum arcu a blandit. Aliquam
-        tristique quam eget justo egestas ullamcorper. Nulla sodales diam quis
-        urna vestibulum mattis. Pellentesque hendrerit justo ut quam commodo, ac
-        lacinia sem pretium. Praesent pellentesque libero quis lacus faucibus,
-        eget fermentum erat ultrices. Nulla sit amet accumsan lacus. Curabitur.
-      </Desc>
-    </Item>
-    <Item>
-      <Name>Name Name</Name>
-      <Desc>
-        Month ##, Year <br></br>
-        Place, Place
-        <br></br>
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci
-        arcu, porta non dolor vitae, cursus ultricies quam. Ut non mauris vel
-        justo semper tincidunt vel sed dui. Etiam tincidunt turpis vestibulum
-        malesuada rhoncus.
-      </Desc>
-    </Item>
-    <Item>
-      <Name>Name Name</Name>
-      <Desc>
-        Month ##, Year <br></br>
-        Place, Place
-        <br></br>
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci
-        arcu, porta non dolor vitae, cursus ultricies quam. Ut non mauris vel
-        justo semper tincidunt vel sed dui.
-      </Desc>
-    </Item>
-    <Item>
-      <Name>Name Name</Name>
-      <Desc>
-        Month ##, Year <br></br>
-        Place, Place
-        <br></br>
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci
-        arcu, porta non dolor vitae, cursus ultricies quam. Ut non mauris vel
-        justo semper tincidunt vel sed dui. Etiam tincidunt turpis vestibulum
-        malesuada rhoncus. Nulla eleifend bibendum arcu a blandit. Aliquam
-        tristique quam eget justo egestas ullamcorper. Nulla sodales diam quis
-        urna vestibulum mattis. Pellentesque hendrerit justo ut quam commodo, ac
-        lacinia sem pretium. Praesent pellentesque libero quis lacus faucibus,
-        eget fermentum erat ultrices. Nulla sit amet accumsan lacus. Curabitur.
-      </Desc>
-    </Item>
-    <Item>
-      <Name>Name Name</Name>
-      <Desc>
-        Month ##, Year <br></br>
-        Place, Place
-        <br></br>
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci
-        arcu, porta non dolor vitae, cursus ultricies quam. Ut non mauris vel
-        justo semper tincidunt vel sed dui. Etiam tincidunt turpis vestibulum
-        malesuada rhoncus. Nulla eleifend bibendum arcu a blandit. Aliquam
-        tristique quam eget justo egestas ullamcorper.
-      </Desc>
-    </Item>
-  </Wrapper>
-)
+  const NextPage = () => {
+    return setPage(page + 1)
+  }
 
+  const PrevPage = () => {
+    return setPage(page - 1)
+  }
+
+  console.log(page)
+
+  return (
+    <div>
+      <WebWrapper>
+        {journalists.map((journalist, index) => (
+          <JournalistBox
+            event={journalist.event}
+            name={journalist.name}
+            date={journalist.date}
+            place={journalist.place}
+            description={journalist.description}
+          />
+        ))}
+      </WebWrapper>
+      <MobileWrapper>
+        {journalists
+          .slice(
+            (journalists.length / 3) * (page - 1),
+            (journalists.length / 3) * page
+          )
+          .map((journalist, index) => (
+            <JournalistBox
+              event={journalist.event}
+              name={journalist.name}
+              date={journalist.date}
+              place={journalist.place}
+              description={journalist.description}
+            />
+          ))}
+        <Pagination>
+          {page !== 1 ? <Prev onClick={PrevPage}> &#10094; </Prev> : null}
+          <PagesWrapper>
+            <Page onClick={() => setPage(1)} />
+            <Page onClick={() => setPage(2)} />
+            <Page onClick={() => setPage(3)} />
+          </PagesWrapper>
+          {page !== 3 ? <Next onClick={NextPage}> &#10095; </Next> : null}
+        </Pagination>
+      </MobileWrapper>
+    </div>
+  )
+}
+  
 export default Journalists

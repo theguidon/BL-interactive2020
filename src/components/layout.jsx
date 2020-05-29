@@ -18,8 +18,8 @@ import "../stylesheets/main.scss"
 
 const Main = styled.main`
   min-height: 100vh;
-  width: 75%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
   padding: 90px 0;
 `
 const Layout = ({ children }) => {

@@ -18,5 +18,6 @@ export const Center = styled.div`
 
   @media (max-width: 768px) {
     justify-content: flex-start;
+    margin-bottom: -5px;
   }
 `
