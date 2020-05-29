@@ -9,7 +9,8 @@
   width: 95%;
 }
 
-.PresWrapper span, .mobileName {
+.PresWrapper span,
+.mobileName {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -64,7 +65,8 @@
   position: absolute;
   background: #797979;
   z-index: 1;
-  margin: -30px auto 40px auto; /* temporarily hardcoded */
+  margin: -30px auto 40px auto;
+  /* temporarily hardcoded */
 }
 
 .Wrapper {
@@ -97,7 +99,9 @@
 }
 
 .active {
-  span, .mobileName {
+
+  span,
+  .mobileName {
     color: #c23a3a;
     font-weight: 800;
   }
@@ -117,45 +121,52 @@
 }
 
 .controls .prev,
-.controls .next{
+.controls .next {
   position: absolute;
-  z-index:2;
+  z-index: 2;
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  color:#FFFFFF;
+  color: #FFFFFF;
   background-color: #797979;
   text-align: center;
   line-height: 30px;
   font-size: 15px;
   cursor: pointer;
-  margin: 90px 10px; 
+  margin: 90px 10px;
 }
 
 .controls .prev {
- left:0;
+  left: 0;
 }
- .controls .next {
- right:0;
+
+.controls .next {
+  right: 0;
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .Name {
     font-size: 24px;
   }
+
   .Year {
     font-size: 18px;
   }
-  .Line, .sliderWrapper {
+
+  .Line,
+  .sliderWrapper {
     display: none;
   }
+
   .Wrapper {
     width: 90%;
     margin: 0 auto;
   }
+
   .mobileWrapper {
     display: block;
+
     .mobilePres {
       display: flex;
       flex-flow: column wrap;
@@ -163,16 +174,19 @@
       align-items: center;
       margin: 20px auto;
     }
+
     .mobileImg {
       width: 160px;
       height: 208px;
+
       img {
         width: 100%;
       }
-    .mobileName {
-      align-self: flex-end;
-      width: 50%;
+
+      .mobileName {
+        align-self: flex-end;
+        width: 50%;
+      }
     }
-    }
-  } 
+  }
 }

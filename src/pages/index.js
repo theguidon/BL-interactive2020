@@ -840,7 +840,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <div className="heading"> 
+      <div className="heading">
         <h1>Under Fire</h1>
         <div id="red-line" />
         <h2>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
@@ -855,7 +855,9 @@ const IndexPage = () => {
 
       <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
       <Journalists journalists={data[president].journalists} />
-      <Ampatuan />
+      {
+        president === 3 ? <Ampatuan /> : null
+      }
       <Graph />
     </Layout>
   )

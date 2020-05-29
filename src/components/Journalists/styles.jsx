@@ -1,21 +1,41 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.div`
+export const WebWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 40px 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const MobileWrapper = styled.div`
+  display: none;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 40px 0;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
 `
 
 export const Pagination = styled.div`
-  display: flex;
   flex-wrap: row wrap;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   width: 100%;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
 `
 export const PagesWrapper = styled.div`
   display: flex;
