@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
+import Map from "../components/Map"
 import Admin from "../components/Admin"
 import Journalists from "../components/Journalists"
 import Ampatuan from "../components/Ampatuan"
@@ -851,8 +852,7 @@ const IndexPage = () => {
       <h4>
         The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
     </h4>
-      <h4 className="mobileGuide">Click on the arrows to know the names of the journalists who died under each administration.</h4>
-
+      <Map />
       <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
       <Journalists journalists={data[president].journalists} />
       {

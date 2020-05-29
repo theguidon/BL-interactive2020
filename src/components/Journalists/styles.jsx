@@ -4,7 +4,7 @@ export const WebWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
   padding: 40px 0;
 
   @media (max-width: 768px) {
