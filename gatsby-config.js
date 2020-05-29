@@ -18,12 +18,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Under Fire | Guidon Interactives`,
+        short_name: `BL UnderFire`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`
+        background_color: `#242423`,
+        theme_color: `#C23A3A`,
+        display: `minimal-ui`,
+        // edit below
+        icon: `src/images/logo.svg`,
       },
     },
     `gatsby-plugin-sass`

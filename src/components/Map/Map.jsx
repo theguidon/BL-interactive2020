@@ -30,7 +30,7 @@ function Map({ data }) {
           <Text>
             <Span>NUMBER OF DEATHS</Span>
           </Text>
-          <Number> {data.journalists.length} </Number>
+          <Number> {data.number} </Number>
         </Deaths>
       </TextWrapper>
     </Wrapper>

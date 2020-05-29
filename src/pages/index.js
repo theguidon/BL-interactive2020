@@ -26,6 +26,7 @@ const data = [
     name: "Corazon Aquino",
     map: coryMap,
     year: "1986-1992",
+    number: "21",
     description: "Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was uncomfortable in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.",
     desc:
       "The Center for Media Freedom and Responsibility estimates that at least 21 journalists were killed during Corazon Aquino's administration.",
@@ -147,6 +148,7 @@ const data = [
     name: "Fidel V. Ramos",
     map: ramosMap,
     year: "1992-1998",
+    number: "6",
     description: "Much like Corazon Aquino, Ramos was said to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility data reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also noted that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.",
     desc:
       "The Committee to Protect Journalists database lists six journalists (CPJ) killed under the Ramos administration, but CMFR data reveals at least 11 were killed. The CPJ noted that at the time of the last journalist killed under Fidel Ramos, there had been a total of 33 journalist deaths since Ferdinand Marcos' ourster.",
@@ -194,6 +196,7 @@ const data = [
     name: "Joseph Estrada",
     map: estradaMap,
     year: "1998-2001",
+    number: "4",
     description: "Estrada was described by Reporters Without Borders as “less tolerant” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist murders. Out of the six, only four have been named, based on the Committee to Protect Journalists’ (CPJ) data.",
     desc:
       "According to the Center for Media Freedom and Responsibility, Estrada's brief tenure as president saw 6 journalist murders. The CPJ, however, lists only 4 deaths.",
@@ -230,6 +233,7 @@ const data = [
     name: "Gloria Macapagal Arroyo",
     map: arroyoMap,
     year: "2001-2010",
+    number: "80",
     description: "Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she created a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to distance herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR reports that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.",
     desc: `The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the "Maguindanao massacre." The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency`,
     journalists: [
@@ -528,6 +532,7 @@ const data = [
     name: "Benigno Aquino III",
     map: noynoyMap,
     year: "2010-2016",
+    number: "34",
     description: "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
     desc:
       "Even though the death toll dropped by more than half, the second Aquino administration still posted the second-highest number of media-related killings since Marcos' ouster with at least 31 slain individuals—though data collected shows 34—based on the Center for Media Freedom and Responsibility's estimates.",
@@ -743,6 +748,7 @@ const data = [
     name: "Rodrigo Duterte",
     map: duterteMap,
     year: "2016 to present",
+    number: "16",
     description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists. On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
     desc:
       "A feature of the Duterte presidency has been the crackdown on dissent. With two more years to go in his term, data from several sources reveal at least 14 journalists have been killed under Duterte.",
@@ -751,37 +757,37 @@ const data = [
         name: "Apolinario Suan Jr.",
         date: "July 14, 2016",
         place: "Bislig, Surigao del Sur",
-        description: "Suan was a radio anchor for Real FM in Bislig and provincial board member. He was on his way home when men aboard a van attacked him. His brother died on the spot and Suan, himself, later succumbed to his injuries. Suan had received death threats before his murder and had been strongly criticizing the city’s mayor."
+        description: "Suan was a radio anchor for Real FM and a Surigao provincial board member. He was on his way home with escorts and his brother when men aboard a van attacked them. His brother and one of the escorts died on the spot and Suan himself later succumbed to his injuries. Suan received death threats before his murder and had been strongly criticizing the city’s mayor."
       },
       {
         name: "Larry Que",
         date: "December 19, 2016",
         place: "Virac, Catanduanes",
-        description: "Que was a columnist and publisher of the local weekly newspaper, Catanduanes News Now. While entering an office building, Que was shot in the head by a rider-in-tandem. His murder happened shortly after publishing a column he wrote discussing “official negligence” on a recently-raided methamphethamine laboratory. The meth laboratory, which was said to be the largest in the country, was reported to have been established and managed by Chinese nationals. The next year, Que’s wife filed a case against local governor Joseph Cua, police officer Vincent Tacorda, Prince Lim Subion, and two others, for the murder. Que had named Cua as directly involved in the meth laboratory."
+        description: "Que was a columnist and publisher of the local weekly newspaper, Catanduanes News Now. While entering an office building, Que was shot in the head by a rider-in-tandem. His murder happened shortly after the publishing of a column he wrote regarding the alleged “official negligence” of a recently-raided methamphethamine (meth) laboratory. The meth laboratory, which was said to be the largest in the country, was reported to have been established and managed by Chinese nationals. In May 2017, Que’s wife filed a murder case against local governor Joseph Cua, police officer Vincent Tacorda, Cua’s associate Prince Lim Subion, and two unnamed suspects.In one of his articles, Que claimed that Cua was directly involved in running the meth laboratory."
       },
       {
         name: "Mario Contaoi ",
         date: "January 6, 2017",
         place: "Magsingal, Ilocos Sur",
-        description: "Contaoi was a professor at the University of Northern Philippines and worked for a Catholic church-owned radio station dzNS. He was shot by gunmen on a motorcycle. Advocacy group Kalikasan People’s Network for the Environment believes that his commentaries on the environment’s destruction and militarization of communities that are opposed to mining led to his death."
+        description: "Contaoi was a professor at the University of Northern Philippines and worked for a Catholic church-owned radio station dzNS. He was shot by gunmen who were riding on a motorcycle. Advocacy group Kalikasan People’s Network for the Environment believes that his death was prompted by his commentaries on the destruction of the environment and the militarization of communities that are opposed to mining."
       },
       {
         name: "Marlon Muyco",
         date: "February 2, 2017",
         place: "M’Lang, Cotabato",
-        description: "Muyco was a blocktime radio host of dxND Radyo Bida in Kidapawan, Cotabato. Muyco was with his daughter when a rider-in-tandem shot him and wounded his daughter. Authorities identified one of the suspects as Boyet Patubo, a “gun-for-hire”. "
+        description: "Muyco was a “blocktime” radio host on dxND Radyo Bida, meaning he bought airtime for his shows. Muyco was with his daughter when a rider-in-tandem shot him and wounded his daughter. Authorities identified one of the suspects as Boyet Patubo, a “gun-for-hire,” but they have yet to determine the motive for the killing."
       },
       {
         name: "Joaquin Briones",
         date: "March 13, 2017",
         place: "Milagros, Masbate",
-        description: "Briones was a former radio commentator for a local station and a columnist for the national newspaper tabloid Remate. Briones was shot four times in the back by assailants who fled on a motorcycle. Authorities narrow the motives to political or personal grudges. Colleagues believe his murder was connected to his critical reports on illegal fishing, gambling and the illegal drug trade and that he had earned several enemies. He had also received numerous death threats in the past. In May 2017, police killed Leonardo del Rosario Villaran and two others in a gunfight after they tried to serve a warrant of arrest for him. Del Rosario was a member of the Sako criminal and gun-for-hire gang. They also captured three others during the operation, and arrested one more gang member the following year."
+        description: "Briones was a former radio commentator for a local station and a columnist for the national newspaper tabloid Remate. Assailants shot him four times and then fled on a motorcycle. Authorities narrowed down the motives to political or personal grudges. Moreover, colleagues believe that his murder was connected to his critical reports on illegal fishing, gambling, and the illegal drug trade. Briones had also received numerous death threats in the past. In May 2017, police killed suspect Leonardo del Rosario Villaran and two others in a gunfight after they tried to issue a warrant of arrest to Villaran for Briones’ murder.Villaran and his companions were members of the Sako gun-for-hire gang, whose members may have had a hand in killing Briones.The police also captured three other members of the gang during the operation and arrested one more suspect in the following year."
       },
       {
         name: "Michael Marasigan",
         date: "August 3, 2017",
         place: "San Juan, Manila, NCR",
-        description: "Marasigan was an editor and journalist for Business World. He was shot dead by a rider-in-tandem along with his brother, who died shortly after from his injuries."
+        description: "Alicaway was the host of a weekly radio show on DXPB. On his way home, he was shot down by two gunmen on a motorcycle. His colleagues claim he never tackled any controversial issues, and authorities have yet to determine a motive."
       },
       {
         name: "Rudy Alicaway",
@@ -793,43 +799,55 @@ const data = [
         name: "Leodoro Diaz",
         date: "August 7, 2017",
         place: "President Quirino, Sultan Kudarat",
-        description: "Diaz was a reporter for a radio station, dxMY in Cotabato, and a columnist for the tabloid Sapol. On his way to Tacurong city, Diaz was ambushed by motorcycle-riding gunmen. Prior to his murder, he had already received death threats and had been harrassed by armed men near his home. He was also reporting about illegal drugs at the time. Diaz’s family believes his murder is connected to his work, considering his reports on corruption, illegal gambling, and illegal drugs."
+        description: "Diaz was a reporter for radio station dxMY and a columnist for the tabloid Sapol. On his way to Tacurong City, Diaz was ambushed and killed by motorcycle-riding gunmen. Prior to his murder, he had already received death threats and had been harrassed by armed men near his home. He was also reporting about illegal drugs at the time. Diaz’s family believed his murder was connected to his work, considering that he reported on corruption, illegal gambling, and illegal drugs."
       },
       {
         name: "Christopher Lozada",
         date: "October 24, 2017",
         place: "Bislig, Surigao del Sur",
-        description: "Lozada was a radio broadcaster for dxBF and was involved in filing charges against Bislig mayor Librado Navarro over the purchase of a Php 14.7-million hydraulic excavator in 2012. Lozada was driving home when gunmen aboard a van shot him, killing him and wounding his wife. A day before, the Office of the Ombudsman had dismissed Bislig mayor Navarro and 11 others over the anomalous purchase. Navarro had also allegedly bribed Lozada, however the latter refused. Lozada had also received death threats prior to his murder."
+        description: "Lozada was a radio broadcaster for station dxBF of Prime Broadcasting Network. He played a role in filing charges against then-Bislig Mayor Librado Navarro who allegedly purchased a hydraulic excavator worth Php 14.7 million in 2012. Navarro had allegedly attempted to bribe Lozada into withdrawing the case, but the latter refused. The day before Lozada’s death, the Office of the Ombudsman ordered Navarro and 11 others to be dismissed from service due to the anomalous purchase. According to his sister, Lozada also received anonymous death threats prior to his murder. Lozada was driving home when gunmen aboard a van shot him, killing him and wounding his wife. The gunman, Rolly Mahilum, was later identified by witnesses. Mahilum was the former aide and driver of Navarro. "
       },
       {
         name: "Edmund Sestoso",
         date: "April 30, 2018",
         place: "Dumaguete, Negros Oriental",
-        description: "Sestoso was a radio host for dyGB 91.7 FM and former chairman of the National Union of Journalists in the Philippines Dumaguete chapter. Sestoso was going home when a ridier-in-tandem shot him, hitting him five times. He later died in hospital. Sestoso had received death threats prior, and informed a relative that someone was out to kill him just hours before."
+        description: "Sestoso was a radio host for dyGB 91.7 FM and the former chairman of the National Union of Journalists in the Philippines’ Dumaguete chapter. He was on the way home when gunmen riding-in-tandem shot at him, hitting him five times. He later died while at a hospital. Sestoso had received death threats prior to his death, and he informed a relative that someone was out to kill him just hours before he was shot. Sestoso’s wife filed a case against three suspects for her late husband’s murder, but the case was reversed for undisclosed reasons. In June 2018, the police refiled Sestoso’s murder case and identified suspects based on witnesses’ statements. One of the suspects, Richard Bustamante Jr., was shot dead by an unidentified gunman in July 2018. As of writing, the motive for Sestoso’s murder has yet to be determined."
       },
       {
         name: "Carlos Matas",
         date: "May 12, 2018",
         place: "Labangan, Zamboanga del Sur",
-        description: "Matas was a retired soldier and host of a local radio station dxCA. In the afternoon of May 12, he was gunned down by assailants. Four days prior, he was also ambushed, reporting it to the authorities. Matas tackled various issues on the radio, such as gambling, corruption, illegal drugs, and the harassment of farmers. "
+        description: "Matas was a retired soldier and host for radio program Zamboanga News Patrol on dxCA. In his time as a journalist, Matas discussed various issues on the radio, such as gambling, corruption, illegal drugs, and the harassment of farmers. Four days prior to his death, he was ambushed. Matas then reported the incident to authorities and tackled the incident on his radio show. On the afternoon of May 12, he was gunned down by assailants. Three suspects in Matas’ murder were subsequently killed in police operations while one was captured. With the apprehension of the suspects, authorities have expressed that the case may be closed. However, Matas’ family refused to accept this, stating that the killers could have only been hired guns."
       },
       {
         name: "Dennis Denora",
         date: "June 7, 2018",
         place: "Panabo City, Davao del Norte",
-        description: "Denora was a publisher and reporter of a weekly newspaper, Trends and Times. A gunman shot Denora, who was in his car, hitting him with multiple gunshots to the head and killing him instantly. The assailant escaped on foot. Denora’s murderer was  identified the following year as Richard Posas Bolastig. Though Denora did not receive any death threats nor had enemies, The Presidential Task Force on Media Security identified the murder as being related to his work."
-      },
-      {
-        name: "Eduardo Dizon",
-        date: "July 10, 2019",
-        place: "Kidapawan City, Cotabato",
-        description: "Dizon was a radio broadcaster and anchor for Brigada News FM. On his way home, two assailants on a motorcycle shot Dizon five times in his car, killing him on the spot. Dizon had received death threats prior to the attack, believing that it could be related to his critical reporting of an alleged investment scam."
+        description: "Denora was a publisher and reporter for a weekly newspaper called Trends and Times. A gunman shot Denora while he was in his car, killing him with multiple gunshots to the head and then escaping on foot. Denora’s murderer was identified the following year as Richard Posas Bolastig. Though Denora did not receive any death threats nor did he have any enemies, the Presidential Task Force on Media Security identified the murder as being related to his work and mentioned that the murder could be connected to a rivalry between two big politicians in the region. On the other hand, the National Union of Journalists of the Philippines linked Denora’s murder to a report he was working on involving illegal drugs."
       },
       {
         name: "Joey Llana",
         date: "July 20, 2018",
         place: "Darga City, Albay",
-        description: "Llana was a reporter for Home Radio Legaspi and host of radio program Metrobanat. While driving to work, two gunmen opened fire on Llana 14 times with the reporter sustaining shots to the head and body. He was declared dead at the scene. The next year, murder charges were filed against Erwin Talagtag, a member of the Concepcion Criminal Group. Authorities believe his murder to be connected to his work as a journalist."
+        description: "Llana was a reporter for Home Radio Legaspi and the host of radio program Metrobanat. While driving to work, two gunmen opened fire on Llana 14 times, and the reporter sustained shots to his head and body. He was declared dead at the scene. The next year, murder charges were filed against Erwin Talagtag, an alleged member of the Concepcion Criminal Group, a gun-for-hire gang. Authorities believed that Llana’s murder to be linked to his work as a journalist. Similarly, the National Union of Journalists of the Philippines, a local advocacy group for press freedom, believed that the murder was connected to his reporting on corrupt activities involving a local official. In December 2018, murder charges were filed against two unidentified suspects and Erwin Talagtag, an alleged member of the Conception Criminal Group."
+      },
+      {
+        name: "Eduardo Dizon",
+        date: "July 10, 2019",
+        place: "Kidapawan City, Cotabato",
+        description: "Dizon was a radio broadcaster and anchor for Brigada News FM. Two assailants on a motorcycle shot Dizon five times while he was in his car, killing him on the spot. According to the National Union of Journalists of the Philippines, Dizon had received death threats prior to the attack. Before his death, Dizon told police that he believed that the death threats were related to his critical reporting on an alleged investment scam. In October 2019, police apprehended two suspects in Dizon’s murder, while a third suspect filed a motion to suspend his arrest warrant."
+      },
+      {
+        name: "Dindo Generoso",
+        date: "November 7, 2019",
+        place: "Dumaguete City, Negros Oriental",
+        description: "Generoso was a radio broadcaster for dyEM 96.7 Bai Radio. While driving to work, he was attacked and killed by unknown gunmen. The next day, Negros Oriental police arrested suspects Teddy Reyes Salaw and inactive police corporal Glenn Corsame in connection with the murder. Central Visayas police chief Brigadier Valeriano de Leon said that the police looked into three possible motives, but only publicly named two: The killing may have been connected to his work as a radio journalist, and there were claims that Generoso was involved in a family land dispute at the time."
+      },
+      {
+        name: "Rex Cornelio Pepino",
+        date: "May 5, 2020",
+        place: "Dumaguete City, Negros Oriental",
+        description: "Pepino was a radio reporter for Energy 93.7 FM. He was on his way back home with his wife after broadcasting his regular program when he was shot by unidentified suspects who were riding on a motorcycle. As of writing, the police are investigating the motive for this killing."
       }
     ]
   },

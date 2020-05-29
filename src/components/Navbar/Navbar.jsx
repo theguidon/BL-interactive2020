@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Navigation, Icon, Center } from "./styles"
-import logo from "../../images/logo.png"
+import logo from "../../images/logo.svg"
 
 const Navbar = () => (
   <Navigation>
