@@ -21,8 +21,6 @@ const Journalists = ({ journalists }) => {
     return setPage(page - 1)
   }
 
-  console.log(page)
-
   return (
     <div>
       <WebWrapper>
@@ -64,5 +62,5 @@ const Journalists = ({ journalists }) => {
     </div>
   )
 }
-  
+
 export default Journalists
