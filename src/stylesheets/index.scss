@@ -1,5 +1,9 @@
 .heading {
     padding: 0 30px;
+
+    @media (max-width: 540px) {
+        padding: 0;
+    }
 }
 
 h1 {
