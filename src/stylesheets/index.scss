@@ -1,17 +1,5 @@
 .heading {
-    @media screen and (max-width: 768px) {
-        height: 70vh;
-        margin: 20px auto;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        h1, h2, div {
-            align-self: center;
-        }
-    }
-
+    padding: 0 30px;
 }
 
 h1 {
@@ -43,9 +31,10 @@ h4 {
     line-height: 25px;
     margin-bottom: 30px;
     color: #FFFFFF;
+
     @media screen and (max-width: 768px) {
-    font-size: 16px;
-  }
+        font-size: 16px;
+    }
 }
 
 #red-line {
@@ -53,4 +42,18 @@ h4 {
     width: 150px;
     margin: auto;
     background: #8E0000;
+}
+
+.blur {
+    @media (max-width: 540px) {
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);
+        filter: blur(3px);
+        color: transparent;
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+
+
 }

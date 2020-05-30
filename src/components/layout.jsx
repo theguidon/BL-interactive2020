@@ -17,12 +17,20 @@ import "normalize.css"
 import "../stylesheets/main.scss"
 
 const Main = styled.main`
-  min-height: 100vh;
+  min-height: calc(100vh - 57px);
   width: 90%;
   margin: 0 auto;
   padding: 90px 0;
+  position: relative;
+
+  @media (max-width: 540px) {
+    width: ${props => (props.next ? "80%" : "auto")};
+    height: auto;
+    padding: 90px 0 0 0;
+  }
 `
-const Layout = ({ children }) => {
+
+const Layout = ({ children, next }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -39,10 +47,10 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       <SEO title={title} description={description} />
-      <Main>
+      <Main next={next}>
         <Fragment>{children}</Fragment>
       </Main>
-      <Footer />
+      {next ? <Footer /> : null}
     </>
   )
 }

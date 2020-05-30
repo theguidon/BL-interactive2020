@@ -5,6 +5,7 @@ import Admin from "../components/Admin"
 import Journalists from "../components/Journalists"
 import Ampatuan from "../components/Ampatuan"
 import Graph from "../components/Graph"
+import ContentWarning from '../components/ContentWarning'
 import "../stylesheets/index.scss"
 import AquinoImg from "../images/Aquino.svg"
 import RamosImg from "../images/Ramos.svg"
@@ -855,6 +856,7 @@ const data = [
 
 const IndexPage = () => {
   const [president, setPresident] = useState(0)
+  const [next, setNext] = useState(false)
 
   function Corazon() {
     return setPresident(0)
@@ -875,26 +877,40 @@ const IndexPage = () => {
     return setPresident(5)
   }
 
-  return (
-    <Layout>
-      <div className="heading">
-        <h1>Under Fire</h1>
-        <div id="red-line" />
-        <h2>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
+  function toggleNext() {
+    return setNext(true)
+  }
+
+  function renderNext() {
+    return (
+      <div>
+        <h4>
+          The Philippines is among the most dangerous countries for journalists. Only a handful of other countries compare to it in this regard. According to the Committee to Protect Journalists, “the countries with the highest media impunities represent both conflict-ridden and more stable regions where criminal groups, politicians, government officials, and other powerful actors resort to violence to silence critical and investigative reporting.”
+        </h4>
+        <h4>
+          The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
+        </h4>
+        <Map data={data[president]} />
+        <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
+        <Journalists journalists={data[president].journalists} />
+        {
+          president === 3 ? <Ampatuan /> : null
+        }
+        <Graph />
       </div>
-      <h4>
-        The Philippines is among the most dangerous countries for journalists. Only a handful of other countries compare to it in this regard. According to the Committee to Protect Journalists, “the countries with the highest media impunities represent both conflict-ridden and more stable regions where criminal groups, politicians, government officials, and other powerful actors resort to violence to silence critical and investigative reporting.”
-    </h4>
-      <h4>
-        The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
-    </h4>
-      <Map data={data[president]} />
-      <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
-      <Journalists journalists={data[president].journalists} />
+    )
+  }
+
+  return (
+    <Layout next={next}>
+      <div className="heading">
+        <h1 className={next ? null : "blur"}>Under Fire</h1>
+        <div className={next ? null : "blur"} id="red-line" />
+        <h2 className={next ? null : "blur"}>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
+      </div>
       {
-        president === 3 ? <Ampatuan /> : null
+        next ? renderNext() : <ContentWarning toggleNext={toggleNext} />
       }
-      <Graph />
     </Layout>
   )
 }
