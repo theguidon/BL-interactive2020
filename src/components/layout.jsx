@@ -24,9 +24,9 @@ const Main = styled.main`
   position: relative;
 
   @media (max-width: 540px) {
-    width: ${props => (props.next ? "80%" : "auto")};
+    width: auto;
     height: auto;
-    padding: 90px 0 0 0;
+    padding: 90px 30px 0 30px;
   }
 `
 
@@ -47,7 +47,7 @@ const Layout = ({ children, next }) => {
     <>
       <Navbar />
       <SEO title={title} description={description} />
-      <Main next={next}>
+      <Main>
         <Fragment>{children}</Fragment>
       </Main>
       {next ? <Footer /> : null}
