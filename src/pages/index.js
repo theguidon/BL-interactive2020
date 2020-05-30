@@ -30,117 +30,135 @@ const data = [
     number: "21",
     description: "Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was uncomfortable in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.",
     desc:
-      "The Center for Media Freedom and Responsibility estimates that at least 21 journalists were killed during Corazon Aquino's administration.",
+      "Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was uncomfortable in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.",
     journalists: [
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/mabazzapete.pdf",
         name: "Pete Mabazza",
         date: "April 24, 1986",
         place: "Tuguegarao City, Cagayan Province",
-        description: "Mabazza, a correspondent of Manila Bulletin, was killed when the Communist Party of the Philippines-New People’s Army ambushed a military convoy in Cagayan Province. He was covering the field operations of the Philippine military when they were caught in the crossfire between the military and guerillas."
+        description: "Mabazza, a correspondent for the Manila Bulletin, was travelling with a military convoy when it was ambushed by the Communist Party of the Philippines-New People’s Army (CPP-NPA) in Cagayan Province. He had been covering the Philippine military’s field operations. Mabazza was killed in the ensuing firefight between the military and the CPP-NPA."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/vicoy.pdf",
         name: "Wilfredo Vicoy",
         date: "April 25, 1986",
         place: "Tuguegarao City, Cagayan Province",
-        description: "Vicoy suffered internal bleeding caused by shrapnel wounds a day after the Communist Party of the Philippines-New People’s Army ambushed a military convoy he was riding. Like Mabazza, Vicoy was a photojournalist who covered field operations of the Philippine military against communist guerillas."
+        description: "Vicoy, who was with fellow journalist Pete Mabazza, died due to internal bleeding caused by shrapnel wounds a day after the Communist Party of the Philippines-New People’s Army ambushed a military convoy that he was accompanying. He was a photojournalist who, like Mabazza, covered the Philippine military’s operations against the guerillas."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/pacala.pdf",
         name: "Virgilio Pacala",
         date: "March 24, 1987",
         place: "San Pablo City, Laguna",
-        description: "As a correspondent for the Manila Hotline magazine, Pacala was shot in the back of the head by an unknown gunman while riding a jeepney. Shortly before his death, he rebutted Philippine Constabulary Lt. Col. Victor Corpus’ claim that the Plaza Miranda bombing of 1971 was linked to the New People’s Army (NPA). He had also written an expose on the NPA a few days prior to his murder."
+        description: "Pacala was a correspondent for the Manila Hotline magazine. An unknown gunman shot him in the back of the head while they were on a jeepney. Before his death, Pacala debunked Philippine Constabulary Lieutenant Colonel Victor Corpus’ claim that the New People’s Army (NPA) played a part in the 1971 Plaza Miranda bombing. He had also written an expose on the NPA."
       },
 
       {
+        link: "http://cmfr-phil.org/mediakillings/uploads/joaquin.pdf",
         name: "Dionisio Perpetuo Joaquin",
         date: "April 12, 1987",
         place: "Olongapo City, Zambales",
-        description: "An associate publisher for the Olongapo-Zambales News Forum, Joaquin was at the Whiskey Bar, across from a restaurant where the workers’ strike he had organized was taking place, when he was shot in his ,sleep. The gunman and his accomplice had been identified as Nicomedes Fabro. Fabro had been hired by Fransisco Dimalanta and Amado Alcala, who were paid off by William Hoge, the owner of the restaurant where the strike Joaquin organized was held. William Hoge and an unidentified accomplice were never arrested and convicted."
+        description: "An associate publisher for the Olongapo-Zambales News Forum, Joaquin was shot in his sleep at the Whiskey Bar. The bar was across a restaurant where a workers’ strike he had organized was taking place. The gunman and his accomplice were identified as Nicomedes Fabro and Amado Alcala, respectively. Fabro was hired by Francisco Dimalanta, who was paid off by William Hoge, the owner of the restaurant where the Joaquin’s strike was held. In 1987, Fabro, Dimalanta, Alcala, Hoge, and another unidentified accomplice were charged with murder. Later that year, Fabro, Dimalanta, and Alcala pleaded not guilty. Hoge had reportedly fled to the United States before his arraignment. In 1990, all the accused were found guilty by the trial court. By 1997, the Supreme Court convicted and sentenced all the accused—save for Hoge and the unknown accomplice—to at least 30 years of imprisonment."
       },
       {
         event: "dxRA RADYO NI JUAN MASSACRE",
+        link: "https://m.inquirer.net/newsinfo/788760",
         name: "Narciso Balani, Rogie Zagado, Leo Palo, and Cesar Maglalang",
         date: "August 27, 1987",
         place: "Davao City",
-        description: "Maglalang and his colleagues Balani, Zagado, and Palo were killed in the dxRA radio station by suspected communist rebels. Balani was a radio technician; Zagado, a commentator; Palo, an anti-communist crusader who anchored the program Bantay Bayan Kontra Komunista; and Palo, a defeated congressional candidate and commentator.",
+        description: "Maglalang and his colleagues Balani, Zagado, and Palo were killed in the dxRA radio station by suspected communist rebels. Balani was a radio technician; Zagado and Malalang, anchormen; Palo, an anti-communist crusader and co-host for the program Bantay Bayan Kontra Komunista along with Maglalang and Zagado.",
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/castor.pdf",
         name: "Martin Castor",
         date: "August 28, 1987",
         place: "Manila",
-        description: "Castor was covering a coup attempt as a photojournalist at Pilipino Ngayon when the van he was riding was gunned down by members of a mutinous armed forces faction."
+        description: "While working as a photojournalist for Pilipino Ngayon,  Castor covered a coup attempt led by then-Philippine Army Colonel Gregorio “Gringo” Honasan. The van he was riding was gunned down by insurgent Philippine troops."
       },
       {
+        link: "http://cmfr-phil.org/mediakillings/uploads/noblejas.pdf",
         name: "Ramon Noblejas",
         date: "October 4, 1987",
         place: "Tacloban City, Leyte",
-        description: "While working for the Manila Broadcasting Company dyVL Aksyon Radyo, Noblejas was gunned down by four assailants. He was known to report on the military’s involvement in corruption, illegal logging and gambling, and human rights abuses."
+        description: "While working for the Manila Broadcasting Company dyVL’s Aksyon Radyo, Noblejas was gunned down by four assailants. He was known to report on the military’s involvement in corruption, human rights abuses, and illegal logging and gambling."
       },
       {
+        link: "http://cmfr-phil.org/mediakillings/uploads/enriquez3.pdf",
         name: "Leo Enriquez III",
         date: "October 10, 1987",
         place: "Cebu City",
-        description: "Enriquez was a reporter affiliated with Kyodo news service, Washington Times, and People’s Journal when he was shot in his home. Police suspected communist rebel groups to be responsible, after the National Democratic Front threatened going after military agents pretending to be journalists. Enriquez had been covering the military since 1983, and his family had survived multiple arson attempts from the New People’s Army."
+        description: "Enriquez was a reporter affiliated with Kyodo news service, The Washington Times, and People’s Journal when he was shot in his home. After the National Democratic Front had threatened to go after “military agents masquerading as journalists,” police suspected that communist rebel groups were responsible for his death. Enriquez had been covering the military since 1983, and his family had foiled an arson attempt, for which the New People’s Army was allegedly responsible."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/miranda.pdf",
         name: "Noel Miranda",
         date: "March 29, 1988",
         place: "Tagum City, Davao Del Norte",
-        description: "As the owner of the Mindanao Scanner, he covered graft and corruption and was known to be actively involved in government efforts to thwart the communist movement. Miranda was shot while walking home."
+        description: "As the owner of the Mindanao Scanner, Miranda covered graft and corruption stories and was known to be actively involved in government efforts to thwart the communist movement. He was shot while he was walking home."
       },
       {
+        link: "http://cmfr-phil.org/mediakillings/uploads/manrique.pdf",
         name: "Ruben R. Manrique",
         date: "August 12, 1988",
         place: "Balanga City, Bataan",
-        description: "Manrique was shot three times as he was boarding his car. He was the owner of the Luzon Tribune and renowned for his hard-hitting coverage of local government officials’ misconduct and gambling operators."
+        description: "Manrique was shot as he was boarding his car. He was the owner of the Luzon Tribune and renowned for his blunt coverage of local government officials’ misconduct and gambling operations."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/nava.pdf",
         name: "Josef Aldeguer Nava",
         date: "October 30, 1988",
         place: "Iloilo City",
-        description: "Nava was working for Visayan Life Today and dyRP when he was shot in a cab on the way home. His son cited his work as a journalist to be the motivation for his killing. He was then working on an expose of alleged fictitious loans at the Government Service Insurance System. He also covered drug syndicates."
+        description: "Nava was working for Visayan Life Today and dyRP when he was shot in a cab on the way home. His son believed that his journalistic work may have angered some parties and provided a motive for his murder. Nava covered drug syndicates and was also working on an exposé on alleged fictitious loans at the Government Service Insurance System."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/arcones.pdf",
         name: "Severino Arcones",
         date: "October 17, 1989",
         place: "Iloilo City",
-        description: "A news anchor at dyFM-Bombo Radyo, Arcones was shot in his home. He hosted a daily segment that tackled matters against the New People’s Army (NPA), having once exposed them to have levied “revolutionary taxes” on businessmen. He had already received threats in the past for his continued attack on the NPA."
+        description: "A news anchor at dyFM-Bombo Radyo, Arcones was shot outside of his home. He hosted a daily radio segment that opposed the New People’s Army (NPA), having once exposed them to have levied “revolutionary taxes” on businessmen. He had already received threats in the past for his continued investigation into the NPA’s activities."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/telan.pdf",
         name: "Eddie Telan",
         date: "December 1, 1989",
         place: "Quezon City",
-        description: "Telan died after having been critically wounded in his coverage of a failed right-wing coup. He was a newscaster."
+        description: "Telan, a publisher and editor for Newscaster, died after having been critically wounded in his coverage of a failed right-wing coup."
       },
       {
+        link: "http://cmfr-phil.org/mediakillings/uploads/lingan.pdf",
         name: "Enrique Lingan",
         date: "February 4, 1990",
         place: "Lucena City, Quezon",
-        description: "Lingan was a columnist affiliated with the Luzon Times and the Midway Star. He died of internal hemorrhage after police officer Felipe Navarro beat him up. A heated exchange between the two ensued after Lingan was taken to the precinct, having been prevented from covering a nude show allegedly supported by the police. The exchange then led to Navarro flooring Lingan and the former banging the latter’s head against the concrete floor."
+        description: "Lingan was a columnist affiliated with the Luzon Times and the Midway Star. He was taken to a police precinct after being  prevented from covering a nude show that was allegedly supported by the police. A heated exchange between police officer Felipe Navarrao, who was supposedly drunk, and Stanley Jalbuena, Lingan’s fellow newsman, ensued in the precinct. Lingan attempted to mediate, but Navarro redirected his attention to Lingan and eventually beat him up. Lingan died of an internal hemorrhage."
       },
       {
-        name: "Joseph “Joe” Kreuger",
+        link: "http://cmfr-phil.org/mediakillings/uploads/krueger.pdf",
+        name: "Joseph Kreuger",
         date: "February 6, 1990",
         place: "Pinamalayan, Oriental Mindoro",
-        description: "An editor at the Mindoro Weekly Reporter, Kreuger was shot on the way home by an unidentified gunman. Krueger was able to run and the gunman failed at an attempt to shoot him again when barangay tanods and policemen came. He died during operation. He was known as a vocal critic of jueteng operations, having just held a rally a week before his death. In the rally, he named ,top-ranking military men and public officials who were jueteng protectors."
+        description: "An editor at the Mindoro Weekly Reporter, Krueger held a rally where he named top-ranking military men and public officials who protected participants of jueteng, an illegal gambling game. A week after, Krueger was shot on the way home by an unidentified gunman. Krueger was then brought to the hospital, but he did not survive the operation."
       },
       {
+        link: "http://www.cmfr-phil.org/wp-content/uploads/2009/03/philippine-press-freedom-report-2007.pdf",
         name: "Reynaldo Catindig Sr.",
         date: "May 15, 1990",
         place: "Tumauini, Isabela",
-        description: "Catindig worked for the Northern Sierra Madre Express. While several sources list the time and place of his ,death, there are no other available specifics."
+        description: "Catindig worked for the Northern Sierra Madre Express. While several sources list the time and place of his death, there are no other available details on the circumstances of his passing."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/ladringan.pdf",
         name: "Jean Ladringan",
         date: "July 8, 1990",
         place: "General Santos City",
-        description: "Ladringan, publisher and editor at the Southern Star, was killed together with her husband. Ladringan had recently published a piece which incriminated top Muslim officials at the Mindanao State University of graft and corruption."
+        description: "Ladringan, a publisher and editor at the Southern Star, was killed with her husband Gregorio. Policemen suspected robbery as the motive since the gunmen took the victim’s personal belongings after the murder. However, police also surmised that the shooting could have been related to how Ladringan had recently published a piece that incriminated top officials at the Mindanao State University of graft and corruption."
       },
       {
+        link: "http://www.cmfr-phil.org/mediakillings/uploads/toling.pdf",
         name: "Nesino Paulin Toling",
         date: "April 14, 1991",
         place: "Ozamiz, Misamis Occidental",
-        description: "Publisher and editor for the Panguil Bay Monitor, Toling was shot three times in his office by an unknown assailant. He wrote about the arrest of a suspected drug lord in Northern Mindanao, illegal logging & government corruption. He had been receiving death threats prior to his demise."
+        description: "A publisher and editor for the Panguil Bay Monitor, Toling wrote about illegal logging, government corruption, and the arrest of a suspected drug lord in Northern Mindanao. He was shot in his office and had received death threats prior to his demise. Of the two suspects in Toling’s murder, one evaded arrest. Meanwhile, the court found the second suspect, Gerry Sarabia, guilty of killing Toling and sentenced him to 20 to 40 years of imprisonment in January 1997."
       }
     ]
   },
@@ -152,43 +170,49 @@ const data = [
     number: "6",
     description: "Much like Corazon Aquino, Ramos was said to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility data reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also noted that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.",
     desc:
-      "The Committee to Protect Journalists database lists six journalists (CPJ) killed under the Ramos administration, but CMFR data reveals at least 11 were killed. The CPJ noted that at the time of the last journalist killed under Fidel Ramos, there had been a total of 33 journalist deaths since Ferdinand Marcos' ourster.",
+      "Much like Corazon Aquino, Ramos was said to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility data reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also noted that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.",
     journalists: [
       {
+        link: "http://cpj.org/data/people/danilo-vergara/index.php",
         name: "Danilo Vergara",
         date: "July 1, 1992",
         place: "Iligan City",
-        description: "He was the publisher of the Philippine Post. He was shot at close range by three anonymous assailants as he was leaving a printing plant. He was known to cover corruption and crime."
+        description: "Vergara was a publisher for the Philippine Post and was known to write columns about corruption and crime. He was shot at close range by three anonymous assailants as he was leaving a printing plant."
       },
       {
+        link: "https://cpj.org/data/people/greg-hapalla/index.php",
         name: "Greg Hapalla",
         date: "September 21, 1992",
         place: "Zamboanga City",
-        description: "A radio commentator, he was shot to death by three men while broadcasting for DXAS Your Community Radio station."
+        description: "Hapalla, a radio commentator, was shot to death by three unidentified men while he was broadcasting for DXAS “Your Community Radio.”"
       },
       {
-        name: "Romeo Lagsapi",
+        link: "https://cpj.org/data/people/romeo-lagaspi/index.php",
+        name: "Romeo Lagaspi",
         date: "January 11, 1993",
         place: "Olongapo City, Zambales",
-        description: "He covered corruption and was publisher of the Voice of Zambales. He disappeared around January 11, having just filed a countersuit after being charged with criminal libel for a piece he wrote on police corruption. Images of a burnt corpse were shown to Lagaspi, assumed to be Romeo’s."
+        description: "Lagaspi covered corruption and was the publisher of the Voice of Zambales. He disappeared around January 11, having just filed a countersuit after being charged with criminal libel for a piece he wrote on police corruption. Police showed Lagaspi’s family images of a burnt corpse that they assumed to be Lagaspi."
       },
       {
+        link: "https://cpj.org/data/people/ferdinand-reyes/index.php",
         name: "Ferdinand Reyes",
         date: "February 13, 1996",
         place: "Dipolog, Zamboanga Del Norte",
-        description: "He was gunned down at his desk while he was still serving as Editor-in-Chief of the newspaper Press Freedom. Before he was killed, he frequently covered corruption, wrote about human rights abuses and criticized government policies."
+        description: "Reyes was gunned down by an unknown assailant at his desk while he was still serving as the editor-in-chief of the newspaper Press Freedom. Before he was killed, he frequently covered corruption, wrote about human rights abuses, and criticized government policies. Shortly before his death, he led a demonstration against an anti-terrorism bill. He had already received multiple death threats because of his work prior to his murder."
       },
       {
+        link: "https://cpj.org/data/people/danny-hernandez/index.php",
         name: "Danny Hernandez",
         date: "June 3, 1997",
         place: "Manila",
-        description: "Known for exposing drug syndicates and police corruption, he was shot inside a taxi on as he was leaving the People’s Journal Tonight office where he was the news editor. It was later revealed that the taxi was stolen earlier for the purposes of anticipating and capturing Hernandez."
+        description: "After receiving death threats from drug lords for his coverage of drug syndicates and police corruption, Hernandez was shot by an unknown gunman inside a taxi as he was leaving the office of a tabloid called People’s Journal Tonight, where he was the news editor. Police officers later revealed that the taxi was stolen for the purpose of anticipating and kidnapping Hernandez."
       },
       {
+        link: "https://cpj.org/data/people/rey-bancayrin/index.php",
         name: "Rey Bancayrin",
         date: "July 30, 1998",
         place: "Zamboanga City",
-        description: "While he was on air for Radio DXLL, two unidentified assailants shot him three times in his booth while talking to a listener. He was known for covering local corruption, illegal logging, and drug smugglers."
+        description: "While Bancayrin was talking to a listener on air for Radio DXLL, two unidentified assailants shot him three times. He was known for covering the illegal logging, drug smugglers, and the corruption of local government units."
       }
     ]
   },
@@ -200,31 +224,35 @@ const data = [
     number: "4",
     description: "Estrada was described by Reporters Without Borders as “less tolerant” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist murders. Out of the six, only four have been named, based on the Committee to Protect Journalists’ (CPJ) data.",
     desc:
-      "According to the Center for Media Freedom and Responsibility, Estrada's brief tenure as president saw 6 journalist murders. The CPJ, however, lists only 4 deaths.",
+      "Estrada was described by Reporters Without Borders as “less tolerant” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist murders. Out of the six, only four have been named, based on the Committee to Protect Journalists’ (CPJ) data.",
     journalists: [
       {
+        link: "https://cpj.org/data/people/vincent-rodriguez/index.php",
         name: "Vincent Rodriguez",
         date: "May 23, 2000",
         place: "Sasmuan, Pampanga",
-        description: "Vincent Rodriguez sustained a shot in the leg and a fatal skull fracture when his boat that was part of a convoy was attacked by rebels. The New People’s Army claimed responsibility for the attack but apologized as the police in the convoy were the targets, not the journalist."
+        description: "Rodriguez sustained a shot in the leg and a fatal skull fracture when rebels attacked a boat he was riding as part of a convoy. The Rebolusyonaryong Hukbong Bayan, a breakaway faction of the New People’s Army, claimed responsibility for the attack, but apologized in an interview with CPJ, as the police in the convoy were the intended target, not the journalist."
       },
       {
+        link: "https://cpj.org/data/people/olimpio-jalapit-jr/index.php",
         name: "Olimpio Jalapit Jr.",
         date: "November 17, 2000",
         place: "Pagadian City, Zamboanga del Sur",
-        description: "Olimpio Jalapit Jr. hosted “Lampornas” for Zamboanga radio station DXPR. Jalapit was frequently sent death threats. He had received a text saying “I will kill you today” on the morning of his death. He was shot in the head by an unidentified gunman. Former Department of Environment and Natural Resources Secretary Antonio Cerilles and wife Representative Aurora Cerilles had filed complaints about Jalapit’s show which was subsequently suspended. Jalapit was killed on the way to meet with Aurora Cerilles. The two have since denied involvement in the murder."
+        description: "Jalapit hosted Lampornas for Zamboanga radio station DXPR and often facilitated hard-hitting discussions on issues such as corruption, gambling, the drug trade, and armed separatist movements in the southern Philippines. Jalapit was frequently sent death threats, and on the morning of his passing, he had received a text that said, “I will kill you today.” He was shot in the head by an unidentified gunman. Former Department of Environment and Natural Resources Secretary Antonio Cerilles and wife Zamboanga del Sur 2nd District Representative Aurora Cerilles filed complaints about Jalapit’s show, which was subsequently suspended. Jalapit was shot on the way to meet with Representative Cerilles. Aurora and Antonio Cerilles have since denied involvement in the murder."
       },
       {
+        link: "https://cpj.org/data/people/roland-ureta/index.php",
         name: "Ronald Ureta",
         date: "January 3, 2001",
         place: "Aklan Province, Philippines",
-        description: "Ronald Ureta was shot less than an hour after leaving the DYKR radio station where he hosted the “Agong Nightwatch.” Ureta was shot by men on motorcycles. It is believed that he was killed as a result of his criticism of the local government and police for their alleged corruption and involvement in the drug trade."
+        description: "Ureta was shot by men on motorcycles less than an hour after leaving the DYKR radio station where he hosted the Agong Nightwatch. According to the CPJ, Ureta’s criticism of corruption in the local government and alleged police involvement in the drug trade may have angered parties and provided a motive for his killing."
       },
       {
+        link: "https://cpj.org/data/people/mohammad-yusop/index.php",
         name: "Mohammad Yusop",
         date: "February 23, 2001",
         place: "Pagadian City, Zamboanga del Sur",
-        description: "Mohammad Yusop hosted a religious program on DXID radio station but wasn’t known to comment on controversial topics. Yusop was in a pedicab when he was shot in the head by a gunman from a motorcycle. It is not known if Yusop had received death threats or if the incident was related to his work."
+        description: "Yusop hosted a religious program on DXID radio station and refrained from commenting on controversial topics. Yusop was in a pedicab when he was shot in the head by a gunman from a motorcycle. It is not known if Yusop had received death threats or if the incident was related to his work."
       }
 
     ]
@@ -239,288 +267,350 @@ const data = [
     desc: `The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the "Maguindanao massacre." The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency`,
     journalists: [
       {
+        link: "https://cpj.org/data/people/candelario-cayona/index.php",
         name: "Calendario Cayona",
         date: "May 30, 2001",
         place: "Zamboanga City, Zamboanga del Sur",
         description: "Cayona received four gunshot wounds on his way to work in DXLL, a local radio station, by unidentified male assassins. Cayona was a vocal critic of the local government, military, and armed groups. He had been sent several death threats before his killing, including an on-air threat from the Abu Sayyaf."
       },
       {
+        link: "https://cpj.org/data/people/joy-mortel/index.php",
         name: "Joy Mortel",
         date: "May 31, 2001",
         place: "Talabanhan, Occidental Mindoro",
         description: "Mortel, a reporter for the Mindanao Guardian, was shot in her home by two unknown assailants after a heated argument. Local police blamed communist rebels for her killing and cited financial dealings with local cooperatives as a likely motive. It is unknown if the murder was related to her work as a journalist."
       },
       {
+        link: "https://cpj.org/data/people/edgar-damalerio/index.php",
         name: "Edgar Damalerio",
         date: "May 13, 2002",
         place: "Pagadian City, Zamboanga del Sur",
         description: "Damalerio was an editor for a local newspaper, the Zamboanga Scribe, and a commentator for DXKP, a Zamboanga-based radio station. He frequently covered local corruption and accused the local police chief, Asuri Hawani, of having ties in drug trafficking and criminal syndicates. Damalerio was on his way home from a press conference when he was hit by a gunman. The police identified and charged Ronie Quilme based on eyewitness testimony. Multiple witnesses, however, were killed in the course of the trial. The Supreme Court ordered the case to be moved to Cebu City to avoid influence from local politicians a week later."
       },
       {
+        link: "https://cpj.org/data/people/sonny-alcantara/index.php",
         name: "Sonny Alcantara",
         date: "August 22, 2002",
         place: "San Pablo, Laguna",
         description: "Alcantara, a broadcaster for Quo Vadis San Pablo and editor of Kokus, was shot in the head by a lone gunman. Local police chief Ernesto Cuizon acknowledged that Alcantara’s vocal journalism was a factor in the assassination. The case was cold until a suspect was found in 2019."
       },
       {
+        link: "https://cpj.org/data/people/apolinario-polly-pobeda/index.php",
         name: "Apolinario Pobeda",
         date: "May 17, 2003",
         place: "Lucena City, Quezon",
         description: "Pobeda was shot seven times on the way to work by two unidentified gunmen. Pobeda was known to lambast corrupt local officials in his show on DWTI-AM radio. He was a vocal critic of alleged narco-politician Lucena City Mayor Ramon Talaga. The police apprehended two suspects, Eric and Eulogio Patulay as identified by an eyewitness. The Patulays were reported to be bodyguards of Romano Talaga, Mayor Talaga’s son. A third suspect has yet to be identified and remains at large."
       },
       {
+        link: "https://cpj.org/data/people/bonifacio-gregorio/index.php",
         name: "Bonifacio Gregorio",
         date: "July 8, 2003",
         place: "La Paz, Tarlac",
         description: "Gregorio wrote for Dyaryo Banat and was critical of local officials, including La Paz Mayor Dionisio Manuel. Before his death, Gregorio accused Manuel of building a cemetery that didn’t comply with local regulations. Gregorio was shot in the head thrice at close range outside his house by an unknown gunman."
       },
       {
+        link: "https://cpj.org/data/people/noel-villarante/index.php",
         name: "Noel Villarante",
         date: "August 19, 2003",
         place: "Santa Cruz, Laguna",
         description: "Villarante was an editor for the Laguna Score and a radio host at DZJV. He had received numerous death threats for his coverage on corruption and drug trafficking. Villarante’s murder was carried out in his house by a gunman. Senando Palumbarit was arrested on August 26, 2003 on the basis of police sketches. Palumbarit, however, denied involvement in the murder and the local press alleged that the arrest was part of a larger conspiracy and cover-up. The case was dismissed in 2006 as none of the witnesses were willing to testify."
       },
       {
+        link: "https://cpj.org/data/people/rico-ramirez/index.php",
         name: "Rico Ramirez",
         date: "August 20, 2003",
         place: "San Francisco, Agusan del Sur",
         description: "Ramirez frequently reported on crime and local politics for DXSF Radio. He was shot once in the back on August 20 but his murder was not publicized by the authorities until September 2. No suspects have been found and apprehended due to the lack of witnesses."
       },
       {
+        link: "https://cpj.org/data/people/juan-jun-pala/index.php",
         name: "Juan Pala",
         date: "September 6, 2003",
         place: "Davao City, Davao del Sur",
         description: "Pala had received death threats on multiple occasions for his work on DXGO Radio. He was highly critical of the local government and communist rebels. He was walking home accompanied by his friend and a bodyguard when a gunman opened fire from a motorcycle, sustaining 9 gunshot wounds and dying shortly after. This was not the first attempt on Pala’s life, which came months earlier on April 29. That attack injured Pala, who then started to air his show from home. After his death, President Arroyo ordered the creation of a special police task force to investigate the recent journalist murders."
       },
       {
+        link: "https://cpj.org/data/people/nelson-nadura/index.php",
         name: "Nelson Nadura",
         date: "December 2, 2003",
         place: "Masbate City, Masbate",
         description: "Nadura, a former communist rebel in the New People’s Army, hosted a morning talk show on Radio DYME where he was known to critique local officials. He was shot several times after his show. Nadura was on his motorcycle unidentified gunmen attacked him. The motive behind the murder is still unconfirmed. President Arroyo released a statement the day after the attack and vowed that “attacks against members of the press shall not go unpunished.” As of that statement, none of the over 40 journalist murders since 1986 had been solved."
       },
       {
+        link: "https://cpj.org/data/people/rowell-endrinal/index.php",
         name: "Rowell Endrinal",
         date: "February 11, 2004",
         place: "Legazpi City, Albay",
         description: "Endrinal was shot multiple times by two gunmen when he was exercising in the local basketball court. Endrinal was a commentator for DZRC and a columnist for Bicol Metro News, covering issues such as local corruption and criminality. In 2010, two suspects were acquitted, including a police chief with alleged ties to the killing. Clarito Arizobal was identified by a witness as one of the assassins and was convicted on November 26, 2012 and sentenced to reclusion perpetua. A second suspect has yet to be identified and apprehended."
       },
       {
+        link: "https://cpj.org/data/people/elpidio-binoya/index.php",
+        name: "Elpidio Binoya",
+        date: "June 17, 2004",
+        place: "General Santos City, South Cotabato",
+        description: "Binoya was a commentator and manager of Radyo Natin, where he exposed local leaders’ corrupt activities. He was on his way home when he was ambushed and shot by two gunmen on a motorcycle. The local prosecutor’s office suspected that the killing involved Ephriam Englis, a politician Binoya had accused of bribery. Englis surrendered to the police with a second suspect named Alfonso Roquero in August 2004, but the pair continued to deny involvement in Binoya’s murder."
+      },
+      {
+        link: "https://cpj.org/data/people/rogelio-roger-mariano/index.php",
         name: "Rogelio Mariano",
         date: "July 31, 2004",
         place: "Laoag City, Ilocos Norte",
         description: "Mariano, a commentator for Radyo Natin-Aksyon Radyo, was shot several times in the back and head while riding his motorcycle. Mariano’s last broadcast hit illegal gambling operations in Laoag, as well as alleged irregularities in the local electric cooperative’s finances."
       },
       {
+        link: "https://cpj.org/data/people/arnnel-manalo/index.php",
         name: "Arnnel Manalo",
         date: "August 5, 2004",
         place: "Bauan, Batangas",
         description: "Manalo was a reporter for Bulgar and DZRH radio, covering mainly local politics and corruption. Manalo was shot three times shortly after bringing his children to school. Michael Garcia was charged for the murder and arrested on August 26, 2004. Garcia was allegedly hired by Edilberto Mendoza, a local politician. The assailant was identified by Manalo’s brother, Apollo, who was also killed. Garcia was killed in custody by police officers in 2009 who claimed the prisoner tried to take the weapon."
       },
       {
+        link: "https://cpj.org/data/people/fernando-consignado/index.php",
         name: "Fernando Consignado",
         date: "August 12, 2004",
         place: "Nagcarlan, Laguna",
         description: "Consignado, a radio host for Radio Veritas, was found dead in his home in Laguna. The motive Consignado’s murder is still unclear. Evidence suggests it came from a land dispute but the killing may be related to some earlier reporting on illegal gambling and corruption."
       },
       {
+        link: "https://cpj.org/data/people/romeo-or-romy-binungcal/index.php",
         name: "Romeo Binungcal",
         date: "September 29, 2004",
         place: "Bataan Province, Philippines",
         description: "Binungcal wrote for Remate and Bulgar, chiefly on corruption. He was shot five times on his motorcycle as he made his way home. It is believed that the attack was ordered by former police officers who were fired as a result of Binungcal’s reports."
       },
       {
+        link: "https://cpj.org/data/people/eldy-sablas-aka-eldy-gabinales/index.php",
         name: "Eldy Sablas",
         date: "October 19, 2004",
         place: "Tandag, Surigao del Sur",
         description: "Sablas was shot thrice in a trike by an unidentified gunman. Police believe the killing was in relation to Sablas’ highly critical reporting on illegal gambling and the drug trade on Radio DXJJR-FM."
       },
       {
+        link: "https://cpj.org/data/people/gene-boyd-lumawag/index.php",
         name: "Gene Boyd Lumawag",
         date: "November 12, 2004",
         place: "Jolo, Sulu Province",
         description: "Lumawag was a photographer for MindaNews working on a documentary with another cameraman when he was shot in the head. The motive is unclear but the authorities have suggested three potential motives. It is believed that the Abu Sayyaf was responsible for the killing as the gunman matched the description of an Abu Sayyaf member. The murder may also be linked to a corruption story Lumawag was following. It may also have been a case of mistaken identity as Lumawag may have seemed like a spy."
       },
       {
+        link: "https://cpj.org/data/people/herson-hinolan/index.php",
         name: "Herson Hinolan",
         date: "November 13, 2004",
         place: "Kalibo, Aklan",
         description: "Hinolan was shot multiple times by an unknown assailant. It is believed that his murder was a reprisal for his exposes on illegal activities, police brutality, and corruption."
       },
       {
-        name: "Allan Dizon",
-        date: "November 27, 2004",
-        place: "Cebu City, Cebu Province",
-        description: "Dizon was a photographer for The Freeman and a writer for Banat. Dizon was shot twice by an unidentified gunman. It is believed that the killing was in relation to an illegal gambling story by Dizon. The Freeman also received threats against other journalists following Dizon’s death."
-      },
-      {
+        link: "https://cpj.org/data/people/stephen-omaois/index.php",
         name: "Stephen Omaois",
         date: "November 29, 2004",
         place: "Tabuk, Kalinga",
         description: "Stephen Omaosis was a reporter for a government radio station, DZRK, and a writer for Guru Press. Omaosis was bludgeoned to death and it is unknown if this was in relation to his work."
       },
       {
+        link: "https://cpj.org/data/people/allan-dizon/index.php",
+        name: "Allan Dizon",
+        date: "November 27, 2004",
+        place: "Cebu City, Cebu Province",
+        description: "Dizon was a photographer for The Freeman and a writer for Banat. Dizon was shot twice by an unidentified gunman. It is believed that the killing was in relation to an illegal gambling story by Dizon. The Freeman also received threats against other journalists following Dizon’s death."
+      },
+      {
+        link: "https://cpj.org/data/people/arnulfo-villanueva/index.php",
         name: "Arnulfo Villanueva",
         date: "February 28, 2005",
         place: "Naic, Cavite",
         description: "Villanueva was a columnist for Asian Star Express Balita. He had written about local officials in connection to illegal gamblig, however, the police have not confirmed a motive."
       },
       {
+        link: "https://cpj.org/data/people/marlene-garcia-esperat/",
         name: "Marlene Garcia-Esperat",
         date: "March 24, 2005",
         place: "Tacurong, Sultan Kudarat",
         description: "Garcia-Esperat was a columnist for the Mindanao newspaper Midland Review. While having dinner, a gunman entered Esperat’s house and shot her in the head in front of her family. She had previously received death threats and was under protection at the time, however, she let her guards leave early for Easter that day. Esperat was an anti-graft columnist, heavily focusing on corruption. She was said to have made many enemies over her various exposés. His husband claims the murder to be connected to a corruption story about illegal logging that Marlene was working on."
       },
       {
+        link: "https://cpj.org/data/people/klein-cantoneros/",
         name: "Klein Cantoneros",
         date: "May 4, 2005",
         place: "Dipolog, Zamboanga del Norte",
         description: "Cantoneros was a radio broadcaster for DXAA-FM. While returning home, he was ambushed by around three gunmen. Cantoneros was known for his hard-hitting commentaries on local officials."
       },
       {
+        link: "https://cpj.org/data/people/philip-agustin/index.php",
         name: "Philip Agustin",
         date: "May 10, 2005",
         place: "Paltic, Aurora",
         description: "Agustin was an editor for the Starline Times Recorder who was shot in his home. The paper was to release a special edition the following day connecting local officials, including Mayor Jaime Ylarde, to illegal logging operations. Ylarde denied any involvement. Three suspects were identified, one of which was Reynaldo Morete - the gunman. Morete pointed to Ylarde as the gunman. Morete was the only suspect to be apprehended. The mayor was not charged and continues to deny any wrongdoing. "
       },
       {
+        link: "https://cpj.org/data/people/rolando-dodong-morales/index.php",
         name: "Rolando Morales",
         date: "July 3, 2005",
         place: "Polomok, South Cotobato",
         description: "Morales was shot at least 15 times by a group of assailants on motorcycles. Morales’ companion was also injured in the encounter. Local police created a list of possible suspects which included several police officers. Morales hosted programs on DXMD and Radyo Agong. He was known for his reports on illegal drugs, crime, and corruption. His wife, Floreta, reported that Morales had received several death threats."
       },
       {
+        link: "https://cpj.org/data/people/ricardo-ding-uy/index.php",
         name: "Ricardo Uy",
         date: "November 18, 2005",
         place: "Sorsogon City, Sorsogon Province",
         description: "Uy was an announcer for DZRM radio, president of the Media Reporters Association, and a provincial coordinator for the Bayan Muna partylist. Uy was shot outside his house in Sorsogon City. He had received threats before he was murdered. It is still unknown what the motives behind the killing were."
       },
       {
+        link: "https://cpj.org/data/people/robert-ramos/index.php",
         name: "Roberto Ramos",
         date: "November 20, 2005",
         place: "Cabuyao, Laguna",
         description: "Ramos was a reporter for Katapat and was shot outside a market. Two suspects were apprehended by the police. Ramos had tipped the police on a shop selling pirated merchandise. It is unknown if his death is linked to a story on this."
       },
       {
+        link: "https://cpj.org/data/people/george-benaojan/index.php",
         name: "George Benaojan",
         date: "December 1, 2005",
         place: "Cebu City, Cebu Province",
         description: "Benaojan was a correspondent for DYBB and Bantay Balita, based in Cebu. A hitman shot Benaojan several times. During the incident, a bystander was injured by a stray bullet. While the motive has yet to be confirmed, the shooting may have been a reprisal for Benaojan’s reporting on alleged corruption within the local customs bureau. He had received multiple death threats before the incident and had survived a prior attempt on his life in August 2004."
       },
       {
+        link: "https://cpj.org/data/people/rolly-canete/",
         name: "Rolly Cañete",
         date: "January 20, 2006",
         place: "Pagadian City, Zamboanga del Sur",
         description: "Cañete was a broadcaster for three radio stations, two of which were under then-Zamboanga del Sur Governor Aurora Enerio-Cerilles and her husband, Congressman Antonio Cerilles. Cañete was driving home on his motorcycle with his son when two motorcycle-riding gunmen shot him; only his son survived, who positively identified the suspect to be a soldier, Sgt. Herbert Liguan. Cañete worked as the two politicians’ publicist and paid for his radio programs wherein the broadcaster would criticize opponents of his employer."
       },
       {
+        link: "https://cpj.org/data/people/orlando-tapios-mendoza/",
         name: "Orlando Tapios Mendoza",
         date: "April 4, 2006",
         place: "Tarlac City, Tarlac Province",
         description: "Mendoza was a reporter and editor for local newspapers Tarlac Profile and Tarlac Patrol. He was shot by unidentified gunmen on his way home to Tarlac and was pronounced dead at the scene. Prior to his death, he had worked on and wrote several pieces about land dispute."
       },
       {
+        link: "https://cpj.org/data/people/fernando-batul/index.php",
         name: "Fernando Batul",
         date: "May 22, 2006",
         place: "Puerto Princessa, Palawan",
         description: "Batul was a radio commentator for stations DZRH and DYPR, as well as a former vice-mayor for Puerto Princesa. Batul, who was driving to work, was shot six times by gunmen on motorcycle. Batul was a staunch critic of the local government and frequently reported on allegations of corruption and nepotism. A month prior to his death, he had received a death threat demanding him to stop his critical broadcasts. Two unexploded grenades were also found in his home. Batul later told the National Bureau of Investigation that he believed local police were behind the threat. More than a week prior to his death, he had criticized Police Officer Aaron Madamay Golifardo for showing a weapon during an argument with a waitress at a karaoke bar. Golifardo was arrested shortly after Batul’s murder after being identified by eyewitnesses. The gunman was acquitted from the charge five years later. Two of Batul’s colleagues who were investigating his murder also fled Palawan after receiving threats."
       },
       {
+        link: "https://cpj.org/data/people/maricel-vigo/",
         name: "Maricel Vigo & George Vigo",
         date: "June 19, 2006",
         place: "Kidapawan City, Cotobato",
         description: "Maricel Vigo was a radio host for a local radio station DXND. Her partner, George Vigo, was a contributor at a church news agency, Union of Catholic Asian News, and an active member at a local non-government organization. The couple were walking home from the local market when two riders-in-tandem shot them around five in the evening. Maricel and George Vigo were previously active in left-wing groups and had made contacts within communist rebel organizations. Prior to the murders, George had received a propaganda video from the NPA which he showed to local officials. According to the couple’s blogspot, they were red-tagged by police as communists two days after their deaths and their murders were attributed to the NPA. George Vigo, however, told several colleagues that he was being followed and had feared that the military or local officials would target him."
       },
       {
+        link: "https://cpj.org/data/people/armando-pace/index.php",
         name: "Armando Pace",
         date: "July 18, 2006",
         place: "Digos City, Davao del Sur",
         description: "Pace was a radio commentator for Radyo Ukay DXDS. On his way home, Pace was ambushed by two riders-in-tandem who shot him in the head and chest. Pace was known for his critical commentaries that were usually aimed at local politicians, businessmen, and other officials. A few days after his murder, Joy Anticamara was arrested after being identified by an eyewitness and was sentenced to 17 years in prison for the crime."
       },
       {
+        link: "https://cmfr-phil.org/uncategorized/former-nueva-ecija-journalist-killed/",
         name: "Ponciano Grande",
         date: "December 7, 2006",
         place: "Cabanatuan, Nueva Ecija",
         description: "Grande was a columnist at local weeklies, The Recorder and Nueva Ecija Times, and was the former director of the Nueva Ecija Press Club. Grande was shot five times on his farm by two gunmen who were said to be in their late-teens. Grande’s partner said that he was robbed of Php 174,000 and that her partner did not have any enemies nor wrote on anything controversial."
       },
       {
+        link: "https://cpj.org/data/people/andres-acosta/index.php",
         name: "Andres Acosta",
         date: "December 20, 2006",
         place: "Batac, Ilocos Norte",
         description: "Acosta was a news reporter for dzJC, a local radio station, and a contributor for a local paper, Northern Light. While coming home from a christmas party, Acosta was stabbed by unidentified assailants; he collapsed and died on his motorcycle while trying to get to the hospital. Acosta mostly covered police stories and often confronted and took rowdy drunkards to the police. Police believe his murder to be unrelated to his work."
       },
       {
+        link: "https://www.philstar.com/headlines/2007/02/20/385878/kudarat-publisher-shot-dead",
         name: "Hernani Pastolero",
         date: "February 27, 2007",
         place: "Shariff Kabunsuan, Sultan Kudarat",
         description: "Pastolero was the Editor-in-Chief of a local newspaper, Lightning Courier. Pastolero was shot two times in the head by an unidentified gunman while he was having coffee outside his house. Police believe his murder to be related to a land dispute as Pastolero did not have any enemies nor wrote on any sensitive topic."
       },
       {
+        link: "https://cpj.org/data/people/carmelo-palacios/index.php",
         name: "Carmelo Palacios",
         date: "April 18, 2007",
         place: "Nueva Ecija, Philippines",
         description: "Palacios was a police reporter for DZRB Radyo ng Bayan. His body was found on the side of the road, with a gunshot on the face, a broken jaw, and severe bruises on the body. His cellphone had also been taken, however some cash was left on him. His colleagues refer to him as a very strong investigative reporter and that he had reported on corruption prior to his death."
       },
       {
+        link: "https://cpj.org/data/people/ferdinand-lintuan/",
         name: "Ferdinand Lintuan",
         date: "December 24, 2007",
         place: "Davao City, Davao del Sur",
         description: "Lintuan was a columnist for the regional daily, Sun Star. He had just left an AM Station, DXGO, when he was shot by two motorcycle-riding gunmen. He had recently worked on alleged corruption in a local development project and illegal logging."
       },
       {
-        name: "Dennis Cuesta",
-        date: "August 4, 2008",
-        place: "General Santos City",
-        description: "Cuesta was an anchor and program director for DXMD, an affiliate of Radio Mindanao Network. Cuesta was shot multiple times by a rider-in-tandem while on a public street in Gen-San; he died of his injuries five days later. Prior to his death, Cuesta had applied for a firearm license and had requested for police protection. Police also pointed at a person had told Cuesta to stop broadcasting critical remarks of a land dispute case."
+        link: "https://news.abs-cbn.com/nation/metro-manila/04/08/08/journalist-murdered-pasig-0",
+        name: "Benefredo Acabal",
+        date: "April 7, 2008",
+        place: "Pasig City, Metro Manila",
+        description: "Acabal was a columnist for a newspaper in Cavite Province called The Filipino Newsmen and was also involved in the trucking business. He was shot five times in the chest by a gunman who fled on a motorcycle."
       },
       {
+        link: "https://cpj.org/data/people/martin-roxas/index.php",
         name: "Martin Roxas",
         date: "August 7, 2008",
         place: "Roxas City, Capiz",
         description: "Roxas was an operations head at Radio Mindanao Network. He was on his motorcycle on the way home when he was shot in the back by two men. Roxas had recently reported on a dispute between two local politicians and on a case of misappropriation of funds. On March 2016, the Roxas City Regional Trial Court sentenced Kristian Tan and Joelnel Lastimoso 11 years and 19 years, respectively, for the murder."
       },
       {
+        link: "https://cpj.org/data/people/dennis-cuesta/index.php",
+        name: "Dennis Cuesta",
+        date: "August 4, 2008",
+        place: "General Santos City",
+        description: "Cuesta was an anchor and program director for DXMD, an affiliate of Radio Mindanao Network. Cuesta was shot multiple times by a rider-in-tandem while on a public street in Gen-San; he died of his injuries five days later. Prior to his death, Cuesta had applied for a firearm license and had requested for police protection. Police also pointed at a person had told Cuesta to stop broadcasting critical remarks of a land dispute case."
+      },
+      {
+        link: "https://cpj.org/data/people/arecio-padrigao/",
         name: "Arecio Padrigao",
         date: "November 17, 2008",
         place: "Gingoog, Misamis Oriental",
         description: "Arecio Padrigao was a commentator for a local radio program, Sayre ang Katilingban (Know the Society), on DXRS, Padrigao was dropping his child off at school outside Bukidnon State University when a motorcycle-riding gunman shot him. Padrigao has been criticizing corruption and illegal loggings in his commentaries."
       },
       {
+        link: "https://cpj.org/data/people/leo-mila/",
         name: "Leo Mila",
         date: "December 2, 2008",
         place: "San Roque, Northern Samar",
         description: "Mila was a radio broadcaster for Radyo Natin in San Roque, Samar. He was shot outside the radio station. Prior to his death, he had received death threats which he reported to the police. Mila had recently reported on irregular funding issues on a local highschool."
       },
       {
+        link: "https://cpj.org/data/people/badrodin-abbas/index.php",
         name: "Badrodin Abbas",
         date: "January 22, 2009",
         place: "Cotabato, Maguindanao",
         description: "Abbas was a radio commentator for DXCM. While in his minivan, Abbas was shot in the head by a rider-in-tandem. The commentator was known for his critical commentaries, recently talking about a proposed peace deal between the government and the MILF."
       },
       {
+        link: "https://cpj.org/data/people/ernie-rollin/",
         name: "Ernie Rollin",
         date: "February 23, 2009",
         place: "Oroquieta, Misamis Occidental",
         description: "Rollin was a journalist of 10 years and a commentator for DXSY radio. Early in the morning at a gas station, Rollin was shot by two men on a motorcycle. Prior to his death, Rollin had been talking about controversial laws impacting the province. CMFR believe the murder to be related to his work and politics. On May 24 of that year, authorities arrested Juel Jumalon, a former NPA member. The investigation, however, did not reveal the mastermind."
       },
       {
+        link: "https://cpj.org/data/people/jojo-trajano/index.php",
         name: "Jojo Trajano",
         date: "June 3, 2009",
         place: "Taytay, Rizal",
         description: "Trajano was a crime reporter for a local newspaper, Remate. He was killed in a crossfire during a police raid of a drug den in Rizal. Trajano and another police officer were fatally wounded during the operation. "
       },
       {
+        link: "https://cpj.org/data/people/crispin-perez/index.php",
         name: "Crispin Perez",
         date: "June 9, 2009",
         place: "Occidental Mindoro",
         description: "Perez was a host for a radio station, DWDO. After his morning show, the assailant pretended to seek advice from Perez, after which he stabbed and fatally shot the victim. His widow identified the attacker as a local police official and bodyguard of a local politician. In February 2010, authorities charged police officer Darwin Quimoyog for the murder."
       },
       {
+        link: "https://cpj.org/data/people/godofredo-linao/",
         name: "Godofredo Linao",
         date: "July 27, 2009",
         place: "Barabo, Surigao del sur",
         description: "Linao was the host of a weekly public affairs program, Straight to the Point, on Radyo Natin. Linao was getting on his motorcycle when two gunmen shot him four times. He went to Barabo after receiving a text message which quoted Radyo Natin station manager Mario Alviso. Alviso had received threatening texts after Linao’s murder. "
       },
       {
+        link: "https://cpj.org/data/people/ismael-pasigna/",
         name: "Ismael Pasigna",
         date: "December 24, 2009",
         place: "Labason, Zamboanga del Norte",
