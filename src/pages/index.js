@@ -536,211 +536,211 @@ const data = [
     number: "34",
     description: "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
     desc:
-      "Even though the death toll dropped by more than half, the second Aquino administration still posted the second-highest number of media-related killings since Marcos' ouster with at least 31 slain individuals—though data collected shows 34—based on the Center for Media Freedom and Responsibility's estimates.",
+      "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
     journalists: [
       {
         name: "Desidario Camangyan",
         date: "June 14, 2010",
         place: "Mati, Davao Oriental",
-        description: "Camangyan, an anchor for a local radio station Sunrise FM, was shot in the head during an amateur singing contest in front of an audience which included his wife and 6-year old son. Two suspects were apprehended: Dennis Jess Lumikid, a police officer; and Romeo Antoling, a local village official. Only Lumikid was convicted for the murder. At the time, Camangyan and his co-anchors received threats over their commentaries on illegal logging activities in Davao Oriental."
+        description: "Camangyan, an anchor for local radio station Sunrise FM, was shot in the head during an amateur singing contest in front of an audience which included his wife and 6-year-old son. Two suspects were apprehended: Dennis Jess Lumikid, a police officer; and Romeo Antoling, a local village official. Only Lumikid was convicted for the murder. At the time, Camangyan and his co-anchors received threats for their commentaries on illegal logging activities in Davao Oriental."
       },
       {
         name: "Joselito Agustin",
         date: "June 16, 2010",
         place: "Bacarra, Ilocos Norte",
-        description: "Agustin was on the way home on the evening of June 15 when two gunmen shot him four times, injuring him and a passenger, his nephew. Agustin died of his injuries the next morning. He was an outspoken on-air critic of corruption in the local politics. On June 21, police filed murder charges against Pacific Velasco, the newly-elected vice mayor of the town, and three other suspects."
+        description: "Agustin was on the way home on the evening of June 15, 2010 when two gunmen shot him four times, injuring him and his nephew. Agustin died of his injuries the next morning. As a broadcaster for DZJC, he was an outspoken critic of corruption in the local politics. On June 21, police filed murder charges against Pacifico Velasco, the then newly-elected vice mayor of Bacarra, and three other suspects."
       },
       {
         name: "Nestor Bedolido",
         date: "June 19, 2010",
         place: "Digos, Davao del Sur",
-        description: "Bedolido was a reporter for a weekly newspaper, the Kastigador. He was buying cigarettes outside a karaoke bar when he was shot by a gunman who fled with an accomplice on a motorcycle. Bedolido was said to have been writing exposés on a local politician in the region. In 2014, four suspects were charged for the writer’s murder, including former Davao del Sur Governor Douglas Ra Cagas and Matanao Mayor Vicente Fernandez."
+        description: "Bedolido was a reporter for a weekly newspaper, the Kastigador. He was buying cigarettes outside a karaoke bar when he was shot by a gunman who fled with an accomplice on a motorcycle. Bedolido was said to have been writing exposés on a local politician in the region. In 2014, four suspects, together with former Davao del Sur Governor Douglas Ra Cagas and current Matanao Mayor Vicente Fernandez, were charged for the writer’s murder."
       },
       {
         name: "Jose Daguio",
         date: "July 4, 2010",
         place: "Tabuk, Kalinga",
-        description: "Daguio was a 75-year-old radio commentator, formerly working in DZRK Radyo ng Bayan and DZRH FM. At the time of his death, the victim was reportedly involved in a dispute over a public works project."
+        description: "Daguio, who was 75 years old at the time, was a retired radio commentator who formerly worked in DZRK Radyo ng Bayan and DZRH FM. He was inside his house when an assailant shot him from close by. Before his death, the victim was reportedly involved in a dispute over a public works project. Lando Bilog, Edmund Bilog, Willy Bilog, Daldin Guilawan, and Edgar Guilawan were identified as the culprits and charged them with murder. However, Lando Bilog was later found dead before he could be given his arrest warrant. Daguio had apparently angered the suspects when he obtained information on their alleged involvement in cattle rustling."
       },
       {
         name: "Miguel Belen",
         date: "July 9, 2010",
         place: "Iriga, Camarines Sur",
-        description: "Belen, a reporter for radio station dwEB in Nabua, Cam-Sur, was on his way home in Iriga when he was gunned down by two assailants on a motorcycle. Belen was working for a local politician and authorities suspected the murder to be politically-motivated. Two suspects, Eric Vargas and Gina Bagacina, were apprehended. Bagacina was said to be a member of the New People’s Army."
+        description: "Belen, a reporter for radio station dwEB in Nabua, Camarines Sur, was on his way home to Iriga City when he was gunned down by two assailants on a motorcycle. Belen was also working for a local politican, and police speculate that the murder may have been politically motivated although they did not elaborate. After the investigation, two suspects were apprehended: Eric Vargas and Gina Bagacina, who the police claimed to be a member of the New People’s Army. On February 2015, Vargas was sentenced to life imprisonment for the murder. Bagacina remained at large at the time."
       },
       {
         name: "Edilberto Cruz",
         date: "August 1, 2010",
         place: "Nueva Ecija ",
-        description: "Cruz was an editor-publisher of a local paper, Salida. He was riding his motorcycle when he was ambushed by unidentified gunmen. Cruz’s newspaper was mainly reporting about development stories and police have yet to find a clear motive for the killing."
+        description: "Cruz was an editor and publisher for Salida, local paper. He was riding his motorcycle when he was ambushed by unidentified gunmen. Cruz’s newspaper mainly reported about development stories, and police have yet to find a clear motive for the killing."
       },
       {
         name: "Edison Falmeniana",
         date: "December 10, 2010",
         place: "Zamboanga del Sur",
-        description: "A reporter from Mindanao Inquirer, not much is known or published of the case."
+        description: "A reporter from Mindanao Inquirer was killed in Zamboanga del Sur. Not much is known or published regarding the case."
       },
       {
         name: "Gerry Ortega",
         date: "January 24, 2011",
         place: "Puerto Princesa, Palawan",
-        description: "A prominent civic leader and former RGMA Network radio host, Ortega was the news anchor of Radyo Mo Nationwide Palawan at the time. He was murdered at an ukay-ukay store in the morning by a lone gunman. The suspect, Marvin Alcaraz, was arrested shortly but claimed that he only intended to rob the victim. Ortega, however, had been receiving death threats through text back then. Ortega was a very staunch critic of the mining activities in Palawan at the time."
+        description: "Ortega was a former RGMA Network radio host, and at the time, he was a prominent civic leader and the news anchor of Radyo Mo Nationwide Palawan of dwAR radio station. He was murdered by a lone gunman one morning at an ukay-ukay (thrift) store. He had been receiving death threats through text back then and was a very staunch critic of the mining activities in Palawan. A suspect named Marlon Recamata and several accomplices were arrested shortly after Ortega’s death. Recamata pleaded guilty for the murder and claimed that he was paid USD 250 for the killing. Rodolfo Edrad, an accomplice, indicated that former Palawan Governor Joel Reyes and his brother Mario Reyes, the former mayor of Coron, were behind the orders to murder Ortega. He alleged that this was due to Ortega’s staunch opposition on local corruption and reporting on mining operations in Palawan. A Department of Justice panel dismissed the charges against the Reyes brothers.However, in 2013, a second panel reserved the decision due to new evidence but was blocked by an appellate court.After the appellate court’s decision, the Reyes brothers went into hiding.On March 2016, a former aide to Joel Reyes, Arturo Regalado, was found guilty of being involved in Ortega’s murder and was sentenced to 40 years in prison.In January 2018, Joel Reyes was arrested for graft charges in relation to a mining company that was allowed to over- extract ore in Palawan."
       },
       {
         name: "Cirilo Gallardo",
         date: "February 1, 2011",
         place: "Bangued, Abra",
-        description: "Gallardo was a radio announcer for a local radio station RZPA Puso ti Abra. His decomposing body was found in a house he stayed near the broadcasting site with 13 stab wounds. His room was found ransacked and his belongings such as laptops were missing. Authorities believe the motive to be robbery."
+        description: "Gallardo was a radio announcer for RZPA Puso ti Abra. His decomposing body was found with 13 stab wounds in a house he stayed at near the broadcasting site. A police report also stated that Gallardo’s room was ransacked, and his desktop and laptops were found missing. Authorities believe the motive to be robbery."
       },
       {
         name: "Maria Len Flores Somera",
         date: "March 24, 2011",
         place: "Malabon, NCR",
-        description: "Somera was a radio broadcaster who discussed and forwarded the issues of callers of her show to officials, often criticizing the government for incompetence. She was shot at the back of the head by a lone gunman who shortly fled the scene in a jeep."
+        description: "Somera was a radio broadcaster for DZME who forwarded the issues of her show’s callers to officials. She often covered the conditions of disadvantaged sectors and criticized government officials for incompetence. Somera was shot at the back of the head by a lone gunman who quickly fled the scene in a jeep."
       },
       {
         name: "Romeo Olea",
         date: "June 13, 2011",
         place: "Iriga, Camarines Sur",
-        description: "Olea was a radio commentator for DWEB-FM in Iriga. He was shot in the back while riding his motorcycle to work. It was said that he had been receiving death threats shortly prior, and his colleagues and supporters say that Olea, along with Miguel Belen who was killed a year prior, had angered a political clan during the May 2010 elections."
+        description: "Olea was a radio commentator for DWEB-FM. He was shot in the back while riding his motorcycle to work. Olea’s wife said that the radio commentator had been receiving death threats shortly before his demise. Olea’s colleagues and supporters say that Olea, along with Miguel Belen who was killed a year prior, had angered a political clan during the May 2010 elections. Furthermore, Olea had anchored a radio program called Anything Goes, which frequently discussed issues of governance in Iriga City. "
       },
       {
         name: "Neil Aranga Jimena",
         date: "August 23, 2011",
         place: "E.B. Magalona, Negros Occidental",
-        description: "Neil Aranga Jimena was a radio anchor, working in Iloilo, Cadiz, and then Radio Mindanao Network. He was killed by two gunmen aboard a motorcycle in Negros Occidental. The National Press Club blames the local warlords and gambling lords for the death of Jimena."
+        description: "Jimena was a radio anchor who worked for dyRP in Iloilo, dyAG in Cadiz City, and then dyRI of Radio Mindanao Network. He was killed by two gunmen who were riding a motorcycle. The National Press Club blames the local warlords and gambling lords for Jimena’s death. Police arrested a suspect in Jimena’s murder in August 2012 but did not confirm a motive."
       },
       {
         name: "Antonio “Tony” Silagon",
         date: "December 15, 2011",
         place: "Trinidad, Bohol",
-        description: "Silagon was a publisher of the Bohol Balita Daily News. He was gunned down by two assailants in a bus terminal. "
+        description: "Silagon was a publisher of the Bohol Balita Daily News. He was gunned down by two assailants in a bus terminal. The owner and editor of the publication Silagon worked for, Johnny Orioque, believed that the murder was unrelated to Silagon’s work as a publisher and said that Silagon did not write for the newspaper. Furthermore, Orioque added that the newspaper does not publish “hard-hitting” commentaries. Authorities are looking into Silagon’s work, land dispute, and extra-marital affairs as possible motives for his murder."
       },
       {
         name: "Christopher Guarin",
         date: "January 5, 2012",
         place: "General Santos City",
-        description: "Guarin was a publisher and editor of the daily tabloid Tatak. Guarin was in his car with his wife and daughter when they were ambushed by a rider-in-tandem. He jumped out of the car in order to keep his family from getting hit. The two gunmen caught up and shot him to death. "
+        description: "Guarin was a publisher and editor of daily tabloid Tatak. He was in his car with his wife and daughter when they were ambushed by a rider-in-tandem. Guarin jumped out of the car in order to keep his family from getting hurt. The two gunmen caught up with him and shot him to death. The CMFR suggests that the killing may be related to Guarin’s frequent endorsement of products made by AG Global Pharma, saying that a rival company could be behind the murder. Authorities have not established a motive although they deduce that it could have also been related to Guarin’s work as a journalist. The following month, police arrested and filed murder charges against Marvin Palabrica for the murder, and they identified Eddie Labajo as his accomplice."
       },
       {
         name: "Rommel Palma",
         date: "April 30, 2012",
         place: "Koronodal, South Cotabato",
-        description: "Rommel Palma was a driver and radio reporter for Bombo Radyo in Koronadal City. He was shot by four men in front of the South Cotabato Provincial Hospital where he was supposed to gather reports along with a colleague who was inside the hospital."
+        description: "Palma was a driver and radio reporter for Bombo Radyo in Koronadal City. He was shot by two men in front of the South Cotabato Provincial Hospital where he was waiting for a colleague to gather reports. According to local police, two possible suspects were taken into questioning regarding their dispute with Palma’s brother over a quarrying business. However, the suspects were later released. The case remains unsolved."
       },
       {
         name: "Nestor Libaton",
         date: "May 8, 2012",
         place: "Mati, Davao Oriental",
-        description: "Libaton was a news reporter for the local Catholic church-owned radio Station DxHM-AM. He was on his motorcycle when a two suspects rider-in-tandem shot him, killing him on the spot. He was with a fellow broadcaster who was riding a separate motorcycle. He was not known to have reported any controversial issues at the time."
+        description: "Libaton was a news reporter for Catholic church-owned radio station DXHM-AM. He was on his motorcycle when two unknown suspects that were riding-in-tandem shot him, killing him on the spot. He was traveling with a fellow broadcaster who was riding a separate motorcycle. Libaton was not known to have reported any controversial issues at the time."
       },
       {
         name: "Julius Cauzo",
         date: "November 8, 2012",
         place: "Cabanatuan, Nueva Ecija",
-        description: "Cauzo was a host and commentator for a local radio station DWJJ, as well as the Vice President of the Nueva Ecija Press Club. While on his motorcycle, Cauzo was shot by a gunman on another motorcycle. He had received death threats prior and was known for criticizing local politicians."
+        description: "Cauzo was a host and commentator for a local radio station DWJJ, as well as the Vice President of the Nueva Ecija Press Club. While on his motorcycle, Cauzo was shot by a gunman on another motorcycle. He had received death threats prior to his murder and was known for criticizing local politicians. "
       },
       {
         name: "Mario Vendiola Baylosis",
         date: "April 22, 2013",
         place: "Kabalasan, Zamboanga Sibugay",
-        description: "Baylosis was a radio announcer for Radyo Natin and news correspondent for DXNC-Radyo Suhnan. He was heading home from work in his motorcycle when he was killed by two gunmen on motorcycle. Baylosis died on the way to the hospital from three gunshot wounds on the chest. It is unclear if he covered any controversial topics prior to his death."
+        description: "Baylosis was a radio announcer for Radyo Natin and news correspondent for DXNC-Radyo Suhnan. He was heading home from work when he was killed by two gunmen on a motorcycle. Baylosis died on the way to the hospital after sustaining three gunshot wounds in his chest. It is unclear if he covered any controversial topics prior to his death."
       },
       {
         name: "Miguelito Rueras",
         date: "June 2, 2013",
         place: "Pio V. Corpus, Masbate",
-        description: "Rueras was a correspondent for dyDD El-Nuevo Bantay Radyo, a local AM radio in Cebu. Rueras was shot three times by a lone gunman in his store in Pio V. Corpuz. He died of a single gunshot wound to the chest. Nothing was stolen from his store, indicating that the motive could be political or media-related."
+        description: "Rueras was a correspondent for dyDD El-Nuevo Bantay Radyo, a local AM radio station in Cebu. While he was in his store in Pio V. Corpus, Rueras was shot at by a lone gunman and died of a single gunshot wound to the chest. Nothing was stolen from his store, indicating that the motive could have been politically motivated or related to his work."
       },
       {
         name: "Bonifacio Loreto & Richard Kho",
         date: "July 30, 2013",
         place: "Quezon City, NCR",
-        description: "Loreto and Kho were columnists for a weekly tabloid, Aksyon Ngayon, which focused on community issues and corruption. Loreto and Kho were in front of a convenience store in Quezon City when a rider-in-tandem gunned-down the two. A friend of the two was also in the scene and had survived by pretending to be dead. Their family members believe the murders to be related to their work as journalists."
+        description: "Loreto and Kho were columnists for weekly tabloid Aksyon Ngayon, which focused on community issues and corruption. They were in front of a convenience store in Quezon City when a rider-in-tandem gunned-down the two. A friend of the pair was also at the scene and had survived by pretending to be dead. Their relatives believe the murders were related to their work as journalists."
       },
       {
         name: "Mario Sy",
         date: "August 1, 2013",
         place: "General Santos City",
-        description: "Mario Sy was a freelance photographer who regularly worked for the local newspaper, Sapol News. Sy was murdered in his home when a gunman entered the house and shot him in front of his wife and daughter. The newspaper publisher believed his murder was linked to his contribution to a photo report about illegal drug trade in the area. Authorities from Philippine Drug Enforcement Agency arrested Jerry Intoman, who had links to illegal drug trafficking, as the suspected gunman."
+        description: "Sy was a freelance photographer who regularly worked for Sapol News, a local newspaper. He was murdered in his home when a gunman entered the house and shot him in front of his wife and daughter. The newspaper publisher believed that his murder was linked to his contribution to a photo report about illegal drug trade. Authorities from the Philippine Drug Enforcement Agency later on arrested Jerry Intoman, a suspected gunman who had links to illegal drug trafficking."
       },
       {
         name: "Fernando Solijon",
         date: "August 29, 2013",
         place: "Iligan City, Lanao del Norte",
-        description: "Solijon was a radio commentator for DxLS Love Radio in Iligan. He was a frequent critic of local politicians and, on the day of his death, had just discussed an expensive purchase of a house and car by Iligan city mayor Celso Regencia. An anonymous caller threatened Solijon on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem in various parts, such as the head, shoulder, and abdomen; Solijon was declared dead-on-arrival at the local hospital. The National Bureau of Investigation identified Iligan city police officer P.J. Capangpangan as a suspect to the murders. Another suspect, Edward Tucaran, was shot and killed in unclear circumstances just two days after Solijon’s murder."
+        description: "Solijon was a radio commentator for DxLS Love Radio and a frequent critic of local politicians. On the day of his death, had just discussed an expensive purchase of a house and car by incumbent Iligan City Mayor Celso Regencia, who was also Iligan’s mayor at the time of Solijon’s murder. Before Solijon’s death, an anonymous caller threatened him on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem. Solijon sustained wounds on his head, shoulder, and abdomen and was declared dead-on-arrival at the local hospital. The National Bureau of Investigation identified Iligan City police officer PJ Capangpangan as a suspect in the murders and were gathering evidence against him, but Capangpangan has yet to be given a sentence.Another suspect, Edward Tucaran, was shot and killed just two days after Solijon’s murder."
       },
       {
         name: "Vergel Bico",
         date: "September 4, 2013",
         place: "Calapan, Oriental Mindoro",
-        description: "Bico was a columnist for a weekly tabloid newspaper, Kalahi. He had recently written about illegal gambling in the region. Bico, on his motorcycle going home, was shot twice in the head by two gunmen on a motorcycle"
+        description: "Bico was a columnist for a weekly tabloid newspaper Kalahi. He had recently written about illegal gambling in a town in Mindoro before he was killed. While on his motorcycle going home, Bico was shot twice in the head by two gunmen on a motorcycle. Police have yet to find a motive but did not discount that the killing may have been related to Bico’s work."
       },
       {
         name: "Joas Dignos",
         date: "November 29, 2013",
         place: "Valencia City, Bukidnon",
-        description: "Dignos was the host of a weekday radio show Bombardier, wherein he often criticized, on-air, local officials who he deemed corrupt. Dignos was shot in the head and chest by two gunmen on motorcycles. Authorities and media groups believed his murder to be related to his political commentaries. In June of that year, a grenade exploded near the station which was airing one of Dignos’ recorded commentaries."
+        description: "Dignos was the host of a weekday radio show called Bombardier, wherein he often criticized local officials who he deemed corrupt. In June 2013, a grenade exploded near the station which was airing one of Dignos’ recorded commentaries. He was shot in the head and chest by two gunmen on motorcycles in November of that year. Authorities and media groups believed his murder to be related to his political commentaries."
       },
       {
         name: "Michael Diaz Milo",
         date: "December 10, 2013",
         place: "Tandag City, Surigao del Sur",
-        description: "Diaz Milo was a radio broadcaster at a local radio station, DXFM, which regularly covered local issues and reports on herbal medicine. Milo was riding his motorcycle on the way home when assailants on motorcycles pulled up alongside him. One gunman shot him in the head. The radio broadcaster had reportedly received anonymous death threats shortly before."
+        description: "Milo was a radio broadcaster at local radio station DXFM, which regularly covered local issues and reported about herbal medicine. He was riding his motorcycle on the way home when assailants on motorcycles pulled up alongside him, and one gunman shot him in the head. According to the news station’s operations chief, King De la Rosa, Milo had reportedly received anonymous death threats shortly before he was gunned down."
       },
       {
         name: "Rogelio Butalib",
         date: "December 12, 2013",
         place: "Tagum, Davao del Norte",
-        description: "Rogelio Butalib was the third journalist to be murdered in the span of two weeks. Butalib hosted a radio show called Ang Kamatuoran (The Truth) which regularly discussed local issues and corruption. The radio host was getting on his motorcycle outside of his radio station when a gunman shot and killed him, fleeing afterward with an accomplice. Butalib regularly received anonymous death threats."
+        description: "Butalib hosted a radio show called Ang Kamatuoran (The Truth) on 107.9 FM Radyo Natin, which regularly discussed local issues and corruption. The radio host was getting on his motorcycle outside of his radio station when an anonymous gunman fatally shot him and fled afterwards with an accomplice. Butalib regularly received anonymous death threats."
       },
       {
         name: "Richard Najid",
         date: "May 4, 2014",
         place: "Bongao, Tawi-Tawi",
-        description: "Najid was a broadcast journalist and acting manager of DXNN PowerMix FM in Bongao. He was returning from a basketball game when three men approached and shot him dead that Sunday evening."
+        description: "Najid was a broadcast journalist and acting manager of DXNN PowerMix FM in Bongao. He was returning from a basketball game when three men approached and shot him dead that Sunday evening. Authorities have yet to find a clear motive although personal grudge is being considered."
       },
       {
         name: "Nerlita Ledesma",
         date: "January 8, 2015",
         place: "Balanga City, Bataan",
-        description: "Ledesma was a radio news anchor for the local radio station Power Radio and a provincial correspondent for the national newspaper tabloid Abante. She was also serving as President of Tagnai Homeowners Associations in the city. Ledesma was gunned-down by a rider-in-tandem near her house, dying from wounds on her chest, legs, arms, and hands. Authorities suspected the murder to be motivated by either land dispute or her work."
+        description: "Ledesma was a radio news anchor for the local radio station Power Radio and a provincial correspondent for the national newspaper tabloid Abante. She was also serving as President of Tagnai Homeowners Associations in the Balanga City. After being gunned-down by a rider-in-tandem near her house, Ledesma died from wounds on her chest, legs, arms, and hands. Authorities suspected that the murder was motivated by either land dispute or her work as a journalist."
       },
       {
         name: "Maurito Lim",
         date: "February 14, 2015",
         place: "Tagbilaran City, Bohol",
-        description: "Lim was a “blocktimer,” which meant he leased airtime, of dyRD Station. His broadcast reports usually discussed the involvement of local officials in illegal drug trafficking. Lim had arrived in the station when a gunman shot him in the head and fled the scene on a motorcycle. Authorities also looked into land dispute as a possible motive."
+        description: "Lim was a “blocktimer” for dyRD Station, which means that he leased their airtime. His reports usually discussed local officials’ involvement in illegal drug trafficking. He had arrived at the station where he broadcasted his shows when a gunman shot him in the head and fled the scene on a motorcycle. Although Lim had reported on illegal drug trade, authorities were also looking into personal land disputes as a possible motive."
       },
       {
         name: "Gregorio Ybanez",
         date: "August 18, 2015",
         place: "Tagum, Davao del Norte",
-        description: "Ybanes was a publisher of a weekly newspaper, Kabuhayan News Services, and president of the Davao del Norte Press and Radio-TV Club. He was also a board director of the power distributor Davao del Norte Electric Cooperative. Ybanez was shot three times in the chest in front of his home. Authorities believe his death to be more connected to his role in the power cooperative, however he has received death threats over his media work before."
+        description: "Ybanez was a publisher of a weekly newspaper, Kabuhayan News Services, and president of the Davao del Norte Press and Radio-TV Club. He was also a board director of power distributor Davao del Norte Electric Cooperative. On August 17, 2015, he was shot three times by an unidentified assailant in front of his home. Ybanez died because of his injuries the next morning. Authorities suspected that his death was connected to his role in the power cooperative. However, Ybanez had received death threats over his media work before."
       },
       {
         name: "Teodoro Escanilla",
         date: "August 19, 2015",
         place: "Barcelona, Sorsogon",
-        description: "Escanilla was an anchor for the radio program Parmana ng Lahi, which regularly discussed human rights issues and criticized the military. He was also the chairman of the local Anakpawis political party and a local spokesman of the rights group Karapatan. Escanilla was gunned-down in front of his house, reportedly speaking with a man just before getting shot."
+        description: "Escanilla was an anchor for the radio program Parmana ng Lahi, which regularly discussed human rights issues and criticized the military. He was also the chairman of the local Anakpawis political party and a local spokesman of the rights group Karapatan. Escanilla was gunned-down in front of his house and was reportedly speaking with a man just before getting shot. Authorities have yet to establish a clear motive."
       },
       {
         name: "Cosme Maestrado",
         date: "August 27, 2015",
         place: "Ozamiz City, Misamis Occidental",
-        description: "Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Maestrado was shot in the head by four gunmen in front of a shopping center in the city, being declared dead-on-arrival at the hospital. Prior to his death, the anchor had criticized a local politician about the purchase of construction equipment."
+        description: "Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Prior to his death, the anchor had criticized a local politician about a construction equipment purchase. Maestrado was shot in the head by four gunmen in front of a shopping center and was declared dead-on-arrival when he reached a hospital. Years later in 2019, the Presidential Task Force on Media Security arrested a suspect in Maestrado’s murder case, Gregie Azcona."
       },
       {
         name: "Elvis Banggoy Ordaniza",
         date: "February 16, 2016",
         place: "Pitogo, Zamboanga del Sur",
-        description: "Ordaniza was a broadcast journalist for dxWO Power99 FM in Pitogo. While preparing dinner, Ordaniza was shot twice in the chest with a .45 caliber pistol. The radio journalist had reported on illegal drug trade and illgeal gambling in the town and was a former member of the New People’s Army."
+        description: "Ordaniza was a broadcast journalist for dxWO Power99 FM. While preparing dinner, Ordaniza was shot in the chest twice with a .45 caliber pistol. The radio journalist had reported on illegal drug trade and illegal gambling in Zamboanga del Sur and was a former member of the New People’s Army. Police apprehended a suspect based on eyewitnesses’ descriptions, and authorities surmise that the murderer was motivated by a personal grudge."
       },
       {
         name: "Alex Bacoba",
         date: "May 27, 2016",
         place: "Manila, NCR",
-        description: "Bacoba was a reporter for Brigada News. He was shot in the head in Quiapo by a man who approached him. The gunman fled by motorcycle."
+        description: "Bacoba was a reporter for Brigada News. He was shot in the head in Quiapo by a gunman who later fled on a motorcycle."
       }
     ]
   },
@@ -750,9 +750,9 @@ const data = [
     map: duterteMap,
     year: "2016 to present",
     number: "16",
-    description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists. On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
+    description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
     desc:
-      "A feature of the Duterte presidency has been the crackdown on dissent. With two more years to go in his term, data from several sources reveal at least 14 journalists have been killed under Duterte.",
+      "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
     journalists: [
       {
         name: "Apolinario Suan Jr.",
@@ -904,7 +904,7 @@ const IndexPage = () => {
   return (
     <Layout next={next}>
       <div className="heading">
-        <h1 className={next ? null : "blur"}>Under Fire</h1>
+        <h1 className={next ? null : "blur"}>Under fire</h1>
         <div className={next ? null : "blur"} id="red-line" />
         <h2 className={next ? null : "blur"}>By Pioee B. Bassig, Derick M. Gabrillo and George Kho</h2>
       </div>

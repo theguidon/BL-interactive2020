@@ -21,8 +21,8 @@ function Admin({
   return (
     <section>
       <div className="guide">
-        Click on the dots to know the names of the journalists who died under
-        each administration.
+        Click on each president to know the names of the journalists who died
+        under each administration.
       </div>
       {/* change dots' to 'arrows' on mobile */}
 
