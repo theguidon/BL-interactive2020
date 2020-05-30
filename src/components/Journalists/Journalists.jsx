@@ -27,6 +27,7 @@ const Journalists = ({ journalists }) => {
         {journalists.map((journalist, index) => (
           <JournalistBox
             event={journalist.event}
+            link={journalist.link}
             name={journalist.name}
             date={journalist.date}
             place={journalist.place}
@@ -43,6 +44,7 @@ const Journalists = ({ journalists }) => {
           .map((journalist, index) => (
             <JournalistBox
               event={journalist.event}
+              link={journalist.link}
               name={journalist.name}
               date={journalist.date}
               place={journalist.place}

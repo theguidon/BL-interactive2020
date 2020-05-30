@@ -16,7 +16,10 @@
     text-decoration-color: #8E0000;
   }
 }
-
+a {
+  text-decoration-color: #8E0000;
+  color: #ffffff;
+}
 
 .name-wrapper {
   width: 100%;
@@ -37,5 +40,9 @@
     div {
       flex: 1 1 100%;
     }
+  }
+  a {
+    color: #de8484;
+    text-decoration: none;
   }
 }
