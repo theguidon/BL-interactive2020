@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Under Fire`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Under fire`,
+    description: `The Philippines' deep history of attacks against the free press merits a look into the cases of the named and unnamed journalists slain under the administrations that succeeded the late dictator Ferdinand Marcos' rule.`,
+    author: `@theguidon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,11 +14,18 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // edit below
+        trackingId: `G-R7ZZDB3G10`,
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Under Fire | Guidon Interactives`,
+        name: `Under fire | Guidon Interactives`,
         short_name: `BL UnderFire`,
         start_url: `/`,
         background_color: `#242423`,
