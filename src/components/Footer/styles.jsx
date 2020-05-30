@@ -3,6 +3,11 @@ import styled from "styled-components"
 export const Foo = styled.footer`
   background: #1e1e1e;
   padding: 60px 0;
+  position: relative;
+
+  @media (max-width: 540px) {
+    padding: 30px 0;
+  }
 `
 
 export const Container = styled.div`
