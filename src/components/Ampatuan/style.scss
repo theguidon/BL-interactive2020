@@ -2,20 +2,24 @@
   width: 80%;
   margin: 0 auto;
 }
+
 .event {
   font-size: 22px;
   font-weight: 800;
   line-height: 30px;
   color: #8E0000;
 }
+
 .details {
   font-size: 16px;
   line-height: 22px;
   width: 100%;
+
   u {
     text-decoration-color: #8E0000;
   }
 }
+
 a {
   text-decoration-color: #8E0000;
   color: #ffffff;
@@ -32,15 +36,18 @@ a {
   font-size: 22px;
   font-weight: bold;
   line-height: 30px;
+
   div {
     flex: 1 1 20%;
     margin: 4px 2px;
   }
+
   @media screen and (max-width: 767px) {
     div {
       flex: 1 1 100%;
     }
   }
+
   a {
     color: #de8484;
     text-decoration: none;
