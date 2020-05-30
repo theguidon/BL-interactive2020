@@ -626,14 +626,14 @@ const data = [
     number: "34",
     description: "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
     desc:
-      "Even though the death toll dropped by more than half, the second Aquino administration still posted the second-highest number of media-related killings since Marcos' ouster with at least 31 slain individuals—though data collected shows 34—based on the Center for Media Freedom and Responsibility's estimates.",
+      "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
     journalists: [
       {
         name: "Desidario Camangyan",
         link: "https://cpj.org/data/people/desidario-camangyan/index.php",
         date: "June 14, 2010",
         place: "Mati, Davao Oriental",
-        description: "Camangyan, an anchor for local radio station Sunrise FM, was shot in the head during an amateur singing contest in front of an audience which included his wife and 6-year-old son. Two suspects were apprehended: Dennis Jess Lumikid, a police officer; and Romeo Antoling, a local village official. Only Lumikid was convicted for the murder. At the time, Camangyan and his co- anchors received threats for their commentaries on illegal logging activities in Davao Oriental."
+        description: "Camangyan, an anchor for local radio station Sunrise FM, was shot in the head during an amateur singing contest in front of an audience which included his wife and 6-year-old son. Two suspects were apprehended: Dennis Jess Lumikid, a police officer; and Romeo Antoling, a local village official. Only Lumikid was convicted for the murder. At the time, Camangyan and his co-anchors received threats for their commentaries on illegal logging activities in Davao Oriental."
       },
       {
         name: "Joselito Agustin",
@@ -682,7 +682,7 @@ const data = [
         link: "https://cpj.org/data/people/gerardo-ortega/",
         date: "January 24, 2011",
         place: "Puerto Princesa, Palawan",
-        description: "Ortega was a former RGMA Network radio host, and at the time, he was a prominent civic leader and the news anchor of Radyo Mo Nationwide Palawan of dwAR radio station. He was murdered by a lone gunman one morning at an ukay-ukay (thrift) store. He had been receiving death threats through text back then and was a very staunch critic of the mining activities in Palawan. A suspect named Marlon Recamata and several accomplices were arrested shortly after Ortega’s death. Recamata pleaded guilty for the murder and claimed that he was paid USD 250 for the killing. Rodolfo Edrad, an accomplice, indicated that former Palawan Governor Joel Reyes and his brother Mario Reyes, the former mayor of Coron, were behind the orders to murder Ortega. He alleged that this was due to Ortega’s staunch opposition on local corruption and reporting on mining operations in Palawan. A Department of Justice panel dismissed the charges against the Reyes brothers. However, in 2013, a second panel reserved the decision due to new evidence but was blocked by an appellate court. After the appellate court’s decision, the Reyes brothers went into hiding. On March 2016, a former aide to Joel Reyes, Arturo Regalado, was found guilty of being involved in Ortega’s murder and was sentenced to 40 years in prison. In January 2018, Joel Reyes was arrested for graft charges in relation to a mining company that was allowed to over-extract ore in Palawan."
+        description: "Ortega was a former RGMA Network radio host, and at the time, he was a prominent civic leader and the news anchor of Radyo Mo Nationwide Palawan of dwAR radio station. He was murdered by a lone gunman one morning at an ukay-ukay (thrift) store. He had been receiving death threats through text back then and was a very staunch critic of the mining activities in Palawan. A suspect named Marlon Recamata and several accomplices were arrested shortly after Ortega’s death. Recamata pleaded guilty for the murder and claimed that he was paid USD 250 for the killing. Rodolfo Edrad, an accomplice, indicated that former Palawan Governor Joel Reyes and his brother Mario Reyes, the former mayor of Coron, were behind the orders to murder Ortega. He alleged that this was due to Ortega’s staunch opposition on local corruption and reporting on mining operations in Palawan. A Department of Justice panel dismissed the charges against the Reyes brothers.However, in 2013, a second panel reserved the decision due to new evidence but was blocked by an appellate court.After the appellate court’s decision, the Reyes brothers went into hiding.On March 2016, a former aide to Joel Reyes, Arturo Regalado, was found guilty of being involved in Ortega’s murder and was sentenced to 40 years in prison.In January 2018, Joel Reyes was arrested for graft charges in relation to a mining company that was allowed to over- extract ore in Palawan."
       },
       {
         name: "Cirilo Gallardo",
@@ -703,7 +703,7 @@ const data = [
         link: "https://cpj.org/data/people/romeo-olea/",
         date: "June 13, 2011",
         place: "Iriga, Camarines Sur",
-        description: "Olea was a radio commentator for DWEB-FM. He was shot in the back while riding his motorcycle to work. Olea’s wife said that the radio commentator had been receiving death threats shortly before his demise. Olea’s colleagues and supporters say that Olea, along with Miguel Belen who was killed a year prior, had angered a political clan during the May 2010 elections. Furthermore, Olea had anchored a radio program called Anything Goes, which frequently discussed issues of governance in Iriga City."
+        description: "Olea was a radio commentator for DWEB-FM. He was shot in the back while riding his motorcycle to work. Olea’s wife said that the radio commentator had been receiving death threats shortly before his demise. Olea’s colleagues and supporters say that Olea, along with Miguel Belen who was killed a year prior, had angered a political clan during the May 2010 elections. Furthermore, Olea had anchored a radio program called Anything Goes, which frequently discussed issues of governance in Iriga City. "
       },
       {
         name: "Neil Aranga Jimena",
@@ -772,14 +772,14 @@ const data = [
         link: "https://cpj.org/data/people/mario-sy/",
         date: "August 1, 2013",
         place: "General Santos City",
-        description: "Sy was a freelance photographer who regularly worked for  Sapol News, a local newspaper. He was murdered in his home when a gunman entered the house and shot him in front of his wife and daughter. The newspaper publisher believed that his murder was linked to his contribution to a photo report about illegal drug trade. Authorities from the Philippine Drug Enforcement Agency later on arrested Jerry Intoman, a suspected gunman who had links to illegal drug trafficking."
+        description: "Sy was a freelance photographer who regularly worked for Sapol News, a local newspaper. He was murdered in his home when a gunman entered the house and shot him in front of his wife and daughter. The newspaper publisher believed that his murder was linked to his contribution to a photo report about illegal drug trade. Authorities from the Philippine Drug Enforcement Agency later on arrested Jerry Intoman, a suspected gunman who had links to illegal drug trafficking."
       },
       {
         name: "Fernando Solijon",
         link: "https://cpj.org/data/people/fernando-solijon/index.php",
         date: "August 29, 2013",
         place: "Iligan City, Lanao del Norte",
-        description: "Solijon was a radio commentator for DxLS Love Radio and a frequent critic of local politicians. On the day of his death, had just discussed an expensive purchase of a house and car by incumbent Iligan City Mayor Celso Regencia, who was also Iligan’s mayor at the time of Solijon’s murder. Before Solijon’s death, an anonymous caller threatened him on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem. Solijon sustained wounds on his head, shoulder, and abdomen and was declared dead-on-arrival at the local hospital. The National Bureau of Investigation identified Iligan City police officer PJ Capangpangan as a suspect in the murders and were gathering evidence against him, but Capangpangan has yet to be given a sentence. Another suspect, Edward Tucaran, was shot and killed just two days after Solijon’s murder."
+        description: "Solijon was a radio commentator for DxLS Love Radio and a frequent critic of local politicians. On the day of his death, had just discussed an expensive purchase of a house and car by incumbent Iligan City Mayor Celso Regencia, who was also Iligan’s mayor at the time of Solijon’s murder. Before Solijon’s death, an anonymous caller threatened him on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem. Solijon sustained wounds on his head, shoulder, and abdomen and was declared dead-on-arrival at the local hospital. The National Bureau of Investigation identified Iligan City police officer PJ Capangpangan as a suspect in the murders and were gathering evidence against him, but Capangpangan has yet to be given a sentence.Another suspect, Edward Tucaran, was shot and killed just two days after Solijon’s murder."
       },
       {
         name: "Vergel Bico",
@@ -849,7 +849,7 @@ const data = [
         link: "https://cpj.org/data/people/cosme-maestrado/",
         date: "August 27, 2015",
         place: "Ozamiz City, Misamis Occidental",
-        description: "Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Prior to his death, the anchor had criticized a local politician about a construction equipment purchase. Maestrado was shot in the head by four gunmen in front of a shopping center and was declared dead-on-arrival when he reached a hospital. Years later in 2019, the Presidential Task Force on Media Security arrested a suspect in Maestrado’s murder case, Gregie Azcona. "
+        description: "Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Prior to his death, the anchor had criticized a local politician about a construction equipment purchase. Maestrado was shot in the head by four gunmen in front of a shopping center and was declared dead-on-arrival when he reached a hospital. Years later in 2019, the Presidential Task Force on Media Security arrested a suspect in Maestrado’s murder case, Gregie Azcona."
       },
       {
         name: "Elvis Banggoy Ordaniza",
@@ -873,9 +873,9 @@ const data = [
     map: duterteMap,
     year: "2016 to present",
     number: "16",
-    description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists. On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
+    description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
     desc:
-      "A feature of the Duterte presidency has been the crackdown on dissent. With two more years to go in his term, data from several sources reveal at least 14 journalists have been killed under Duterte.",
+      "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
     journalists: [
       {
         name: "Apolinario Suan Jr.",
