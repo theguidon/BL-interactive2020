@@ -1,31 +1,25 @@
 import React from "react"
-import {
-  Container,
-  Card,
-  Title,
-  Description,
-  ButtonWrapper,
-  ViewButton,
-  ExitButton,
-} from "./styles"
+import styles from "./ContentWarning.module.scss"
 
 const ContentWarning = ({ toggleNext }) => {
   return (
-    <Container>
-      <Card>
-        <Title>Content warning</Title>
-        <Description>
+    <div className={styles.container}>
+      <div className={styles.card}>
+        <h3 className={styles.title}>Content warning</h3>
+        <p className={styles.description}>
           This entire interactive discusses multiple cases of murder. Viewer
           discretion is advised. Do you want to proceed?
-        </Description>
-        <ButtonWrapper>
+        </p>
+        <div className={styles.wrapper}>
           <a href="https://interactive.theguidon.com/">
-            <ExitButton>Exit</ExitButton>
+            <button className={styles.exitButton}>Exit</button>
           </a>
-          <ViewButton onClick={toggleNext}>View Interactive</ViewButton>
-        </ButtonWrapper>
-      </Card>
-    </Container>
+          <button className={styles.viewButton} onClick={toggleNext}>
+            View Interactive
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
 

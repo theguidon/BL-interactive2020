@@ -1,10 +1,10 @@
 import React from "react"
-import { Item, Event, Name, Desc } from "./styles"
+import styles from "./JournalistBox.module.scss"
 
 const JournalistBox = ({ event, link, name, date, place, description }) => (
-  <Item>
-    <Event>{event}</Event>
-    <Name>
+  <div className={styles.item}>
+    <div className={styles.event}>{event}</div>
+    <div className={styles.name}>
       <a
         href={link}
         target="_blank"
@@ -17,16 +17,16 @@ const JournalistBox = ({ event, link, name, date, place, description }) => (
       >
         {name}{" "}
       </a>
-    </Name>
-    <Desc>
+    </div>
+    <div className={styles.desc}>
       {date}
       <br></br>
       {place}
       <br></br>
       <br></br>
       {description}
-    </Desc>
-  </Item>
+    </div>
+  </div>
 )
 
 export default JournalistBox

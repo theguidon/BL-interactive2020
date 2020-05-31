@@ -1,0 +1,28 @@
+.item {
+    margin: 20px 30px;
+    flex: 0 0 26%;
+
+    @media only screen and (max-width: 767px) {
+        flex: 0 0 80%;
+    }
+}
+
+.name {
+    color: #de8484;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.desc {
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.event {
+    color: #8E0000;
+    font-weight: 900;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 18px;
+}

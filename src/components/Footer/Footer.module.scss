@@ -1,0 +1,30 @@
+.footer {
+    background: #1e1e1e;
+    padding: 60px 0;
+    position: relative;
+
+    @media (max-width: 540px) {
+        padding: 30px 0;
+    }
+}
+
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.details {
+    margin-top: 45px;
+
+    font-family: Tiempos Text,
+        serif;
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #ffffff;
+    }
+}

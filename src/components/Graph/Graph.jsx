@@ -1,12 +1,12 @@
 import React from "react"
-import { Wrapper } from "./styles"
-
-import graphImg from "../../images/graph.svg"
+import styles from "./Graph.module.scss"
+import GraphImg from "../../images/graph.png"
 
 const Graph = () => (
-  <Wrapper>
-    <img src={graphImg} alt="graph" style={{ width: 100 + "%" }} />
-  </Wrapper>
+  <div className={styles.wrapper}>
+    {/* <GraphImg /> */}
+    <img src={GraphImg} alt="graph" style={{ width: 100 + "%" }} />
+  </div>
 )
 
 export default Graph

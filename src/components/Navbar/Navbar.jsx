@@ -1,16 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Navigation, Icon, Center } from "./styles"
-import logo from "../../images/logo.svg"
+import Logo from "../../images/logo.svg"
+import styles from "./Navbar.module.scss"
 
 const Navbar = () => (
-  <Navigation>
-    <Center>
+  <nav className={styles.navbar}>
+    <div className={styles.center}>
       <Link to="/">
-        <img src={logo} alt="logo" />
+        <Logo />
+        {/* <img src={logo} alt="logo" /> */}
       </Link>
-    </Center>
-    <Icon
+    </div>
+    <a
+      className={styles.icon}
       href="https://twitter.com/TheGUIDON/"
       target="_blank"
       rel="noopener noreferrer"
@@ -27,8 +29,9 @@ const Navbar = () => (
           fill="white"
         />
       </svg>
-    </Icon>
-    <Icon
+    </a>
+    <a
+      className={styles.icon}
       href="https://www.facebook.com/TheGUIDON/"
       target="_blank"
       rel="noopener noreferrer"
@@ -45,8 +48,8 @@ const Navbar = () => (
           fill="white"
         />
       </svg>
-    </Icon>
-  </Navigation>
+    </a>
+  </nav>
 )
 
 export default Navbar

@@ -1,13 +1,5 @@
 import React, { useState } from "react"
-import {
-  WebWrapper,
-  MobileWrapper,
-  Pagination,
-  Prev,
-  PagesWrapper,
-  Page,
-  Next,
-} from "./styles"
+import styles from "./Journalists.module.scss"
 import JournalistBox from "../JournalistBox"
 
 const Journalists = ({ journalists }) => {
@@ -23,7 +15,7 @@ const Journalists = ({ journalists }) => {
 
   return (
     <div>
-      <WebWrapper>
+      <div className={styles.webWrapper}>
         {journalists.map((journalist, index) => (
           <JournalistBox
             event={journalist.event}
@@ -34,8 +26,8 @@ const Journalists = ({ journalists }) => {
             description={journalist.description}
           />
         ))}
-      </WebWrapper>
-      <MobileWrapper>
+      </div>
+      <div className={styles.mobileWrapper}>
         {journalists
           .slice(
             (journalists.length / 3) * (page - 1),
@@ -51,16 +43,26 @@ const Journalists = ({ journalists }) => {
               description={journalist.description}
             />
           ))}
-        <Pagination>
-          {page !== 1 ? <Prev onClick={PrevPage}> &#10094; </Prev> : null}
-          <PagesWrapper>
-            <Page onClick={() => setPage(1)} />
-            <Page onClick={() => setPage(2)} />
-            <Page onClick={() => setPage(3)} />
-          </PagesWrapper>
-          {page !== 3 ? <Next onClick={NextPage}> &#10095; </Next> : null}
-        </Pagination>
-      </MobileWrapper>
+        <div className={styles.pagination}>
+          {page !== 1 ? (
+            <div className={styles.buttonCenter} onClick={PrevPage}>
+              {" "}
+              &#10094;{" "}
+            </div>
+          ) : null}
+          <div className={styles.pageWrapper}>
+            <div className={styles.page} onClick={() => setPage(1)} />
+            <div className={styles.page} onClick={() => setPage(2)} />
+            <div className={styles.page} onClick={() => setPage(3)} />
+          </div>
+          {page !== 3 ? (
+            <div className={styles.buttonCenter} onClick={NextPage}>
+              {" "}
+              &#10095;{" "}
+            </div>
+          ) : null}
+        </div>
+      </div>
     </div>
   )
 }

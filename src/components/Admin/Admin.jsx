@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import AquinoImg from "../../images/Aquino.svg"
-import RamosImg from "../../images/Ramos.svg"
-import EstradaImg from "../../images/Estrada.svg"
-import ArroyoImg from "../../images/Arroyo.svg"
-import AquinoIIIImg from "../../images/AquinoIII.svg"
-import DuterteImg from "../../images/Duterte.svg"
-import "./style.scss"
+import React from "react"
+import AquinoImg from "../../images/Aquino.png"
+import RamosImg from "../../images/Ramos.png"
+import EstradaImg from "../../images/Estrada.png"
+import ArroyoImg from "../../images/Arroyo.png"
+import AquinoIIIImg from "../../images/AquinoIII.png"
+import DuterteImg from "../../images/Duterte.png"
+import "./styles.scss"
 
 function Admin({
   data,
@@ -32,6 +32,7 @@ function Admin({
           onClick={Corazon}
         >
           <div className="ImgWrapper">
+            {/* <AquinoImg /> */}
             <img src={AquinoImg} alt="Corazon Aquino" />
           </div>
           <span>Corazon Aquino</span> <div className="circle"> </div>
@@ -42,6 +43,7 @@ function Admin({
           onClick={Ramos}
         >
           <div className="ImgWrapper">
+            {/* <RamosImg /> */}
             <img src={RamosImg} alt="Fidel Ramos" />
           </div>
           <span>Fidel Ramos</span> <div className="circle"></div>
@@ -52,6 +54,7 @@ function Admin({
           onClick={Estrada}
         >
           <div className="ImgWrapper">
+            {/* <EstradaImg /> */}
             <img src={EstradaImg} alt="Joseph Estrada" />
           </div>
           <span>Joseph Estrada</span> <div className="circle"></div>
@@ -62,6 +65,7 @@ function Admin({
           onClick={Arroyo}
         >
           <div className="ImgWrapper">
+            {/* <ArroyoImg /> */}
             <img src={ArroyoImg} alt="Gloria Macapagal Arroyo" />
           </div>
           <span>Gloria Macapagal Arroyo</span> <div className="circle"></div>
@@ -72,6 +76,7 @@ function Admin({
           onClick={Aquino}
         >
           <div className="ImgWrapper">
+            {/* <AquinoIIIImg /> */}
             <img src={AquinoIIIImg} alt="Benigno Aquino III" />
           </div>
           <span>Benigno Aquino III</span> <div className="circle"></div>
@@ -82,6 +87,7 @@ function Admin({
           onClick={Duterte}
         >
           <div className="ImgWrapper">
+            {/* <DuterteImg /> */}
             <img src={DuterteImg} alt="Rodrigo Duterte" />
           </div>
           <span>Rodrigo Duterte</span> <div className="circle"></div>
@@ -91,7 +97,7 @@ function Admin({
 
       {data.map((datum, index) => {
         if (index === president) {
-          const { image, name } = datum
+          const { name } = datum
           return (
             <div className="mobileWrapper">
               <div class="controls">
@@ -128,7 +134,21 @@ function Admin({
 
               <div className="mobilePres active">
                 <div className="mobileImg">
-                  <img src={image} alt={name} />
+                  {president === 0 ? (
+                    <img src={AquinoImg} alt={name} />
+                  ) : president === 1 ? (
+                    <img src={RamosImg} alt={name} />
+                  ) : president === 2 ? (
+                    <img src={EstradaImg} alt={name} />
+                  ) : president === 3 ? (
+                    <img src={ArroyoImg} alt={name} />
+                  ) : president === 4 ? (
+                    <img src={AquinoIIIImg} alt={name} />
+                  ) : (
+                    // <DuterteImg />
+                    <img src={DuterteImg} alt={name} />
+                  )}
+                  {/* <img src={image} alt={name} /> */}
                 </div>
                 <div className="mobileName">{name}</div>
               </div>

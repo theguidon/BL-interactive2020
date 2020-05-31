@@ -1,0 +1,21 @@
+.navbar {
+    background: #242423;
+    border-bottom: 2px solid #797979;
+    padding: 16px;
+}
+
+.icon {
+    float: right;
+    margin-left: 16px;
+    margin-top: -28px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        justify-content: flex-start;
+        margin-bottom: -5px;
+    }
+}

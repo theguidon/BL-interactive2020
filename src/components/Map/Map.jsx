@@ -1,39 +1,32 @@
 import React from "react"
-import {
-  Wrapper,
-  MapWrapper,
-  TextWrapper,
-  Name,
-  Year,
-  Desc,
-  Deaths,
-  Text,
-  Span,
-  Number,
-} from "./styles"
+import styles from "./Map.module.scss"
 
 function Map({ data }) {
   return (
-    <Wrapper>
-      <MapWrapper>
-        <img src={data.map} style={{ width: 100 + "%" }} />
-      </MapWrapper>
-      <TextWrapper>
-        <Name>{data.name}</Name>
-        <Year>({data.year})</Year>
-        <Desc>
+    <div className={styles.wrapper}>
+      <div className={styles.MapWrapper}>
+        <img
+          src={data.map}
+          style={{ width: 100 + "%" }}
+          alt={`${data.name}-map`}
+        />
+      </div>
+      <div className={styles.textWrapper}>
+        <span className={styles.name}>{data.name}</span>
+        <span className={styles.year}>({data.year})</span>
+        <p className={styles.desc}>
           {data.description}
           <br></br>
           <br></br>
-        </Desc>
-        <Deaths>
-          <Text>
-            <Span>NUMBER OF DEATHS</Span>
-          </Text>
-          <Number> {data.number} </Number>
-        </Deaths>
-      </TextWrapper>
-    </Wrapper>
+        </p>
+        <div className={styles.deaths}>
+          <div className={styles.text}>
+            <p className={styles.span}>NUMBER OF DEATHS</p>
+          </div>
+          <span className={styles.number}> {data.number} </span>
+        </div>
+      </div>
+    </div>
   )
 }
 

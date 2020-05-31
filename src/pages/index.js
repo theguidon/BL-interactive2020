@@ -7,23 +7,23 @@ import Ampatuan from "../components/Ampatuan"
 import Graph from "../components/Graph"
 import ContentWarning from '../components/ContentWarning'
 import "../stylesheets/index.scss"
-import AquinoImg from "../images/Aquino.svg"
-import RamosImg from "../images/Ramos.svg"
-import EstradaImg from "../images/Estrada.svg"
-import ArroyoImg from "../images/Arroyo.svg"
-import AquinoIIIImg from "../images/AquinoIII.svg"
-import DuterteImg from "../images/Duterte.svg"
-import coryMap from "../images/coryMap.svg"
-import ramosMap from "../images/ramosMap.svg"
-import arroyoMap from "../images/arroyoMap.svg"
-import estradaMap from "../images/estradaMap.svg"
-import noynoyMap from "../images/noynoyMap.svg"
-import duterteMap from "../images/duterteMap.svg"
+// import AquinoImg from "../images/Aquino.JPG"
+// import RamosImg from "../images/Ramos.JPG"
+// import EstradaImg from "../images/Estrada.JPG"
+// import ArroyoImg from "../images/Arroyo.JPG"
+// import AquinoIIIImg from "../images/AquinoIII.JPG"
+// import DuterteImg from "../images/Duterte.JPG"
+import coryMap from "../images/coryMap.png"
+import ramosMap from "../images/ramosMap.png"
+import arroyoMap from "../images/arroyoMap.png"
+import estradaMap from "../images/estradaMap.png"
+import noynoyMap from "../images/noynoyMap.png"
+import duterteMap from "../images/duterteMap.png"
 
 
 const data = [
   {
-    image: AquinoImg,
+    // image: AquinoImg,
     name: "Corazon Aquino",
     map: coryMap,
     year: "1986-1992",
@@ -163,7 +163,7 @@ const data = [
     ]
   },
   {
-    image: RamosImg,
+    // image: RamosImg,
     name: "Fidel V. Ramos",
     map: ramosMap,
     year: "1992-1998",
@@ -217,7 +217,7 @@ const data = [
     ]
   },
   {
-    image: EstradaImg,
+    // image: EstradaImg,
     name: "Joseph Estrada",
     map: estradaMap,
     year: "1998-2001",
@@ -258,7 +258,7 @@ const data = [
     ]
   },
   {
-    image: ArroyoImg,
+    // image: ArroyoImg,
     name: "Gloria Macapagal Arroyo",
     map: arroyoMap,
     year: "2001-2010",
@@ -619,7 +619,7 @@ const data = [
     ]
   },
   {
-    image: AquinoIIIImg,
+    // image: AquinoIIIImg,
     name: "Benigno Aquino III",
     map: noynoyMap,
     year: "2010-2016",
@@ -868,7 +868,7 @@ const data = [
     ]
   },
   {
-    image: DuterteImg,
+    // image: DuterteImg,
     name: "Rodrigo Duterte",
     map: duterteMap,
     year: "2016 to present",
