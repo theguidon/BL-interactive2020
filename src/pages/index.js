@@ -13,19 +13,19 @@ import "../stylesheets/index.scss"
 // import ArroyoImg from "../images/Arroyo.JPG"
 // import AquinoIIIImg from "../images/AquinoIII.JPG"
 // import DuterteImg from "../images/Duterte.JPG"
-import coryMap from "../images/coryMap.png"
-import ramosMap from "../images/ramosMap.png"
-import arroyoMap from "../images/arroyoMap.png"
-import estradaMap from "../images/estradaMap.png"
-import noynoyMap from "../images/noynoyMap.png"
-import duterteMap from "../images/duterteMap.png"
+// import coryMap from "../images/coryMap.png"
+// import ramosMap from "../images/ramosMap.png"
+// import arroyoMap from "../images/arroyoMap.png"
+// import estradaMap from "../images/estradaMap.png"
+// import noynoyMap from "../images/noynoyMap.png"
+// import duterteMap from "../images/duterteMap.png"
 
 
 const data = [
   {
     // image: AquinoImg,
     name: "Corazon Aquino",
-    map: coryMap,
+    map: './coryMap.png',
     year: "1986-1992",
     number: "21",
     description: "Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was uncomfortable in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.",
@@ -165,7 +165,7 @@ const data = [
   {
     // image: RamosImg,
     name: "Fidel V. Ramos",
-    map: ramosMap,
+    map: './ramosMap.png',
     year: "1992-1998",
     number: "6",
     description: "Much like Corazon Aquino, Ramos was said to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility data reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also noted that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.",
@@ -219,7 +219,7 @@ const data = [
   {
     // image: EstradaImg,
     name: "Joseph Estrada",
-    map: estradaMap,
+    map: './estradaMap.png',
     year: "1998-2001",
     number: "4",
     description: "Estrada was described by Reporters Without Borders as “less tolerant” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist murders. Out of the six, only four have been named, based on the Committee to Protect Journalists’ (CPJ) data.",
@@ -260,7 +260,7 @@ const data = [
   {
     // image: ArroyoImg,
     name: "Gloria Macapagal Arroyo",
-    map: arroyoMap,
+    map: './arroyoMap.png',
     year: "2001-2010",
     number: "80",
     description: "Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she created a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to distance herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR reports that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.",
@@ -621,7 +621,7 @@ const data = [
   {
     // image: AquinoIIIImg,
     name: "Benigno Aquino III",
-    map: noynoyMap,
+    map: './noynoyMap.png',
     year: "2010-2016",
     number: "34",
     description: "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
@@ -870,7 +870,7 @@ const data = [
   {
     // image: DuterteImg,
     name: "Rodrigo Duterte",
-    map: duterteMap,
+    map: './duterteMap.png',
     year: "2016 to present",
     number: "16",
     description: "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
@@ -995,7 +995,7 @@ const data = [
 
 const IndexPage = () => {
   const [president, setPresident] = useState(0)
-  const [next, setNext] = useState(false)
+  const [next, setNext] = useState(true)
 
   function Corazon() {
     return setPresident(0)

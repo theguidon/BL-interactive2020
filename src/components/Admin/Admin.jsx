@@ -1,6 +1,6 @@
 import React from "react"
-import AquinoImg from "../../images/Aquino.png"
-import RamosImg from "../../images/Ramos.png"
+// import AquinoImg from "../../images/Aquino.png"
+// import RamosImg from "../../images/Ramos.png"
 import EstradaImg from "../../images/Estrada.png"
 import ArroyoImg from "../../images/Arroyo.png"
 import AquinoIIIImg from "../../images/AquinoIII.png"
@@ -33,7 +33,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <AquinoImg /> */}
-            <img src={AquinoImg} alt="Corazon Aquino" />
+            {/* <img src={AquinoImg} alt="Corazon Aquino" /> */}
+            <img src="./Aquino.png" alt="Corazon Aquino" />
           </div>
           <span>Corazon Aquino</span> <div className="circle"> </div>
         </div>
@@ -44,7 +45,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <RamosImg /> */}
-            <img src={RamosImg} alt="Fidel Ramos" />
+            {/* <img src={RamosImg} alt="Fidel Ramos" /> */}
+            <img src="./Ramos.png" alt="Fidel Ramos" />
           </div>
           <span>Fidel Ramos</span> <div className="circle"></div>
         </div>
@@ -55,7 +57,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <EstradaImg /> */}
-            <img src={EstradaImg} alt="Joseph Estrada" />
+            {/* <img src={EstradaImg} alt="Joseph Estrada" /> */}
+            <img src="./Estrada.png" alt="Joseph Estrada" />
           </div>
           <span>Joseph Estrada</span> <div className="circle"></div>
         </div>
@@ -66,7 +69,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <ArroyoImg /> */}
-            <img src={ArroyoImg} alt="Gloria Macapagal Arroyo" />
+            {/* <img src={ArroyoImg} alt="Gloria Macapagal Arroyo" /> */}
+            <img src="./Arroyo.png" alt="Gloria Macapagal Arroyo" />
           </div>
           <span>Gloria Macapagal Arroyo</span> <div className="circle"></div>
         </div>
@@ -77,7 +81,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <AquinoIIIImg /> */}
-            <img src={AquinoIIIImg} alt="Benigno Aquino III" />
+            {/* <img src={AquinoIIIImg} alt="Benigno Aquino III" /> */}
+            <img src="./AquinoIII.png" alt="Benigno Aquino III" />
           </div>
           <span>Benigno Aquino III</span> <div className="circle"></div>
         </div>
@@ -88,7 +93,8 @@ function Admin({
         >
           <div className="ImgWrapper">
             {/* <DuterteImg /> */}
-            <img src={DuterteImg} alt="Rodrigo Duterte" />
+            {/* <img src={DuterteImg} alt="Rodrigo Duterte" /> */}
+            <img src="./Duterte.png" alt="Rodrigo Duterte" />
           </div>
           <span>Rodrigo Duterte</span> <div className="circle"></div>
         </div>
@@ -135,18 +141,17 @@ function Admin({
               <div className="mobilePres active">
                 <div className="mobileImg">
                   {president === 0 ? (
-                    <img src={AquinoImg} alt={name} />
+                    <img src="./Aquino.png" alt={name} />
                   ) : president === 1 ? (
-                    <img src={RamosImg} alt={name} />
+                    <img src="./Ramos.png" alt={name} />
                   ) : president === 2 ? (
-                    <img src={EstradaImg} alt={name} />
+                    <img src="./Estrada.png" alt={name} />
                   ) : president === 3 ? (
-                    <img src={ArroyoImg} alt={name} />
+                    <img src="./Arroyo.png" alt={name} />
                   ) : president === 4 ? (
-                    <img src={AquinoIIIImg} alt={name} />
+                    <img src="./AquinoIII.png" alt={name} />
                   ) : (
-                    // <DuterteImg />
-                    <img src={DuterteImg} alt={name} />
+                    <img src="./Duterte.png" alt={name} />
                   )}
                   {/* <img src={image} alt={name} /> */}
                 </div>
