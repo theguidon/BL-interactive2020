@@ -26,6 +26,7 @@ function Admin({
       </div>
       {/* change dots' to 'arrows' on mobile */}
 
+      <div className="adminWrapper">
       <div className="sliderWrapper">
         <div
           className={president === 0 ? "PresWrapper active" : "PresWrapper"}
@@ -34,7 +35,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={AquinoImg} alt="Corazon Aquino" />
           </div>
-          <span>Corazon Aquino</span> <div className="circle"> </div>
+          <div className="circle"> </div>
+          <span>Corazon Aquino</span> 
         </div>
 
         <div
@@ -44,7 +46,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={RamosImg} alt="Fidel Ramos" />
           </div>
-          <span>Fidel Ramos</span> <div className="circle"></div>
+          <div className="circle"></div>
+          <span>Fidel Ramos</span> 
         </div>
 
         <div
@@ -54,7 +57,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={EstradaImg} alt="Joseph Estrada" />
           </div>
-          <span>Joseph Estrada</span> <div className="circle"></div>
+          <div className="circle"></div>
+          <span>Joseph Estrada</span> 
         </div>
 
         <div
@@ -64,7 +68,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={ArroyoImg} alt="Gloria Macapagal Arroyo" />
           </div>
-          <span>Gloria Macapagal Arroyo</span> <div className="circle"></div>
+          <div className="circle"></div>
+          <span>Gloria Macapagal Arroyo</span> 
         </div>
 
         <div
@@ -74,7 +79,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={AquinoIIIImg} alt="Benigno Aquino III" />
           </div>
-          <span>Benigno Aquino III</span> <div className="circle"></div>
+          <div className="circle"></div>
+          <span>Benigno <br></br>Aquino III</span> 
         </div>
 
         <div
@@ -84,10 +90,12 @@ function Admin({
           <div className="ImgWrapper">
             <img src={DuterteImg} alt="Rodrigo Duterte" />
           </div>
-          <span>Rodrigo Duterte</span> <div className="circle"></div>
+          <div className="circle"></div>
+          <span>Rodrigo Duterte</span> 
         </div>
       </div>
-      <div className="Line"></div>
+        <div className="Line"></div>
+      </div>
 
       {data.map((datum, index) => {
         if (index === president) {

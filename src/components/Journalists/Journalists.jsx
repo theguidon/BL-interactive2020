@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import {
+  Wrapper,
   WebWrapper,
   MobileWrapper,
   Pagination,
@@ -23,18 +24,20 @@ const Journalists = ({ journalists }) => {
 
   return (
     <div>
-      <WebWrapper>
-        {journalists.map((journalist, index) => (
-          <JournalistBox
-            event={journalist.event}
-            link={journalist.link}
-            name={journalist.name}
-            date={journalist.date}
-            place={journalist.place}
-            description={journalist.description}
-          />
-        ))}
-      </WebWrapper>
+      <Wrapper>
+        <WebWrapper>
+          {journalists.map((journalist, index) => (
+            <JournalistBox
+              event={journalist.event}
+              link={journalist.link}
+              name={journalist.name}
+              date={journalist.date}
+              place={journalist.place}
+              description={journalist.description}
+            />
+          ))}
+        </WebWrapper>
+      </Wrapper>
       <MobileWrapper>
         {journalists
           .slice(

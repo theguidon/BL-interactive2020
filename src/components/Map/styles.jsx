@@ -54,6 +54,7 @@ export const Year = styled.span`
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
+  padding: 8px 0;
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -75,7 +76,8 @@ export const Deaths = styled.div`
 `
 export const Text = styled.div`
   color: #797979;
-  fontWeight: 900;
+  font-size: 16px;
+  font-weight: 900;
   letter-spacing: 0.08em;
   @media only screen and (max-width: 768px) {
     letter-spacing: 0.04em;
