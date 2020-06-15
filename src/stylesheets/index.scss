@@ -6,6 +6,14 @@
     }
 }
 
+.intro {
+    width: 70%;
+    margin: 0 auto;
+    @media (max-width: 540px) {
+        width: 90%;
+    }
+}
+
 h1 {
     font-family: Tiempos Text, serif;
     font-style: normal;

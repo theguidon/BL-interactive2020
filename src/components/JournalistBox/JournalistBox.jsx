@@ -1,22 +1,18 @@
 import React from "react"
-import { Item, Event, Name, Desc } from "./styles"
+import { Item, Event, Link, Name, Desc } from "./styles"
 
 const JournalistBox = ({ event, link, name, date, place, description }) => (
-  <Item>
-    <Event>{event}</Event>
+  
+    <Item>
     <Name>
-      <a
+      <Link
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        style={{
-          textDecoration: "none",
-          cursor: "pointer",
-          color: "#de8484",
-        }}
-      >
+        >
         {name}{" "}
-      </a>
+      </Link>
+        <Event>{event}</Event>
     </Name>
     <Desc>
       {date}

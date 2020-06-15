@@ -1,16 +1,23 @@
 import styled from "styled-components"
 
+export const Wrapper = styled.div `
+  display: flex; 
+  justify-content: center;
+`
+
 export const WebWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   padding: 40px 0;
+  width: 100%;
+  margin: 0 auto;
 
   @media (max-width: 768px) {
     display: none;
   }
 `
+
 
 export const MobileWrapper = styled.div`
   display: none;

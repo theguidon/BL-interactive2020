@@ -22,11 +22,13 @@ const Main = styled.main`
   margin: 0 auto;
   padding: 90px 0;
   position: relative;
+  font-family: Open Sans;
 
   @media (max-width: 540px) {
     width: auto;
     height: auto;
     padding: 90px 30px 0 30px;
+    overflow: auto;
   }
 `
 

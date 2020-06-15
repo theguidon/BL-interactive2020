@@ -11,7 +11,7 @@ const Navbar = () => (
       </Link>
     </Center>
     <Icon
-      href="https://twitter.com/TheGUIDON/"
+      href="https://www.facebook.com/TheGUIDON/"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -29,7 +29,7 @@ const Navbar = () => (
       </svg>
     </Icon>
     <Icon
-      href="https://www.facebook.com/TheGUIDON/"
+      href="https://twitter.com/TheGUIDON/"
       target="_blank"
       rel="noopener noreferrer"
     >

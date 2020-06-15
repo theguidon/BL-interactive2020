@@ -9,18 +9,21 @@
 }
 
 .PresWrapper {
-  margin: 0 40px;
+  margin: 0 20px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 100%;
+  
 }
 
 .PresWrapper span,
 .mobileName {
+  max-height: 2em !important;
+  line-height: 1.8em;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -36,9 +39,10 @@
 
 .ImgWrapper {
   height: 208px;
-  width: 100%;
+  max-width: 160px;
   margin: 0 auto;
   opacity: 0.3;
+  filter: brightness(40%);
 }
 
 .ImgWrapper img {
@@ -61,6 +65,7 @@
   margin: 20px 40px;
 }
 
+
 .sliderWrapper {
   display: flex;
   flex-direction: row;
@@ -68,20 +73,22 @@
   width: 100%;
 }
 
+
 .Line {
-  height: 3px;
-  width: 100%;
-  left: 0;
   position: absolute;
+  width: 98vw;
+  height: 3px;
+  left: -100px;
   background: #797979;
   z-index: 1;
-  margin: -30px auto 40px auto;
+  margin: -90px 0 0 0;
   /* temporarily hardcoded */
 }
 
 .Wrapper {
-  width: 50%;
+  width: 70%;
   margin: 30px auto;
+  padding: 20px 0;
 }
 
 .Header {
@@ -101,9 +108,11 @@
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 500;
+  padding: 10px 0;
 }
 
 .Desc {
+  color: #FFFFFF;
   line-height: 25px;
   font-size: 18px;
 }
@@ -119,6 +128,7 @@
 
   .ImgWrapper {
     opacity: 1;
+    filter: brightness(100%)
   }
 
   .circle {
