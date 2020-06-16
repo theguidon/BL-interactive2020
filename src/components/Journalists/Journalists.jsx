@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import {
-  Wrapper,
   WebWrapper,
   MobileWrapper,
   Pagination,
@@ -24,7 +23,6 @@ const Journalists = ({ journalists }) => {
 
   return (
     <div>
-      <Wrapper>
         <WebWrapper>
           {journalists.map((journalist, index) => (
             <JournalistBox
@@ -37,7 +35,6 @@ const Journalists = ({ journalists }) => {
             />
           ))}
         </WebWrapper>
-      </Wrapper>
       <MobileWrapper>
         {journalists
           .slice(

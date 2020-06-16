@@ -63,6 +63,7 @@ export const Year = styled.span`
 export const Desc = styled.p`
   font-size: 18px;
   line-height: 27px;
+  color: #FFFFFF;
 `
 
 export const Deaths = styled.div`
@@ -77,7 +78,7 @@ export const Deaths = styled.div`
 export const Text = styled.div`
   color: #797979;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 0.08em;
   @media only screen and (max-width: 768px) {
     letter-spacing: 0.04em;
@@ -91,7 +92,7 @@ export const Span = styled.p`
 export const Number = styled.span`
   color: #C23A3A;
   font-size: 72px;
-  font-weight: 900;
+  font-weight: bold;
   line-height: 98px;
   letter-spacing: 0.04em;
   @media only screen and (max-width: 768px) {

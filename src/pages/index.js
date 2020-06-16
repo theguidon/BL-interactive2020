@@ -264,7 +264,7 @@ const data = [
     year: "2001-2010",
     number: "80",
     description: "Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she created a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to distance herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR reports that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.",
-    desc: `The Arroyo administration saw the highest number of journalist deaths in a single day as a result of the infamour Ampatuan massacre, more popularly known as the "Maguindanao massacre." The Center for Media Freedom and Responsibility claims that there were 83 journalist murders during Arroyo\'s 9-year presidency`,
+    desc: `Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she created a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to distance  herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR reports that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.`,
     journalists: [
       {
         link: "https://cpj.org/data/people/candelario-cayona/index.php",
@@ -1025,10 +1025,16 @@ const IndexPage = () => {
       <div>
         <div className="intro">
         <h4>
-          The Philippines is among the most dangerous countries for journalists. Only a handful of other countries compare to it in this regard. According to the Committee to Protect Journalists, “the countries with the highest media impunities represent both conflict-ridden and more stable regions where criminal groups, politicians, government officials, and other powerful actors resort to violence to silence critical and investigative reporting.”
+            The Philippines is among the most dangerous countries for journalists—only a handful of other countries compare to it in this regard. Despite the return to democracy after the 1986 EDSA Revolution that toppled Ferdinand Marcos’ dictatorship, press freedom is still under threat. At least 159 journalists have been killed in the country since 1986. Before the Maguindanao Massacre trial, the Philippines had the most number of unsolved  journalist killings in the world with 41 cases. 
         </h4>
         <h4>
-          The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
+            Various factors have allowed violence against the media to persist: These include widespread corruption, a weak and crooked police force, and the abuse of the law by leaders who try to stifle critics.
+          </h4>
+          <h4>
+            In light of the 27th celebration of World Press Freedom Day, this database commemorates Filipino journalists who died between 1986 to 2020, most of whom were in the line of duty. These tragic attacks on press freedom endanger not only workers in the field of media, but also the value of truth and information in society. Such brazen acts of repression concern each citizen, and urge all of us to hold the line and carry on the fight for the truth.
+            </h4>
+            <h4>
+            As of May 8, the following are those who have been silenced in the post-EDSA era—however, some still remain unnamed.
         </h4>
         </div>
         <Map data={data[president]} />

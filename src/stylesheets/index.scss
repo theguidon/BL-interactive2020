@@ -1,46 +1,51 @@
 .heading {
     padding: 0 30px;
+    font-family: Tiempos Text, serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
 
+    @media (max-width: 767px) {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100vh;
+        margin-top: -100px;
+        
+    }
+    
+    h1 {
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 67px;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        margin: 16px 0 48px 0;
+    }
     @media (max-width: 540px) {
         padding: 0;
     }
 }
 
 .intro {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     @media (max-width: 540px) {
         width: 90%;
     }
 }
 
-h1 {
-    font-family: Tiempos Text, serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 67px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-h2 {
-    font-family: Tiempos Text;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 31px;
-    text-align: center;
-    margin: 16px 0 48px 0;
-    color: #FFFFFF;
-}
-
 h4 {
-    font-family: Open Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 27px;
     margin-bottom: 30px;
     color: #FFFFFF;
 
@@ -66,4 +71,14 @@ h4 {
         color: transparent;
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     }
+}
+
+.journ {
+    width: 90%;
+    margin: 0 auto;
+    @media screen and (max-width: 767px) {
+    .AmpatuanWrapper {
+      width: 100%;
+    }
+  }
 }

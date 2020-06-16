@@ -35,8 +35,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={AquinoImg} alt="Corazon Aquino" />
           </div>
-          <div className="circle"> </div>
-          <span>Corazon Aquino</span> 
+          <span>Corazon<br></br>Aquino</span> 
+          <div className="circle"></div>
         </div>
 
         <div
@@ -46,8 +46,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={RamosImg} alt="Fidel Ramos" />
           </div>
+          <span>Fidel<br></br>Ramos</span> 
           <div className="circle"></div>
-          <span>Fidel Ramos</span> 
         </div>
 
         <div
@@ -57,8 +57,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={EstradaImg} alt="Joseph Estrada" />
           </div>
+          <span>Joseph<br></br>Estrada</span> 
           <div className="circle"></div>
-          <span>Joseph Estrada</span> 
         </div>
 
         <div
@@ -68,8 +68,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={ArroyoImg} alt="Gloria Macapagal Arroyo" />
           </div>
+          <span>Gloria Macapagal<br></br>Arroyo</span> 
           <div className="circle"></div>
-          <span>Gloria Macapagal Arroyo</span> 
         </div>
 
         <div
@@ -79,8 +79,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={AquinoIIIImg} alt="Benigno Aquino III" />
           </div>
-          <div className="circle"></div>
           <span>Benigno <br></br>Aquino III</span> 
+          <div className="circle"></div>
         </div>
 
         <div
@@ -90,8 +90,8 @@ function Admin({
           <div className="ImgWrapper">
             <img src={DuterteImg} alt="Rodrigo Duterte" />
           </div>
+          <span>Rodrigo<br></br>Duterte</span> 
           <div className="circle"></div>
-          <span>Rodrigo Duterte</span> 
         </div>
       </div>
         <div className="Line"></div>

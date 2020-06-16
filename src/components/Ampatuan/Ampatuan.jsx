@@ -3,7 +3,7 @@ import "./style.scss"
 
 const Ampatuan = () => (
   <>
-    <div className="wrapper">
+    <div className="AmpatuanWrapper">
       <div className="event">AMPATUAN MASSACRE VICTIMS</div>
       <div className="details">
         November 23, 2009
@@ -93,7 +93,10 @@ const Ampatuan = () => (
         >
           80 suspects
         </a>{" "}
-        were still at large by the end of 2019. Ten years after the Ampatuan
+        were still at large by the end of 2019. <br></br> <br></br>
+        
+        
+        Ten years after the Ampatuan
         massacre, Judge Jocelyn Solis-Reyes passed a{" "}
         <a
           href="https://edition.cnn.com/2019/12/18/asia/philippines-maguindanao-massacre-verdict-intl-hnk/index.html"

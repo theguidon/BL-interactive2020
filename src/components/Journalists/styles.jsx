@@ -1,10 +1,5 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.div `
-  display: flex; 
-  justify-content: center;
-`
-
 export const WebWrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -24,7 +19,7 @@ export const MobileWrapper = styled.div`
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
-  padding: 40px 0;
+  padding: 0;
 
   @media (max-width: 768px) {
     display: flex;
@@ -62,8 +57,11 @@ export const Page = styled.div`
 
 export const Prev = styled.div`
   align-self: center;
+  font-size: 20pt;
 `
 
 export const Next = styled.div`
   align-self: center;
+    font-size: 20pt;
+
 `

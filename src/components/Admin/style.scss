@@ -27,7 +27,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   text-align: center;
   min-height: 60px;
@@ -40,9 +40,9 @@
 .ImgWrapper {
   height: 208px;
   max-width: 160px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   opacity: 0.3;
-  filter: brightness(40%);
+  filter: brightness(50%) blur(3px);
 }
 
 .ImgWrapper img {
@@ -81,7 +81,7 @@
   left: -100px;
   background: #797979;
   z-index: 1;
-  margin: -90px 0 0 0;
+  margin: -30px 0 0 0;
   /* temporarily hardcoded */
 }
 
@@ -128,7 +128,8 @@
 
   .ImgWrapper {
     opacity: 1;
-    filter: brightness(100%)
+      filter: brightness(1) blur(0);
+
   }
 
   .circle {
@@ -165,23 +166,13 @@
 }
 
 
-@media screen and (max-width: 768px) {
-  .Name {
-    font-size: 24px;
+@media screen and (max-width: 767px) {
+  .Wrapper, .Desc, .Name, .Year {
+    display: none;
   }
-
-  .Year {
-    font-size: 18px;
-  }
-
   .Line,
   .sliderWrapper {
     display: none;
-  }
-
-  .Wrapper {
-    width: 90%;
-    margin: 0 auto;
   }
 
   .mobileWrapper {
