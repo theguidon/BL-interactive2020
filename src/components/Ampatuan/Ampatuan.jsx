@@ -93,7 +93,7 @@ const Ampatuan = () => (
         >
           80 suspects
         </a>{" "}
-        were still at large by the end of 2019. Ten years after the Ampatuan
+        were still at large by the end of 2019. <br/><br/> Ten years after the Ampatuan
         massacre, Judge Jocelyn Solis-Reyes passed a{" "}
         <a
           href="https://edition.cnn.com/2019/12/18/asia/philippines-maguindanao-massacre-verdict-intl-hnk/index.html"
@@ -119,8 +119,7 @@ const Ampatuan = () => (
         >
           57 counts
         </a>{" "}
-        of murder as the 58th victim's body was never found. The accused faced
-        the charge of <u>57 counts of murder</u>, one count for each victim. In
+        of murder as the 58th victim's body was never found. In
         January 2020,{" "}
         <a
           href="https://news.abs-cbn.com/news/01/31/20/2-more-maguindanao-massacre-suspects-plead-not-guilty-to-multiple-murder-raps"

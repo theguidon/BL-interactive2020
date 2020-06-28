@@ -9,3 +9,21 @@ export const Wrapper = styled.div`
     height: 28vh;
   }
 `
+
+
+export const ImageWeb = styled.img`
+  width: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const ImageMobile = styled.img`
+  width: 100%;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`

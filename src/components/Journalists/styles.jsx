@@ -58,7 +58,7 @@ export const Page = styled.div`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #797979;
+  background-color:${props => props.active ? 'white': '#797979'};
   margin: 0 5px;
 `
 

@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Map from "../components/Map"
 import Admin from "../components/Admin"
 import Journalists from "../components/Journalists"
-import Ampatuan from "../components/Ampatuan"
 import Graph from "../components/Graph"
 import ContentWarning from '../components/ContentWarning'
 import "../stylesheets/index.scss"
@@ -1007,22 +1006,36 @@ const IndexPage = () => {
   const [president, setPresident] = useState(0)
   const [next, setNext] = useState(false)
 
+  // const ref = React.createRef();
+
+  // const handleClick = () =>
+  //   ref.current.scrollIntoView({
+  //     behavior: 'smooth',
+  //     block: 'start',
+  //   });
+
   function Corazon() {
+    // handleClick()
     return setPresident(0)
   }
   function Ramos() {
+    // handleClick()
     return setPresident(1)
   }
   function Estrada() {
+    // handleClick()
     return setPresident(2)
   }
   function Arroyo() {
+    // handleClick()
     return setPresident(3)
   }
   function Aquino() {
+    // handleClick()
     return setPresident(4)
   }
   function Duterte() {
+    // handleClick()
     return setPresident(5)
   }
 
@@ -1048,14 +1061,6 @@ const IndexPage = () => {
         <div className="journ">
         <Journalists journalists={data[president].journalists} president={president} />
         <Graph />
-        {
-          president === 3 ? 
-          <div>
-            <Ampatuan />
-            
-            </div>
-           : null
-        }
         </div> 
       </div>
     )

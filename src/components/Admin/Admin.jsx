@@ -19,7 +19,7 @@ function Admin({
   Duterte,
 }) {
   return (
-    <section className="sticky">
+    <section className="sticky" >
       <div className="guide">
         Click on each president to know the names of the journalists who died
         under each administration.

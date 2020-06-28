@@ -10,6 +10,7 @@ import {
   Next,
 } from "./styles"
 import JournalistBox from "../JournalistBox"
+import Ampatuan from "../Ampatuan"
 
 const Journalists = ({ journalists, president }) => {
   const [page, setPage] = useState(1)
@@ -37,6 +38,9 @@ const Journalists = ({ journalists, president }) => {
               description={journalist.description}
             />
           ))}
+          {
+            president === 3 ? <Ampatuan/> : null
+          }
         </WebWrapper>
       </Wrapper>
       <MobileWrapper>
@@ -57,7 +61,8 @@ const Journalists = ({ journalists, president }) => {
             (journalists.length / 3) * (page - 1),
             (journalists.length / 3) * page
           )
-          .map((journalist, index) => (
+          .map((journalist, index) => {
+            return (
             <JournalistBox
             key={index}
               event={journalist.event}
@@ -67,16 +72,20 @@ const Journalists = ({ journalists, president }) => {
               place={journalist.place}
               description={journalist.description}
             />
-          ))}
+          )
+          })}
+          {
+            president === 3 && page === 3 ? <Ampatuan/> : null
+          }
           {
             president === 1 || president === 2 ? null : 
             (
         <Pagination>
           {page !== 1 ? <Prev onClick={PrevPage}> &#10094; </Prev> : null}
           <PagesWrapper>
-            <Page onClick={() => setPage(1)} />
-            <Page onClick={() => setPage(2)} />
-            <Page onClick={() => setPage(3)} />
+            <Page active={page === 1} onClick={() => setPage(1)} />
+            <Page active={page === 2} onClick={() => setPage(2)} />
+            <Page active={page === 3}  onClick={() => setPage(3)} />
           </PagesWrapper>
           {page !== 3 ? <Next onClick={NextPage}> &#10095; </Next> : null}
         </Pagination>

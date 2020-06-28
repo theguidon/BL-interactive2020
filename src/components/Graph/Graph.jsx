@@ -1,11 +1,13 @@
 import React from "react"
-import { Wrapper } from "./styles"
+import { Wrapper,ImageWeb, ImageMobile } from "./styles"
 
-import graphImg from "../../images/graph.png"
+import graphWeb from "../../images/graph.svg"
+import graphMobile from "../../images/graph.png"
 
 const Graph = () => (
   <Wrapper>
-    <img src={graphImg} alt="graph" style={{ width: 100 + "%" }} />
+    <ImageWeb src={graphWeb} alt="graph-web"/>
+    <ImageMobile src={graphMobile} alt="graph-mobile"/>
   </Wrapper>
 )
 
