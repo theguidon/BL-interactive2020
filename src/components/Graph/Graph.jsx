@@ -1,7 +1,7 @@
 import React from "react"
 import { Wrapper } from "./styles"
 
-import graphImg from "../../images/graph.svg"
+import graphImg from "../../images/graph.png"
 
 const Graph = () => (
   <Wrapper>

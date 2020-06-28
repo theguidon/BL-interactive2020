@@ -11,8 +11,12 @@ export const Foo = styled.footer`
 `
 
 export const Container = styled.div`
-  width: 75%;
+  width: 90%;
   margin: auto;
+
+  img {
+    height: 30px;
+  }
 `
 
 export const FooDetails = styled.div`

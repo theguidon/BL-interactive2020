@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import AquinoImg from "../../images/Aquino.svg"
 import RamosImg from "../../images/Ramos.svg"
 import EstradaImg from "../../images/Estrada.svg"
@@ -19,7 +19,7 @@ function Admin({
   Duterte,
 }) {
   return (
-    <section>
+    <section className="sticky">
       <div className="guide">
         Click on each president to know the names of the journalists who died
         under each administration.

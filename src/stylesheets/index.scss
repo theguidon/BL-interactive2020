@@ -15,17 +15,21 @@
 }
 
 h1 {
-    font-family: Tiempos Text, serif;
+    font-family: Tiempo, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
     line-height: 67px;
     text-align: center;
     color: #FFFFFF;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
 }
 
 h2 {
-    font-family: Tiempos Text;
+    font-family: Tiempo, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -33,6 +37,10 @@ h2 {
     text-align: center;
     margin: 16px 0 48px 0;
     color: #FFFFFF;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 h4 {

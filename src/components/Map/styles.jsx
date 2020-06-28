@@ -84,10 +84,20 @@ export const Text = styled.div`
   }
 `
 export const Span = styled.p`
+font-size: 16px;
 @media only screen and (max-width: 768px) {
     display: none;
   }
 `
+
+export const MobileSpan = styled.p`
+display: none;
+font-size: 16px;
+@media only screen and (max-width: 768px) {
+  display: block;
+  }
+`
+
 export const Number = styled.span`
   color: #C23A3A;
   font-size: 72px;

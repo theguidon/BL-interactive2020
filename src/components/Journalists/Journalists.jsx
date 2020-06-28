@@ -11,7 +11,7 @@ import {
 } from "./styles"
 import JournalistBox from "../JournalistBox"
 
-const Journalists = ({ journalists }) => {
+const Journalists = ({ journalists, president }) => {
   const [page, setPage] = useState(1)
 
   const NextPage = () => {
@@ -28,6 +28,7 @@ const Journalists = ({ journalists }) => {
         <WebWrapper>
           {journalists.map((journalist, index) => (
             <JournalistBox
+              key={index}
               event={journalist.event}
               link={journalist.link}
               name={journalist.name}
@@ -39,13 +40,26 @@ const Journalists = ({ journalists }) => {
         </WebWrapper>
       </Wrapper>
       <MobileWrapper>
-        {journalists
+        {president === 1 || president === 2 ?
+        journalists.map((journalist, index) => (
+          <JournalistBox
+            key={index}
+            event={journalist.event}
+            link={journalist.link}
+            name={journalist.name}
+            date={journalist.date}
+            place={journalist.place}
+            description={journalist.description}
+          />
+        )) : 
+        journalists
           .slice(
             (journalists.length / 3) * (page - 1),
             (journalists.length / 3) * page
           )
           .map((journalist, index) => (
             <JournalistBox
+            key={index}
               event={journalist.event}
               link={journalist.link}
               name={journalist.name}
@@ -54,6 +68,9 @@ const Journalists = ({ journalists }) => {
               description={journalist.description}
             />
           ))}
+          {
+            president === 1 || president === 2 ? null : 
+            (
         <Pagination>
           {page !== 1 ? <Prev onClick={PrevPage}> &#10094; </Prev> : null}
           <PagesWrapper>
@@ -63,6 +80,9 @@ const Journalists = ({ journalists }) => {
           </PagesWrapper>
           {page !== 3 ? <Next onClick={NextPage}> &#10095; </Next> : null}
         </Pagination>
+            )
+          }
+        
       </MobileWrapper>
     </div>
   )

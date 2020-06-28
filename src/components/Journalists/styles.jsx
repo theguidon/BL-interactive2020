@@ -3,6 +3,8 @@ import styled from "styled-components"
 export const Wrapper = styled.div `
   display: flex; 
   justify-content: center;
+  width: 75%;
+  margin: 0 auto;
 `
 
 export const WebWrapper = styled.div`

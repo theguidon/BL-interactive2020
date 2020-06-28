@@ -19,7 +19,16 @@ import arroyoMap from "../images/arroyoMap.svg"
 import estradaMap from "../images/estradaMap.svg"
 import noynoyMap from "../images/noynoyMap.svg"
 import duterteMap from "../images/duterteMap.svg"
+import styled from 'styled-components'
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+`
 
 const data = [
   {
@@ -993,6 +1002,7 @@ const data = [
   },
 ]
 
+
 const IndexPage = () => {
   const [president, setPresident] = useState(0)
   const [next, setNext] = useState(false)
@@ -1031,15 +1041,22 @@ const IndexPage = () => {
           The following are the names of those who have been silenced—though some remain unnamed—ever since Ferdinand Marcos’ autocratic regime had been supplanted with the return of democracy.
         </h4>
         </div>
-        <Map data={data[president]} />
-        <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
+        <Container>
+          <Map data={data[president]} />
+          <Admin {...{ data, setPresident, president, Corazon, Ramos, Estrada, Arroyo, Aquino, Duterte }} />
+        </Container>
         <div className="journ">
-        <Journalists journalists={data[president].journalists} />
-        {
-          president === 3 ? <Ampatuan /> : null
-        }
-        </div>
+        <Journalists journalists={data[president].journalists} president={president} />
         <Graph />
+        {
+          president === 3 ? 
+          <div>
+            <Ampatuan />
+            
+            </div>
+           : null
+        }
+        </div> 
       </div>
     )
   }

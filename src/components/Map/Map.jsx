@@ -10,6 +10,7 @@ import {
   Text,
   Span,
   Number,
+  MobileSpan
 } from "./styles"
 
 function Map({ data }) {
@@ -28,9 +29,11 @@ function Map({ data }) {
         </Desc>
         <Deaths>
           <Text>
-            <Span>NUMBER OF DEATHS</Span>
+            <Span>NUMBER OF DEATHS:</Span>
           </Text>
+          <MobileSpan>Deaths</MobileSpan>
           <Number> {data.number} </Number>
+          
         </Deaths>
       </TextWrapper>
     </Wrapper>

@@ -17,10 +17,8 @@ import "normalize.css"
 import "../stylesheets/main.scss"
 
 const Main = styled.main`
-  min-height: calc(100vh - 57px);
-  width: 90%;
-  margin: 0 auto;
-  padding: 90px 0;
+  min-height: calc(100vh - 65px);
+  padding: 150px 0 0 0;
   position: relative;
   font-family: Open Sans;
 
