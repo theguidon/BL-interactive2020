@@ -17,6 +17,7 @@ function Admin({
   Arroyo,
   Aquino,
   Duterte,
+  setPage,
 }) {
   return (
     <section className="sticky">
@@ -107,11 +108,12 @@ function Admin({
         if (index === president) {
           const { image, name } = datum
           return (
-            <div className="mobileWrapper">
-              <div class="controls">
+            <div className="mobileWrapper" key={index}>
+              <div className="controls">
                 <div
-                  class="prev"
+                  className="prev"
                   onClick={() => {
+                    setPage(1)
                     president === 0
                       ? setPresident(president)
                       : setPresident(president - 1)
@@ -125,8 +127,9 @@ function Admin({
                 </div>
 
                 <div
-                  class="next"
+                  className="next"
                   onClick={() => {
+                    setPage(1)
                     president === 5
                       ? setPresident(president)
                       : setPresident(president + 1)
@@ -155,7 +158,7 @@ function Admin({
         if (index === president) {
           const { name, year, description } = datum
           return (
-            <div className="Wrapper">
+            <div className="Wrapper" key={index}>
               <div className="Header">
                 <div className="Name">{name}</div>
                 <div className="Year">({year})</div>

@@ -44,7 +44,7 @@ const data = [
           "https://www.tandfonline.com/doi/abs/10.1080/03064229008534777?journalCode=rioc20",
         name: "Pete Mabazza",
         date: "April 24, 1986",
-        place: "Tuguegarao City, Cagayan Province",
+        place: "Tuguegarao City, Cagayan",
         description:
           "Mabazza, a correspondent for the Manila Bulletin, was travelling with a military convoy when it was ambushed by the Communist Party of the Philippines-New People’s Army (CPP-NPA) in Cagayan Province. He had been covering the Philippine military’s field operations. Mabazza was killed in the ensuing firefight between the military and the CPP-NPA.",
       },
@@ -53,7 +53,7 @@ const data = [
           "https://www.tandfonline.com/doi/abs/10.1080/03064229008534777?journalCode=rioc20",
         name: "Wilfredo Vicoy",
         date: "April 25, 1986",
-        place: "Tuguegarao City, Cagayan Province",
+        place: "Tuguegarao City, Cagayan",
         description:
           "Vicoy, who was with fellow journalist Pete Mabazza, died due to internal bleeding caused by shrapnel wounds a day after the Communist Party of the Philippines-New People’s Army ambushed a military convoy that he was accompanying. He was a photojournalist who, like Mabazza, covered the Philippine military’s operations against the guerillas.",
       },
@@ -82,7 +82,7 @@ const data = [
           "https://www.tandfonline.com/doi/abs/10.1080/03064229008534777?journalCode=rioc20",
         name: "Narciso Balani, Rogie Zagado, Leo Palo, and Cesar Maglalang",
         date: "August 27, 1987",
-        place: "Davao City",
+        place: "Davao City, Davao del Sur",
         description:
           "Maglalang and his colleagues Balani, Zagado, and Palo were killed in the dxRA radio station by suspected communist rebels. Balani was a radio technician; Zagado and Malalang, anchormen; Palo, an anti-communist crusader and co-host for the program Bantay Bayan Kontra Komunista along with Maglalang and Zagado.",
       },
@@ -197,7 +197,7 @@ const data = [
           "https://books.google.com.ph/books?id=EYU5yqinsYMC&pg=PA88&lpg=PA88&dq=nesino+paulin+toling&source=bl&ots=_xqENkrxih&sig=ACfU3U3R82wOrR1CwoNrrWmm3kIBCjFwCg&hl=en&sa=X&ved=2ahUKEwjP1bDInNvpAhWYx4sBHVgSAPgQ6AEwAnoECAkQAQ#v=onepage&q=nesino%20paulin%20toling&f=false",
         name: "Nesino Paulin Toling",
         date: "April 14, 1991",
-        place: "Ozamiz, Misamis Occidental",
+        place: "Ozamiz City, Misamis Occidental",
         description:
           "A publisher and editor for the Panguil Bay Monitor, Toling wrote about illegal logging, government corruption, and the arrest of a suspected drug lord in Northern Mindanao. He was shot in his office and had received death threats prior to his demise. Of the two suspects in Toling’s murder, one evaded arrest. Meanwhile, the court found the second suspect, Gerry Sarabia, guilty of killing Toling and sentenced him to 20 to 40 years of imprisonment in January 1997.",
       },
@@ -471,7 +471,7 @@ const data = [
         link: "https://cpj.org/data/people/stephen-omaois/index.php",
         name: "Stephen Omaois",
         date: "November 29, 2004",
-        place: "Tabuk, Kalinga",
+        place: "Tabuk City, Kalinga",
         description:
           "Omaois was a reporter for government radio station DZRK and a writer for Guru Press. He was bludgeoned to death by six drunk assailants, one of whom admitted to the murder in January 2005. Another one of the suspects was arrested, while the other four remain at large. ",
       },
@@ -503,7 +503,7 @@ const data = [
         link: "https://cpj.org/data/people/klein-cantoneros/",
         name: "Klein Cantoneros",
         date: "May 4, 2005",
-        place: "Dipolog, Zamboanga del Norte",
+        place: "Dipolog City, Zamboanga del Norte",
         description:
           "Cantoneros was a radio broadcaster for DXAA-FM known for his hard-hitting commentaries on local officials and had received several death threats prior to his murder. While returning home, he was ambushed by around three gunmen. One of the gunmen, Robert Woo, was convicted for Cantoneros’ murder and sentenced to almost 15 years in prison in November 2009.",
       },
@@ -599,7 +599,7 @@ const data = [
         link: "https://cpj.org/data/people/andres-acosta/index.php",
         name: "Andres Acosta",
         date: "December 20, 2006",
-        place: "Batac, Ilocos Norte",
+        place: "Batac City, Ilocos Norte",
         description:
           "Acosta was a news reporter for dzJC, a local radio station, and a contributor for a local paper, Northern Light. While coming home from a Christmas party, Acosta was stabbed by unidentified assailants. He collapsed and died on his motorcycle while trying to get to the hospital. Acosta covered police stories and often confronted and took rowdy drunkards to the police. While police issued arrest warrants for four suspects in Acosta’s murder in January 2007, they still remain at large. Police believe that the murder was caused by a personal grudge.",
       },
@@ -1171,7 +1171,15 @@ const data = [
 const IndexPage = () => {
   const [president, setPresident] = useState(0)
   const [next, setNext] = useState(false)
+  const [page, setPage] = useState(1)
 
+  const NextPage = () => {
+    return setPage(page + 1)
+  }
+
+  const PrevPage = () => {
+    return setPage(page - 1)
+  }
   // const ref = React.createRef();
 
   // const handleClick = () =>
@@ -1181,28 +1189,25 @@ const IndexPage = () => {
   //   });
 
   function Corazon() {
-    // handleClick()
-    return setPresident(0)
+    setPresident(0)
   }
   function Ramos() {
-    // handleClick()
-    return setPresident(1)
+    console.log(page)
+    setPresident(1)
   }
   function Estrada() {
-    // handleClick()
-    return setPresident(2)
+    console.log(page)
+    setPresident(2)
   }
   function Arroyo() {
-    // handleClick()
     return setPresident(3)
   }
   function Aquino() {
-    // handleClick()
-    return setPresident(4)
+    setPresident(4)
   }
   function Duterte() {
     // handleClick()
-    return setPresident(5)
+    setPresident(5)
   }
 
   function toggleNext() {
@@ -1281,6 +1286,7 @@ const IndexPage = () => {
               Arroyo,
               Aquino,
               Duterte,
+              setPage,
             }}
           />
         </Container>
@@ -1288,6 +1294,10 @@ const IndexPage = () => {
           <Journalists
             journalists={data[president].journalists}
             president={president}
+            page={page}
+            setPage={setPage}
+            NextPage={NextPage}
+            PrevPage={PrevPage}
           />
           <Graph />
         </div>

@@ -28,10 +28,11 @@ export const ImageWeb = styled.img`
 `
 
 export const ImageMobile = styled.img`
-  width: 100%;
   display: none;
+  width: 100%;
 
   @media (max-width: 768px) {
     display: block;
+    margin-bottom: 30px;
   }
 `
