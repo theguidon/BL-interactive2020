@@ -1256,7 +1256,7 @@ const IndexPage = () => {
               rel="noopener noreferrer"
             >
               abuse
-            </a>
+            </a>{" "}
             of the law by leaders who try to stifle critics.
           </h4>
           <h4>

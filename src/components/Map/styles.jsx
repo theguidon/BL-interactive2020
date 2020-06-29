@@ -63,7 +63,7 @@ export const Year = styled.span`
 
 export const Desc = styled.p`
   font-size: 18px;
-  line-height: 24px;
+  line-height: 27px;
 `
 
 export const Deaths = styled.div`
