@@ -5,6 +5,7 @@ export const Item = styled.a`
   flex: 0 0 26%;
   @media only screen and (max-width: 767px) {
     flex: 0 0 80%;
+    padding: 16px 0;
   }
 `
 
@@ -25,18 +26,18 @@ export const Link = styled.a`
   color: #de8484;
 
   &:hover {
-    color: #C23A3A;
+    color: #c23a3a;
   }
 `
 
 export const Desc = styled.div`
-  line-height: 22px;
+  line-height: 24px;
   font-size: 16px;
-  color: #CCCCCC;
+  color: #cccccc;
 `
 
 export const Event = styled.div`
-  color: #8E0000;
+  color: #8e0000;
   font-weight: 900;
   font-family: Open Sans;
   font-style: normal;

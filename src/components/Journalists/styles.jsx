@@ -1,10 +1,21 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.div `
-  display: flex; 
+export const Wrapper = styled.div`
+  display: flex;
   justify-content: center;
-  width: 75%;
-  margin: 0 auto;
+  margin: 0 150px;
+
+  @media (max-width: 768px) {
+    margin: 0 60px;
+  }
+
+  @media (max-width: 540px) {
+    margin: 0 30px;
+  }
+
+  @media (max-width: 375px) {
+    margin: 0 16px;
+  }
 `
 
 export const WebWrapper = styled.div`
@@ -13,13 +24,11 @@ export const WebWrapper = styled.div`
   justify-content: flex-start;
   padding: 40px 0;
   width: 100%;
-  margin: 0 auto;
 
   @media (max-width: 768px) {
     display: none;
   }
 `
-
 
 export const MobileWrapper = styled.div`
   display: none;
@@ -30,6 +39,7 @@ export const MobileWrapper = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
+    padding 0;
   }
 `
 
@@ -44,6 +54,7 @@ export const Pagination = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
+    margin-bottom: 60px;
   }
 `
 export const PagesWrapper = styled.div`
@@ -58,7 +69,7 @@ export const Page = styled.div`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:${props => props.active ? 'white': '#797979'};
+  background-color: ${props => (props.active ? "white" : "#797979")};
   margin: 0 5px;
 `
 

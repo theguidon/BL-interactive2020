@@ -25,7 +25,7 @@ const Main = styled.main`
   @media (max-width: 540px) {
     width: auto;
     height: auto;
-    padding: 90px 30px 0 30px;
+    padding: 90px 20px 0 20px;
     overflow: auto;
   }
 `

@@ -1,77 +1,82 @@
 .heading {
-    padding: 0 30px;
+  padding: 0 30px;
 
-    @media (max-width: 540px) {
-        padding: 0;
-    }
+  @media (max-width: 540px) {
+    padding: 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .intro {
-    width: 70%;
-    margin: 0 auto;
-    @media (max-width: 540px) {
-        width: 90%;
-    }
+  width: 70%;
+  margin: 0 auto;
+  @media (max-width: 540px) {
+    width: 90%;
+  }
 }
 
 h1 {
-    font-family: TiempoBold, serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 67px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: TiempoBold, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
 
-    @media screen and (max-width: 768px) {
-        font-size: 40px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 h2 {
-    font-family: Tiempo, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 31px;
-    text-align: center;
-    margin: 16px 0 48px 0;
-    color: #FFFFFF;
+  font-family: Tiempo, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  margin: 16px 0 48px 0;
+  color: #ffffff;
 
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 h4 {
-    font-family: Open Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 30px;
-    color: #FFFFFF;
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #ffffff;
 
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 #red-line {
-    height: 3px;
-    width: 150px;
-    margin: auto;
-    background: #8E0000;
+  height: 3px;
+  width: 112px;
+  margin: auto;
+  background: #8e0000;
 }
 
 .blur {
-    @media (max-width: 540px) {
-        -webkit-filter: blur(3px);
-        -moz-filter: blur(3px);
-        -o-filter: blur(3px);
-        -ms-filter: blur(3px);
-        filter: blur(3px);
-        color: transparent;
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-    }
+  @media (max-width: 540px) {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    color: transparent;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  }
 }
