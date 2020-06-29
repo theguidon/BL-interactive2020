@@ -10,14 +10,14 @@ import {
   Text,
   Span,
   Number,
-  MobileSpan
+  MobileSpan,
 } from "./styles"
 
 function Map({ data }) {
   return (
     <Wrapper>
       <MapWrapper>
-        <img src={data.map} style={{ width: 100 + "%" }} />
+        <img src={data.map} style={{ width: 100 + "%" }} alt="map" />
       </MapWrapper>
       <TextWrapper>
         <Name>{data.name}</Name>
@@ -33,7 +33,6 @@ function Map({ data }) {
           </Text>
           <MobileSpan>Deaths</MobileSpan>
           <Number> {data.number} </Number>
-          
         </Deaths>
       </TextWrapper>
     </Wrapper>

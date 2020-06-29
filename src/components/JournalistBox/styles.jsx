@@ -4,7 +4,7 @@ export const Item = styled.div`
   margin: 20px 30px;
   flex: 0 0 26%;
   @media only screen and (max-width: 767px) {
-    flex: 0 0 80%;
+    flex: 0 0 100%;
     padding: 16px 0;
   }
 `

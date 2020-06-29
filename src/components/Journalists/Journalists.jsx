@@ -39,7 +39,6 @@ const Journalists = ({
         </WebWrapper>
       </Wrapper>
       <MobileWrapper>
-        {console.log(journalists.length)}
         {president === 1 || president === 2
           ? journalists.map((journalist, index) => (
               <JournalistBox
@@ -128,7 +127,9 @@ const Journalists = ({
             </PagesWrapper>
 
             {(president === 0 && page !== 3) ||
-            (president === 5 && page !== 3) ? (
+            (president === 5 && page !== 3) ||
+            (president === 3 && page !== 5) ||
+            (president === 4 && page !== 6) ? (
               <Next onClick={NextPage}> &#10095; </Next>
             ) : null}
           </Pagination>

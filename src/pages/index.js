@@ -1180,23 +1180,14 @@ const IndexPage = () => {
   const PrevPage = () => {
     return setPage(page - 1)
   }
-  // const ref = React.createRef();
-
-  // const handleClick = () =>
-  //   ref.current.scrollIntoView({
-  //     behavior: 'smooth',
-  //     block: 'start',
-  //   });
 
   function Corazon() {
     setPresident(0)
   }
   function Ramos() {
-    console.log(page)
     setPresident(1)
   }
   function Estrada() {
-    console.log(page)
     setPresident(2)
   }
   function Arroyo() {
@@ -1206,7 +1197,6 @@ const IndexPage = () => {
     setPresident(4)
   }
   function Duterte() {
-    // handleClick()
     setPresident(5)
   }
 

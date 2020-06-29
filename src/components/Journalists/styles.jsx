@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 export const WebWrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 40px 0;
   width: 100%;
 

@@ -22,7 +22,7 @@ export const MapWrapper = styled.div`
   @media only screen and (max-width: 768px) {
     width: 100%;
     height: 50%;
-    margin-bottom: 30px;
+    margin: 40px 0;
   }
 `
 
@@ -71,12 +71,14 @@ export const Deaths = styled.div`
   flex-flow: column;
   letter-spacing: 4%;
   color: #797979;
+  font-size: 32px;
   text-transform: uppercase;
   @media only screen and (max-width: 768px) {
     font-size: 14px;
     top: -300px;
     position: absolute;
     flex-flow: column-reverse;
+    font-weight: bold;
   }
 `
 export const Text = styled.div`

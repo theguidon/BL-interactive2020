@@ -21,7 +21,8 @@ export const Wrapper = styled.div`
 
 export const ImageWeb = styled.img`
   width: 100%;
-
+  object-fit: cover;
+  object-position: center;
   @media (max-width: 768px) {
     display: none;
   }
@@ -30,6 +31,8 @@ export const ImageWeb = styled.img`
 export const ImageMobile = styled.img`
   display: none;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 
   @media (max-width: 768px) {
     display: block;
