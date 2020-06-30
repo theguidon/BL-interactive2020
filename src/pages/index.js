@@ -90,8 +90,7 @@ const data = [
         name: "Martin Castor",
         date: "August 28, 1987",
         place: "Manila City, Metro Manila",
-        description:
-          "While working as a photojournalist for Pilipino Ngayon,  Castor covered a coup attempt led by then-Philippine Army Colonel Gregorio “Gringo” Honasan. The van he was riding was gunned down by insurgent Philippine troops.",
+        description: `"While working as a photojournalist for Pilipino Ngayon, Castor covered a <a target="_blank" rel="noopener noreferrer" href="https://www.reuters.com/article/us-phillipines-unrest/timeline-recent-coups-and-attempted-coups-in-the-philippines-idUSSP31116220071129">coup attempt</a> led by then-Philippine Army Colonel Gregorio “Gringo” Honasan. The van he was riding was gunned down by insurgent Philippine troops."`,
       },
       {
         link:
@@ -167,11 +166,10 @@ const data = [
       {
         link:
           "http://webcache.googleusercontent.com/search?q=cache:http://cmfr-phil.org/mediakillings/uploads/krueger.pdf",
-        name: "Joseph Kreuger",
+        name: "Joseph Krueger",
         date: "February 6, 1990",
         place: "Pinamalayan, Oriental Mindoro",
-        description:
-          "An editor at the Mindoro Weekly Reporter, Krueger held a rally where he named top-ranking military men and public officials who protected participants of jueteng, an illegal gambling game. A week after, Krueger was shot on the way home by an unidentified gunman. Krueger was then brought to the hospital, but he did not survive the operation.",
+        description: `An editor at the Mindoro Weekly Reporter, Krueger held a rally where he named top-ranking military men and public officials who protected participants of <a target="_blank" rel="noopener noreferrer" href="https://newsinfo.inquirer.net/738547/in-the-know-small-town-lottery">jueteng</a>, an illegal gambling game. A week after, Krueger was shot on the way home by an unidentified gunman. Krueger was then brought to the hospital, but he did not survive the operation.`,
       },
       {
         link:
@@ -196,8 +194,7 @@ const data = [
         name: "Nesino Paulin Toling",
         date: "April 14, 1991",
         place: "Ozamiz City, Misamis Occidental",
-        description:
-          "A publisher and editor for the Panguil Bay Monitor, Toling wrote about illegal logging, government corruption, and the arrest of a suspected drug lord in Northern Mindanao. He was shot in his office and had received death threats prior to his demise. Of the two suspects in Toling’s murder, one evaded arrest. Meanwhile, the court found the second suspect, Gerry Sarabia, guilty of killing Toling and sentenced him to 20 to 40 years of imprisonment in January 1997.",
+        description: `A publisher and editor for the Panguil Bay Monitor, Toling wrote about illegal logging, government corruption, and the arrest of a suspected drug lord in Northern Mindanao. He was shot in his office and had received death threats prior to his demise. Of the two suspects in Toling’s murder, one evaded arrest. Meanwhile, the court found the second suspect, Gerry Sarabia, <a href="https://www.lawphil.net/judjuris/juri1997/apr1997/gr_124076_1997.html" target="_blank" rel="noopener noreferrer">guilty</a> of killing Toling and sentenced him to 20 to 40 years of imprisonment in January 1997.`,
       },
     ],
   },
@@ -238,8 +235,7 @@ const data = [
         name: "Ferdinand Reyes",
         date: "February 13, 1996",
         place: "Dipolog City, Zamboanga Del Norte",
-        description:
-          "Reyes was gunned down by an unknown assailant at his desk while he was still serving as the editor-in-chief of the newspaper Press Freedom. Before he was killed, he frequently covered corruption, wrote about human rights abuses, and criticized government policies. Shortly before his death, he led a demonstration against an anti-terrorism bill. He had already received multiple death threats because of his work prior to his murder.",
+        description: `Reyes was gunned down by an unknown assailant at his desk while he was still serving as the editor-in-chief of the newspaper Press Freedom. Before he was killed, he frequently covered corruption, wrote about human rights abuses, and criticized government policies. Shortly before his <a href="https://ipi.media/letter-journalist-killed-in-the-philippines/" target="_blank" rel="noopener noreferrer">death</a>, he led a demonstration against an anti-terrorism bill. He had already received multiple death threats because of his work prior to his murder.`,
       },
       {
         link: "https://cpj.org/data/people/danny-hernandez/index.php",
@@ -344,16 +340,15 @@ const data = [
         name: "Edgar Damalerio",
         date: "May 13, 2002",
         place: "Pagadian City, Zamboanga del Sur",
-        description:
-          "Damalerio was the managing editor for the Zamboanga Scribe and a commentator for DXKP, a Zamboanga-based radio station. He frequently covered local corruption and accused former police chief Asuri Hawani of having ties in drug trafficking and criminal syndicates. Damalerio was on his way home from a press conference when he was shot by a gunman. The police identified and charged supposed hitman Ronie Quilme based on eyewitness testimony. However, eyewitnesses also claimed that then local police officer Guillermo Wapile was the gunman, making him a suspect as well. \n \n Multiple witnesses were killed during the investigation of Damalerio’s death.Thus, a week after the killing of a witness named Edgar Amoro, the Supreme Court ordered the case to be moved to Cebu City to avoid interference from local politicians.Years later, Wapile was found guilty of killing Damalerio and sentenced to a lifetime of imprisonment in November 2005.",
+        description: `Damalerio was the managing editor for the Zamboanga Scribe and a commentator for DXKP, a Zamboanga-based radio station. He frequently covered local corruption and accused former police chief Asuri Hawani of having ties in drug trafficking and criminal syndicates. Damalerio was on his way home from a press conference when he was shot by a gunman. The police identified and charged supposed hitman Ronie Quilme based on eyewitness testimony. However, eyewitnesses also claimed that then local police officer Guillermo Wapile was the gunman, making him a suspect as well. 
+        <br/><br/>Multiple witnesses were killed during the investigation of Damalerio’s death. Thus, a week after the killing of a witness named Edgar Amoro, the Supreme Court ordered the case to be moved to Cebu City to avoid interference from local politicians. Years later, Wapile was found <a href="https://www.philstar.com/cebu-news/2006/01/20/317610/first-person-die-attacking-journalist-death-penalty-dizon-killer" target="_blank" rel="noopener noreferrer">guilty</a> of killing Damalerio and sentenced to a lifetime of imprisonment in November 2005.`,
       },
       {
         link: "https://cpj.org/data/people/sonny-alcantara/index.php",
         name: "Sonny Alcantara",
         date: "August 22, 2002",
         place: "San Pablo City, Laguna",
-        description:
-          "Alcantara, a broadcaster for TV program Quo Vadis San Pablo and editor of weekly newspaper Kokus, was shot in the head by a lone gunman. Local police chief Ernesto Cuizon acknowledged that Alcantara’s vocal journalism may have been a factor in the assassination. The case was cold until a suspect was found in September 2002.",
+        description: `Alcantara, a broadcaster for TV program Quo Vadis San Pablo and editor of weekly newspaper Kokus, was shot in the head by a lone gunman. Local police chief Ernesto Cuizon acknowledged that Alcantara’s vocal journalism may have been a factor in the assassination. The case was cold until a suspect was <a href="https://www.philstar.com/metro/2002/09/06/174918/cops-looking-go-assassin146s-previous-jobs" target="_blank" rel="noopener noreferrer">found</a> in September 2002.`,
       },
       {
         link: "https://cpj.org/data/people/apolinario-polly-pobeda/index.php",
@@ -392,16 +387,16 @@ const data = [
         name: "Juan Pala",
         date: "September 6, 2003",
         place: "Davao City, Davao del Sur",
-        description:
-          "Pala survived murder attempts on multiple occasions for his work on DXGO Radio. He was highly critical of the local government and communist rebels. On the day of his murder, Pala was walking home with his friend and a bodyguard when a gunman opened fire from a motorcycle. Pala sustained nine gunshot wounds and died shortly after. Prior to his death, another attempt was made on Pala’s life months earlier on April 29. That attack injured Pala, who then started to air his show from home. In June 2017, retired policeman Arturo Lascañas was charged with being responsible for two murder attempts on Pala and his eventual assassination. \n \n After Pala’s death, former President Gloria Macapagal- Arroyo ordered the creation of a special police task force to investigate journalist murders.",
+        description: `Pala survived <a href="https://cpj.org/data/people/juan-jun-pala/" target="_blank" rel="noopener noreferrer">murder attempts</a> on multiple occasions for his work on DXGO Radio. He was highly critical of the local government and communist rebels. On the day of his murder, Pala was walking home with his friend and a bodyguard when a gunman opened fire from a motorcycle. Pala sustained nine gunshot wounds and died shortly after. Prior to his death, another attempt was made on Pala’s life months earlier on April 29. That attack injured Pala, who then started to air his show from home. In June 2017, retired policeman Arturo Lascañas was <a href="https://www.gmanetwork.com/news/news/nation/613281/lascanas-charged-with-murder-raps-over-killing-of-journalist-jun-pala/story/" target="_blank" rel="noopener noreferrer">charged</a> with being responsible for two murder attempts on Pala and his eventual assassination.
+        <br/><br/>After Pala’s death, former President Gloria Macapagal-Arroyo ordered the creation of a special police task force to investigate journalist murders.
+        `,
       },
       {
         link: "https://cpj.org/data/people/nelson-nadura/index.php",
         name: "Nelson Nadura",
         date: "December 2, 2003",
         place: "Masbate City, Masbate",
-        description:
-          "Nadura, a former communist rebel in the New People’s Army, hosted a morning talk show on Radio DYME where he was known to critique local officials. He was driving his motorcycle on his way home from his morning show when two unidentified gunmen shot him several times. A decade later, police arrested a suspect in Nadura’s murder in March 2013.",
+        description: `Nadura, a former communist rebel in the New People’s Army, hosted a morning talk show on Radio DYME where he was known to critique local officials. He was driving his motorcycle on his way home from his morning show when two unidentified gunmen shot him several times. A decade later, police <a href="https://www.gmanetwork.com/news/news/regions/298331/police-nab-suspected-npa-rebel-linked-to-2003-killing-of-masbate-broadcaster/story/" target="_blank" rel="noopener noreferrer">arrested</a> a suspect in Nadura’s murder in March 2013.`,
       },
       {
         link: "https://cpj.org/data/people/rowell-endrinal/index.php",
@@ -473,40 +468,37 @@ const data = [
         name: "Herson Hinolan",
         date: "November 13, 2004",
         place: "Kalibo, Aklan",
-        description:
-          "While at the restroom of a store, Hinolan, a commentator for Bombo Radyo, was shot multiple times by an unknown assailant. Police believed that his murder was a reprisal for his exposés on illegal activities, police brutality, and corruption in the local government. In August 2016, former mayor of Lezo town Alfredo Arcenio was found guilty of murdering Hinolan and sentenced to 14 years of imprisonment.",
+        description: `While at the restroom of a store, Hinolan, a commentator for Bombo Radyo, was shot multiple times by an unknown assailant. Police believed that his murder was a reprisal for his exposés on illegal activities, police brutality, and corruption in the local government. In August 2016, former mayor of Lezo town Alfredo Arcenio was <a href="https://www.rappler.com/nation/142866-former-aklan-mayor-convicted-slay-2004-radio-broadcaster" target="_blank" rel="noopener noreferrer">found guilty</a> of murdering Hinolan and sentenced to 14 years of imprisonment.`,
       },
       {
         link: "https://cpj.org/data/people/stephen-omaois/index.php",
         name: "Stephen Omaois",
         date: "November 29, 2004",
         place: "Tabuk City, Kalinga",
-        description:
-          "Omaois was a reporter for government radio station DZRK and a writer for Guru Press. He was bludgeoned to death by six drunk assailants, one of whom admitted to the murder in January 2005. Another one of the suspects was arrested, while the other four remain at large. ",
+        description: `Omaois was a reporter for government radio station DZRK and a writer for Guru Press. He was bludgeoned to death by six drunk assailants, one of whom <a href="https://ifex.org/two-schoolboys-arrested-for-murder-of-journalist-stephen-omais/" target="_blank" rel="noopener noreferrer">admitted</a> to the murder in January 2005. Another one of the suspects was arrested, while the other four remain at large.`,
       },
       {
         link: "https://cpj.org/data/people/allan-dizon/index.php",
         name: "Allan Dizon",
         date: "November 27, 2004",
         place: "Cebu City, Cebu",
-        description:
-          "Dizon was a photographer for The Freeman and a writer for Banat. He was shot twice by a gunman. Local journalists believed that the killing was related to an illegal gambling story Dizon was working on. Moreover, police claimed that the murder might have been linked to how Dizon tipped them off about a syndicate that conducted drug and gambling operations. Other journalists working at The Freeman also received threats following Dizon’s death. \n \n During the eventual trial for Dizon’s murder in January 2006, Edgar Belandres, Dizon’s killer, was sentenced to death by lethal injection. Police have yet to determine if a mastermind was also behind Dizon’s murder.",
+        description: `Dizon was a photographer for The Freeman and a writer for Banat. He was shot twice by a gunman. Local journalists believed that the killing was related to an illegal gambling story Dizon was working on. Moreover, police claimed that the murder might have been linked to how Dizon tipped them off about a syndicate that conducted drug and gambling operations. Other journalists working at The Freeman also received threats following Dizon’s death. 
+        <br/><br/>During the eventual trial for Dizon’s murder in January 2006, Edgar Belandres, Dizon’s killer, was <a href="https://www.philstar.com/cebu-news/2006/01/20/317610/first-person-die-attacking-journalist-death-penalty-dizon-killer" target="_blank" rel="noopener noreferrer">sentenced</a> to death by lethal injection. Police have yet to determine if a mastermind was also behind Dizon’s murder.
+        `,
       },
       {
         link: "https://cpj.org/data/people/arnulfo-villanueva/index.php",
         name: "Arnulfo Villanueva",
         date: "February 28, 2005",
         place: "Naic, Cavite",
-        description:
-          "Villanueva was shot and found dead on a road in Naic. A columnist for Asian Star Express Balita, he had written about local officials involved in illegal gambling. The Criminal Investigation and Detection Group filed charges against seven people for Villanueva’s murder and surmised that the killing was related to a grudge between Villanueva and one of the suspects.",
+        description: `Villanueva was shot and found dead on a road in Naic. A columnist for Asian Star Express Balita, he had written about local officials involved in illegal gambling. The Criminal Investigation and Detection Group <a href="https://www.philstar.com/nation/2005/04/30/275840/7-charged-feb-28-killing-cavite-newspaperman" target="_blank" rel="noopener noreferrer">filed</a> charges against seven people for Villanueva’s murder and surmised that the killing was related to a grudge between Villanueva and one of the suspects.`,
       },
       {
         link: "https://cpj.org/data/people/marlene-garcia-esperat/",
         name: "Marlene Garcia-Esperat",
         date: "March 24, 2005",
         place: "Tacurong, Sultan Kudarat",
-        description:
-          "Garcia-Esperat was a radio host for DXKR and an anti-graft columnist for the Mindanao newspaper Midland Review, focusing heavily on corruption. She was said to have made many enemies over her various exposés. As she was having dinner, a gunman entered Garcia-Esperat’s house and shot her in the head. She had previously received death threats and was under police protection at the time. However, she let her guards leave early to celebrate Easter that day. Her husband claimed that the murder was connected to a corruption story about illegal logging that Garcia-Esperat was working on. In October 2006, three suspects were found guilty of murdering Garcia-Esperat and sentenced to 40 years in prison. The three killers claimed to have been hired guns.",
+        description: `Garcia-Esperat was a radio host for DXKR and an anti-graft columnist for the Mindanao newspaper Midland Review, focusing heavily on corruption. She was said to have made many enemies over her various exposés. As she was having dinner, a gunman entered Garcia-Esperat’s house and shot her in the head. She had previously received death threats and was under police protection at the time. However, she let her guards leave early to celebrate Easter that day. Her husband claimed that the murder was connected to a corruption story about illegal logging that Garcia-Esperat was working on. In October 2006, three suspects were <a href="https://www.philstar.com/headlines/2006/10/07/361809/three-four-suspects-esperat146s-slay-sentenced-life-terms" target="_blank" rel="noopener noreferrer">found guilty</a> of murdering Garcia-Esperat and sentenced to 40 years in prison. The three killers claimed to have been hired guns.`,
       },
       {
         link: "https://cpj.org/data/people/klein-cantoneros/",
@@ -561,8 +553,7 @@ const data = [
         name: "Rolly Cañete",
         date: "January 20, 2006",
         place: "Pagadian City, Zamboanga del Sur",
-        description:
-          "Cañete was a broadcaster for three radio stations, two of which were under then-Zamboanga del Sur Governor Aurora Cerilles and her husband former Congressman Antonio Cerilles. Cañete served as a publicist for the two politicians, and the pair paid for Cañete’s radio programs wherein the broadcaster would criticize opponents of his employers. Cañete was driving home on his motorcycle with his son when two motorcycle-riding gunmen shot him. Cañete’s son survived and identified his father’s killer, Sergeant Herbert Liguan. Police believe that Cañete’s death was linked to his work for Aurora and Antonio Cerilles.",
+        description: `Cañete was a broadcaster for three radio stations, two of which were under then-Zamboanga del Sur Governor Aurora Cerilles and her husband former Congressman Antonio Cerilles. Cañete served as a publicist for the two politicians, and the pair paid for Cañete’s radio programs wherein the broadcaster would criticize opponents of his employers. Cañete was driving home on his motorcycle with his son when two motorcycle-riding gunmen <a href="http://zamboangajournal.blogspot.com/2006/07/police-detains-soldier-implicated-in.html" target="_blank" rel="noopener noreferrer">shot</a> him. Cañete’s son survived and identified his father’s killer, Sergeant Herbert Liguan. Police believe that Cañete’s death was linked to his work for Aurora and Antonio Cerilles.`,
       },
       {
         link: "https://cpj.org/data/people/orlando-tapios-mendoza/",
@@ -585,8 +576,8 @@ const data = [
         name: "Maricel Vigo & George Vigo",
         date: "June 19, 2006",
         place: "Kidapawan City, Cotobato",
-        description:
-          "Maricel Vigo was a radio host for a local radio station DXND. Her partner, George Vigo, was a contributor at a church news agency, Union of Catholic Asian News, and an active member at a local non-government organization. The couple were walking home from a market when two riders-in-tandem shot them around 5:00 PM. The Vigos were previously active in left-wing groups and had contacts in communist rebel organizations. Prior to the murders, George had received a propaganda video from the New People’s Army (NPA) which he showed to local officials. \n \n An article by Orlando de Guzman from the International Herald Tribune was published in the couple's blogspot, narrating how they were red-tagged by police two days after their deaths and how the police attributed their murders to the NPA. The article also revealed that weeks before his death, George Vigo told several colleagues that he was being followed and had feared that he was placed on a military blacklist.",
+        description: `Maricel Vigo was a radio host for a local radio station DXND. Her partner, George Vigo, was a contributor at a church news agency, Union of Catholic Asian News, and an active member at a local non-government organization. The couple were walking home from a market when two riders-in-tandem shot them around 5:00 PM. The Vigos were previously active in left-wing groups and had contacts in communist rebel organizations. Prior to the murders, George had received a propaganda video from the New People’s Army (NPA) which he showed to local officials. 
+        <brbr></brbr>>brAn article by Orlando de Guzman from the International Herald Tribune was published in the couple's <a href="http://georgeandmaricel.blogspot.com/" target="_blank" rel="noopener noreferrer">blogspot</a>, narrating how they were red-tagged by police two days after their deaths and how the police attributed their murders to the NPA. The article also revealed that weeks before his death, George Vigo told several colleagues that he was being followed and had feared that he was placed on a military blacklist.`,
       },
       {
         link: "https://cpj.org/data/people/armando-pace/index.php",
@@ -609,8 +600,7 @@ const data = [
         name: "Andres Acosta",
         date: "December 20, 2006",
         place: "Batac City, Ilocos Norte",
-        description:
-          "Acosta was a news reporter for dzJC, a local radio station, and a contributor for a local paper, Northern Light. While coming home from a Christmas party, Acosta was stabbed by unidentified assailants. He collapsed and died on his motorcycle while trying to get to the hospital. Acosta covered police stories and often confronted and took rowdy drunkards to the police. While police issued arrest warrants for four suspects in Acosta’s murder in January 2007, they still remain at large. Police believe that the murder was caused by a personal grudge.",
+        description: `Acosta was a news reporter for dzJC, a local radio station, and a contributor for a local paper, Northern Light. While coming home from a Christmas party, Acosta was stabbed by unidentified assailants. He collapsed and died on his motorcycle while trying to get to the hospital. Acosta covered police stories and often confronted and took rowdy drunkards to the police. While police <a href="https://www.gmanetwork.com/news/news/regions/26194/arrest-warrants-out-for-ilocos-journalist-s-killers/story/?related" target="_blank" rel="noopener noreferrer">issued</a> arrest warrants for four suspects in Acosta’s murder in January 2007, they still remain at large. Police <a href="https://www.gmanetwork.com/news/news/regions/26194/arrest-warrants-out-for-ilocos-journalist-s-killers/story/?related" target="_blank" rel="noopener noreferrer">believe</a> that the murder was caused by a personal grudge.`,
       },
       {
         link:
@@ -667,8 +657,7 @@ const data = [
         name: "Arecio Padrigao",
         date: "November 17, 2008",
         place: "Gingoog City, Misamis Oriental",
-        description:
-          "Padrigao was a commentator for a local radio program, Sayre ang Katilingban (Know the Society), on DXRS and often discussed corruption and illegal logging in his commentaries. He was dropping his child off at school outside Bukidnon State University when a motorcycle-riding gunman shot him. While an arrest warrant was issued against two suspects in Padrigao’s murder in February 2009, police suspect that there was also a mastermind behind his death.",
+        description: `Padrigao was a commentator for a local radio program, Sayre ang Katilingban (Know the Society), on DXRS and often discussed corruption and illegal logging in his commentaries. He was dropping his child off at school outside Bukidnon State University when a motorcycle-riding gunman shot him. While an arrest warrant was <a href="https://ifex.org/arrest-warrants-issued-for-suspects-in-journalist-arecio-padrigaos-murder-one-detained/" target="_blank" rel="noopener noreferrer">issued</a> against two suspects in Padrigao’s murder in February 2009, police suspect that there was also a mastermind behind his death.`,
       },
       {
         link: "https://cpj.org/data/people/leo-mila/",
@@ -765,8 +754,7 @@ const data = [
           "https://cpj.org/2010/06/third-philippine-journalist-killed-in-one-week.php",
         date: "June 19, 2010",
         place: "Digos City, Davao del Sur",
-        description:
-          "Bedolido was a reporter for a weekly newspaper, the Kastigador. He was buying cigarettes outside a karaoke bar when he was shot by a gunman who fled with an accomplice on a motorcycle. Bedolido was said to have been writing exposés on a local politician in the region. In 2014, four suspects, together with former Davao del Sur Governor Douglas Ra Cagas and current Matanao Mayor Vicente Fernandez, were charged for the writer’s murder.",
+        description: `Bedolido was a reporter for a weekly newspaper, the Kastigador. He was buying cigarettes outside a karaoke bar when he was shot by a gunman who fled with an accomplice on a motorcycle. Bedolido was said to have been writing exposés on a local politician in the region. In 2014, four suspects, together with former Davao del Sur Governor Douglas Ra Cagas and current Matanao Mayor Vicente Fernandez, were <a href="https://cmfr-phil.org/press-freedom-protection/media-advisory/preliminary-conference-on-bedolido-murder-case-set-on-may-17/" target="_blank" rel="noopener noreferrer">charged</a> for the writer’s murder.`,
       },
       {
         name: "Jose Daguio",
@@ -774,8 +762,7 @@ const data = [
           "https://www.gmanetwork.com/news/news/regions/195248/project-dispute-eyed-in-kalinga-journalist-s-killing/story/",
         date: "July 4, 2010",
         place: "Tabuk City, Kalinga",
-        description:
-          "Daguio, who was 75 years old at the time, was a retired radio commentator who formerly worked in DZRK Radyo ng Bayan and DZRH FM. He was inside his house when an assailant shot him from close by. Before his death, the victim was reportedly involved in a dispute over a public works project. Lando Bilog, Edmund Bilog, Willy Bilog, Daldin Guilawan, and Edgar Guilawan were identified as the culprits and charged them with murder. However, Lando Bilog was later found dead before he could be given his arrest warrant. Daguio had apparently angered the suspects when he obtained information on their alleged involvement in cattle rustling.",
+        description: `Daguio, who was 75 years old at the time, was a retired radio commentator who formerly worked in DZRK Radyo ng Bayan and DZRH FM. He was inside his house when an assailant shot him from close by. Before his death, the victim was reportedly involved in a dispute over a public works project. Lando Bilog, Edmund Bilog, Willy Bilog, Daldin Guilawan, and Edgar Guilawan were <a href="https://www.philstar.com/headlines/2010/07/31/598003/suspect-journalists-killing-found-dead" target="_blank" rel="noopener noreferrer">identified</a> as the culprits and charged them with murder. However, Lando Bilog was later <a href="https://www.philstar.com/headlines/2010/07/31/598003/suspect-journalists-killing-found-dead" target="_blank" rel="noopener noreferrer">found</a> dead before he could be given his arrest warrant. Daguio had apparently angered the suspects when he obtained information on their alleged involvement in cattle rustling.`,
       },
       {
         name: "Miguel Belen",
@@ -842,8 +829,7 @@ const data = [
           "https://news.abs-cbn.com/nation/regions/08/24/11/palace-condemns-negros-journalist%E2%80%99s-killing",
         date: "August 23, 2011",
         place: "EB Magalona, Negros Occidental",
-        description:
-          "Jimena was a radio anchor who worked for dyRP in Iloilo, dyAG in Cadiz City, and then dyRI of Radio Mindanao Network. He was killed by two gunmen who were riding a motorcycle. The National Press Club blames the local warlords and gambling lords for Jimena’s death. Police arrested a suspect in Jimena’s murder in August 2012 but did not confirm a motive.",
+        description: `Jimena was a radio anchor who worked for dyRP in Iloilo, dyAG in Cadiz City, and then dyRI of Radio Mindanao Network. He was killed by two gunmen who were riding a motorcycle. The National Press Club blames the local warlords and gambling lords for Jimena’s death. Police <a href="https://newsinfo.inquirer.net/246303/suspect-in-slay-of-negros-radioman-nabbed" target="_blank" rel="noopener noreferrer">arrested</a> a suspect in Jimena’s murder in August 2012 but did not confirm a motive.`,
       },
       {
         name: "Antonio Silagon",
@@ -910,8 +896,7 @@ const data = [
         name: "Bonifacio Loreto & Richard Kho",
         date: "July 30, 2013",
         place: "Quezon City, Metro Manila",
-        description:
-          "Loreto and Kho were columnists for weekly tabloid Aksyon Ngayon, which focused on community issues and corruption. They were in front of a convenience store in Quezon City when a rider-in-tandem gunned-down the two. A friend of the pair was also at the scene and had survived by pretending to be dead. Their relatives believe the murders were related to their work as journalists.",
+        description: `<a href="https://cpj.org/data/people/bonifacio-loreto/" target="_blank" rel="noopener noreferrer">Loreto</a> and <a href="https://cpj.org/data/people/richard-kho/" target="_blank" rel="noopener noreferrer">Kho</a> were columnists for weekly tabloid Aksyon Ngayon, which focused on community issues and corruption. They were in front of a convenience store in Quezon City when a rider-in-tandem gunned-down the two. A friend of the pair was also at the scene and had survived by pretending to be dead. Their relatives believe the murders were related to their work as journalists.`,
       },
       {
         name: "Mario Sy",
@@ -926,8 +911,10 @@ const data = [
         link: "https://cpj.org/data/people/fernando-solijon/index.php",
         date: "August 29, 2013",
         place: "Iligan City, Lanao del Norte",
-        description:
-          "Solijon was a radio commentator for DxLS Love Radio and a frequent critic of local politicians. On the day of his death, had just discussed an expensive purchase of a house and car by incumbent Iligan City Mayor Celso Regencia, who was also Iligan’s mayor at the time of Solijon’s murder. Before Solijon’s death, an anonymous caller threatened him on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem. Solijon sustained wounds on his head, shoulder, and abdomen and was declared dead-on-arrival at the local hospital. The National Bureau of Investigation identified Iligan City police officer PJ Capangpangan as a suspect in the murders and were gathering evidence against him, but Capangpangan has yet to be given a sentence.Another suspect, Edward Tucaran, was shot and killed just two days after Solijon’s murder.",
+        description: `Solijon was a radio commentator for DxLS Love Radio and a frequent critic of local politicians. On the day of his death, had just discussed an expensive purchase of a house and car by incumbent Iligan City Mayor Celso Regencia, who was also Iligan’s mayor at the time of Solijon’s murder. Before Solijon’s death, an anonymous caller threatened him on air, saying “your coffin’s already made.” On his way home from dinner, Solijon was shot at close range by a rider-in-tandem. Solijon sustained wounds on his head, shoulder, and abdomen and was declared dead-on-arrival at the local hospital.
+        <br/><br/>
+        The National Bureau of Investigation identified Iligan City police officer PJ Capangpangan as a suspect in the murders and were gathering evidence against him, but Capangpangan has yet to be given a sentence. Another suspect, Edward Tucaran, was shot and killed just two days after Solijon’s murder.
+        `,
       },
       {
         name: "Vergel Bico",
@@ -1008,16 +995,14 @@ const data = [
         link: "https://cpj.org/data/people/cosme-maestrado/",
         date: "August 27, 2015",
         place: "Ozamiz City, Misamis Occidental",
-        description:
-          "Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Prior to his death, the anchor had criticized a local politician about a construction equipment purchase. Maestrado was shot in the head by four gunmen in front of a shopping center and was declared dead-on-arrival when he reached a hospital. Years later in 2019, the Presidential Task Force on Media Security arrested a suspect in Maestrado’s murder case, Gregie Azcona.",
+        description: `Maestrado was an anchor for a local radio news program Ratsada, which often discussed political issues and allegations of corruption among local officials. Prior to his death, the anchor had criticized a local politician about a construction equipment purchase. Maestrado was shot in the head by four gunmen in front of a shopping center and was declared dead-on-arrival when he reached a hospital. Years later in 2019, the Presidential Task Force on Media Security <a href="https://www.pna.gov.ph/articles/1078973" target="_blank" rel="noopener noreferrer">arrested</a> a suspect in Maestrado’s murder case, Gregie Azcona.`,
       },
       {
         name: "Elvis Banggoy Ordaniza",
         link: "https://cpj.org/data/people/elvis-banggoy-ordaniza/",
         date: "February 16, 2016",
         place: "Pitogo, Zamboanga del Sur",
-        description:
-          "Ordaniza was a broadcast journalist for dxWO Power99 FM. While preparing dinner, Ordaniza was shot in the chest twice with a .45 caliber pistol. The radio journalist had reported on illegal drug trade and illegal gambling in Zamboanga del Sur and was a former member of the New People’s Army. Police apprehended a suspect based on eyewitnesses’ descriptions, and authorities surmise that the murderer was motivated by a personal grudge.",
+        description: `Ordaniza was a broadcast journalist for dxWO Power99 FM. While preparing dinner, Ordaniza was shot in the chest twice with a .45 caliber pistol. The radio journalist had reported on illegal drug trade and illegal gambling in Zamboanga del Sur and was a former member of the New People’s Army. Police <a href="https://newsinfo.inquirer.net/777982/suspect-in-murder-of-zamboanga-sur-broadcaster-idd-by-cops" target="_blank" rel="noopener noreferrer">apprehended</a> a suspect based on eyewitnesses’ descriptions, and authorities surmise that the murderer was motivated by a personal grudge. `,
       },
       {
         name: "Alex Bacoba",
@@ -1137,8 +1122,7 @@ const data = [
           "https://pcij.org/article/1419/case-files-the-12-journalists-killed-brunder-the-duterte-administration",
         date: "April 30, 2018",
         place: "Dumaguete City, Negros Oriental",
-        description:
-          "Sestoso was a radio host for dyGB 91.7 FM and the former chairman of the National Union of Journalists in the Philippines’ Dumaguete chapter. He was on the way home when gunmen riding-in-tandem shot at him, hitting him five times. He later died while at a hospital. Sestoso had received death threats prior to his death, and he informed a relative that someone was out to kill him just hours before he was shot. Sestoso’s wife filed a case against three suspects for her late husband’s murder, but the case was reversed for undisclosed reasons. In June 2018, the police refiled Sestoso’s murder case and identified suspects based on witnesses’ statements. One of the suspects, Richard Bustamante Jr., was shot dead by an unidentified gunman in July 2018. As of writing, the motive for Sestoso’s murder has yet to be determined.",
+        description: `Sestoso was a radio host for dyGB 91.7 FM and the former chairman of the National Union of Journalists in the Philippines’ Dumaguete chapter. He was on the way home when gunmen riding-in-tandem shot at him, hitting him five times. He later died while at a hospital. Sestoso had received death threats prior to his death, and he informed a relative that someone was out to kill him just hours before he was shot. Sestoso’s wife <a href="https://www.gmanetwork.com/news/news/regions/661842/suspect-in-slay-of-dumaguete-broadcaster-sestoso-killed/story/" target="_blank" rel="noopener noreferrer">filed</a> a case against three suspects for her late husband’s murder, but the case was reversed for undisclosed reasons. In June 2018, the police <a href="https://www.gmanetwork.com/news/news/regions/661842/suspect-in-slay-of-dumaguete-broadcaster-sestoso-killed/story/" target="_blank" rel="noopener noreferrer">refiled</a> Sestoso’s murder case and identified suspects based on witnesses’ statements. One of the suspects, Richard Bustamante Jr., was shot dead by an unidentified gunman in July 2018. As of writing, the motive for Sestoso’s murder has yet to be determined.`,
       },
       {
         name: "Carlos Matas",
@@ -1162,8 +1146,7 @@ const data = [
         link: "https://cpj.org/data/people/joey-llana/index.php",
         date: "July 20, 2018",
         place: "Darga City, Albay",
-        description:
-          "Llana was a reporter for Home Radio Legaspi and the host of radio program Metrobanat. While driving to work, two gunmen opened fire on Llana 14 times, and the reporter sustained shots to his head and body. He was declared dead at the scene. The next year, murder charges were filed against Erwin Talagtag, an alleged member of the Concepcion Criminal Group, a gun-for-hire gang. Authorities believed that Llana’s murder to be linked to his work as a journalist. Similarly, the National Union of Journalists of the Philippines, a local advocacy group for press freedom, believed that the murder was connected to his reporting on corrupt activities involving a local official. In December 2018, murder charges were filed against two unidentified suspects and Erwin Talagtag, an alleged member of the Conception Criminal Group.",
+        description: ` Llana was a reporter for Home Radio Legaspi and the host of radio program Metrobanat. While driving to work, two gunmen opened fire on Llana 14 times, and the reporter sustained shots to his head and body. He was declared dead at the scene. The next year, murder charges were filed against Erwin Talagtag, an alleged member of the Concepcion Criminal Group, a gun-for-hire gang. Authorities believed that Llana’s murder to be linked to his work as a journalist. Similarly, the National Union of Journalists of the Philippines, a local advocacy group for press freedom, believed that the murder was connected to his reporting on corrupt activities involving a local official. In December 2018, murder charges were <a href="https://www.pna.gov.ph/articles/1056751" target="_blank" rel="noopener noreferrer">filed</a> against two unidentified suspects and Erwin Talagtag, an alleged member of the Conception Criminal Group.`,
       },
       {
         name: "Eduardo Dizon",
@@ -1171,8 +1154,7 @@ const data = [
           "https://cpj.org/2019/07/radio-anchor-eduardo-dizon-shot-and-killed-in-the-.php",
         date: "July 10, 2019",
         place: "Kidapawan City, Cotabato",
-        description:
-          "Dizon was a radio broadcaster and anchor for Brigada News FM. Two assailants on a motorcycle shot Dizon five times while he was in his car, killing him on the spot. According to the National Union of Journalists of the Philippines, Dizon had received death threats prior to the attack. Before his death, Dizon told police that he believed that the death threats were related to his critical reporting on an alleged investment scam. In October 2019, police apprehended two suspects in Dizon’s murder, while a third suspect filed a motion to suspend his arrest warrant.",
+        description: `Dizon was a radio broadcaster and anchor for Brigada News FM. Two assailants on a motorcycle shot Dizon five times while he was in his car, killing him on the spot. According to the <a href="https://www.facebook.com/nujphil/posts/10162042619560374" target="_blank" rel="noopener noreferrer">National Union of Journalists of the Philippines</a> , Dizon had received death threats prior to the attack. Before his death, Dizon told police that he believed that the death threats were related to his critical reporting on an alleged investment scam. In October 2019, police <a href="https://www.rappler.com/nation/241963-arrest-warrants-out-suspects-kidapawan-broadcaster-killing" target="_blank" rel="noopener noreferrer">apprehended</a> two suspects in Dizon’s murder, while a third suspect filed a motion to suspend his arrest warrant.`,
       },
       {
         name: "Dindo Generoso",

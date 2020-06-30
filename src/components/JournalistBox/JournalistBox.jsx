@@ -1,14 +1,7 @@
 import React from "react"
 import { Item, Event, Link, Name, Desc } from "./styles"
 
-const JournalistBox = ({
-  event,
-  link,
-  name,
-  date,
-  place,
-  description,
-}) => (
+const JournalistBox = ({ event, link, name, date, place, description }) => (
   <Item display={name === ""}>
     <Name>
       <Link href={link} target="_blank" rel="noopener noreferrer">
@@ -22,8 +15,8 @@ const JournalistBox = ({
       {place}
       <br></br>
       <br></br>
-      {description}
     </Desc>
+    <Desc dangerouslySetInnerHTML={{ __html: description }} />
   </Item>
 )
 
