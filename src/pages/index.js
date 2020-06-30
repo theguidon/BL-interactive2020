@@ -35,8 +35,7 @@ const data = [
     map: coryMap,
     year: "1986-1992",
     number: "21",
-    description:
-      "Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was uncomfortable in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.",
+    description: `Under Aquino, many rights that were suppressed during Ferdinand Marcos’ military rule were reinstated—including the freedom of the press. Reporters Without Borders said that Aquino was <a href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline" target="_blank" rel="noopener noreferrer">uncomfortable</a> in dealing with the press, but her relationship with the media remained amicable as she was “conscious of the vital role of [the] media in a democracy.” The Center for Media Freedom and Responsibility (CMFR) estimates that at least 21 journalists were killed during Corazon Aquino’s administration. These journalists and the circumstances surrounding their deaths are specified below, as per the CMFR’s reports.`,
     journalists: [
       {
         link:
@@ -208,8 +207,7 @@ const data = [
     map: ramosMap,
     year: "1992-1998",
     number: "6",
-    description:
-      "Much like Corazon Aquino, Ramos was said to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility data reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also noted that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.",
+    description: `Much like Corazon Aquino, Ramos was <a href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline" target="_blank" rel="noopener noreferrer">said</a> to be amicable with the press. Under Ramos, the number of slain journalists notably dropped. The Center for Media Freedom and Responsibility <a href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline" target="_blank" rel="noopener noreferrer">data</a> reveals that 11 journalists were killed during his term, but existing data only names six individuals. The Committee to Protect Journalists (CPJ) also <a href="https://cpj.org/data/people/rey-bancayrin/index.php" target="_blank" rel="noopener noreferrer">noted</a> that by the end of Ramos’ term, there were a total of 33 journalist deaths since Ferdinand Marcos’ ouster. The following information on the six slain journalists was taken from the CPJ’s reports.`,
     journalists: [
       {
         link: "http://cpj.org/data/people/danilo-vergara/index.php",
@@ -267,8 +265,7 @@ const data = [
     map: estradaMap,
     year: "1998-2001",
     number: "4",
-    description:
-      "Estrada was described by Reporters Without Borders as “less tolerant” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist murders. Out of the six, only four have been named, based on the Committee to Protect Journalists’ (CPJ) data.",
+    description: `Estrada was described by Reporters Without Borders as “<a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline">less tolerant</a>” of the media because he allegedly put pressure on news organizations that were critical of his administration. According to the Center for Media Freedom and Responsibility, Estrada’s brief tenure as president saw at least six journalist <a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline">murders</a>. Out of the six, only four have been <a target="_blank" rel="noopener noreferrer" href="https://cpj.org/data/killed/asia/philippines/?status=Killed&motiveConfirmed%5B%5D=Confirmed&type%5B%5D=Journalist&cc_fips%5B%5D=RP&start_year=1998&end_year=2001&group_by=location">named</a>, based on the Committee to Protect Journalists’ (CPJ) data.`,
     journalists: [
       {
         link: "https://cpj.org/data/people/vincent-rodriguez/index.php",
@@ -324,8 +321,7 @@ const data = [
     map: arroyoMap,
     year: "2001-2010",
     number: "80",
-    description:
-      "Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she created a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to distance  herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR reports that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.",
+    description: `Arroyo’s relationship with the press was marred by controversy. Two years into her first term, she <a target="_blank" rel="noopener noreferrer" href="https://www.gmanetwork.com/news/news/nation/116679/arroyo-slams-press-with-gossipy-headlines-and-inflated-circulation-numbers/story/">created</a> a special task force to investigate journalist murders at the time. However, in her last five years in office, Arroyo attempted to <a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/nation/110-arroyo-s-fortress-and-the-nosy-press">distance</a> herself from the press because of political scandals. Arroyo’s husband, Jose Miguel Arroyo, had also filed many libel cases against journalists, which was part of an anti-press initiative, according to Center for Media Freedom and Responsibility (CMFR) Deputy Director Luis Teodoro. The Arroyo administration also saw the highest number of journalist deaths in a single day as a result of the infamous Ampatuan massacre, more commonly known as the “Maguindanao massacre.” The CMFR <a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/newsbreak/iq/193882-threats-attacks-philippines-media-timeline">reports</a> that there were 83 journalist murders during Arroyo’s nine-year presidency, but only 80 have been named based on data from the Committee to Protect Journalists.`,
     journalists: [
       {
         link: "https://cpj.org/data/people/candelario-cayona/index.php",
@@ -745,8 +741,7 @@ const data = [
     map: noynoyMap,
     year: "2010-2016",
     number: "34",
-    description:
-      "Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he admitted that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the Committee to Protect Journalists and the Center for Media Freedom and Responsibility shows 34 killings.",
+    description: `Aquino had noted that the media outlets during his time had the tendency to nitpick his administration and after his term, he <a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/nation/176135-noynoy-aquino-media-silence-under-duterte">admitted</a> that he even wanted to control the press at times. This never materialized, and the Aquino administration only called for “fairer media coverage.” Even though the death toll dropped by more than half, Aquino’s administration still posted the second-highest number of media-related killings since Ferdinand Marcos’ ouster. Data collected from the <a target="_blank" rel="noopener noreferrer" href="https://cpj.org/data/killed/asia/philippines/?status=Killed&motiveConfirmed%5B%5D=Confirmed&type%5B%5D=Journalist&cc_fips%5B%5D=RP&start_year=2010&end_year=2016&group_by=location">Committee to Protect Journalists</a> and the Center for Media Freedom and Responsibility shows 34 killings.`,
     journalists: [
       {
         name: "Desidario Camangyan",
@@ -1055,8 +1050,7 @@ const data = [
     map: duterteMap,
     year: "2016 to present",
     number: "16",
-    description:
-      "A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged Rappler as fake news; he has threatened to shut down ABS-CBN; and ever since he took office, there have been over 154 attacks and threats against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility reveals that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.",
+    description: `A feature of the Rodrigo Duterte presidency has been the crackdown on journalists.  On several occasions, Duterte has attacked multiple media outlets critical of him and his administration: He has tagged <a target="_blank" rel="noopener noreferrer" href="https://news.abs-cbn.com/news/01/16/18/duterte-slams-rappler-anew-says-it-peddles-fake-news">Rappler</a> as fake news; he has <a target="_blank" rel="noopener noreferrer" href="https://www.aljazeera.com/news/2020/02/duterte-shut-philippines-biggest-tv-station-200210054831529.html">threatened</a> to shut down ABS-CBN; and ever since he took office, there have been over 154 <a target="_blank" rel="noopener noreferrer" href="https://www.rappler.com/nation/246992-recorded-attacks-threats-vs-journalists-duterte-administration">attacks and threats</a> against journalists, and at least 69 have been allegedly been linked to incumbent public officials. Data from the Center for Media Freedom and Responsibility <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1RBI3d_QUB6h9Le_hnVoQAbab90J0aykv/view">reveals</a> that as of January 25, 2020, 15 journalists have been killed under the Duterte administration. The agency has yet to update its count to 16.`,
     journalists: [
       {
         name: "Apolinario Suan Jr.",

@@ -165,7 +165,10 @@ function Admin({
                 <div className="Name">{name}</div>
                 <div className="Year">({year})</div>
               </div>
-              <div className="Desc">{description}</div>
+              <div
+                className="Desc"
+                dangerouslySetInnerHTML={{ __html: description }}
+              />
             </div>
           )
         }

@@ -22,11 +22,10 @@ function Map({ data }) {
       <TextWrapper>
         <Name>{data.name}</Name>
         <Year>({data.year})</Year>
-        <Desc>
-          {data.description}
-          <br></br>
-          <br></br>
-        </Desc>
+        <Desc dangerouslySetInnerHTML={{ __html: data.description }} />
+
+        <br></br>
+        <br></br>
         <Deaths>
           <Text>
             <Span>NUMBER OF DEATHS:</Span>
