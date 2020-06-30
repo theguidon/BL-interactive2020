@@ -1,22 +1,13 @@
 import React from "react"
-import { Item, Event, Name, Desc } from "./styles"
+import { Item, Event, Link, Name, Desc } from "./styles"
 
 const JournalistBox = ({ event, link, name, date, place, description }) => (
-  <Item>
-    <Event>{event}</Event>
+  <Item display={name === ""}>
     <Name>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          textDecoration: "none",
-          cursor: "pointer",
-          color: "#de8484",
-        }}
-      >
+      <Link href={link} target="_blank" rel="noopener noreferrer">
         {name}{" "}
-      </a>
+      </Link>
+      <Event>{event}</Event>
     </Name>
     <Desc>
       {date}
@@ -24,8 +15,8 @@ const JournalistBox = ({ event, link, name, date, place, description }) => (
       {place}
       <br></br>
       <br></br>
-      {description}
     </Desc>
+    <Desc dangerouslySetInnerHTML={{ __html: description }} />
   </Item>
 )
 

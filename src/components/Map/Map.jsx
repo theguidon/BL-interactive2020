@@ -10,26 +10,27 @@ import {
   Text,
   Span,
   Number,
+  MobileSpan,
 } from "./styles"
 
 function Map({ data }) {
   return (
     <Wrapper>
       <MapWrapper>
-        <img src={data.map} style={{ width: 100 + "%" }} />
+        <img src={data.map} style={{ width: 100 + "%" }} alt="map" />
       </MapWrapper>
       <TextWrapper>
         <Name>{data.name}</Name>
         <Year>({data.year})</Year>
-        <Desc>
-          {data.description}
-          <br></br>
-          <br></br>
-        </Desc>
+        <Desc dangerouslySetInnerHTML={{ __html: data.description }} />
+
+        <br></br>
+        <br></br>
         <Deaths>
           <Text>
-            <Span>NUMBER OF DEATHS</Span>
+            <Span>NUMBER OF DEATHS:</Span>
           </Text>
+          <MobileSpan>Deaths</MobileSpan>
           <Number> {data.number} </Number>
         </Deaths>
       </TextWrapper>

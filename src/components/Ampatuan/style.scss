@@ -1,28 +1,32 @@
 .wrapper {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 40px 0 0 0;
 }
 
 .event {
   font-size: 22px;
   font-weight: 800;
   line-height: 30px;
-  color: #8E0000;
+  color: #8e0000;
 }
 
 .details {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 24px;
   width: 100%;
 
   u {
-    text-decoration-color: #8E0000;
+    text-decoration-color: #8e0000;
   }
 }
 
 a {
-  text-decoration-color: #8E0000;
+  text-decoration-color: #8e0000;
   color: #ffffff;
+}
+
+a:hover {
+  color: #c23a3a !important;
 }
 
 .name-wrapper {
@@ -32,7 +36,7 @@ a {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  color: #DE8484;
+  color: #de8484;
   font-size: 22px;
   font-weight: bold;
   line-height: 30px;

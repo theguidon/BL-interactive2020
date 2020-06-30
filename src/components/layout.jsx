@@ -12,21 +12,21 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import SEO from "./seo"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Graph from "./Graph"
 import "normalize.css"
 import "../stylesheets/main.scss"
 
 const Main = styled.main`
-  min-height: calc(100vh - 57px);
-  width: 90%;
-  margin: 0 auto;
-  padding: 90px 0;
+  min-height: calc(100vh - 65px);
+  padding: 150px 0 0 0;
   position: relative;
+  font-family: Open Sans;
 
   @media (max-width: 540px) {
     width: auto;
     height: auto;
-    padding: 90px 30px 0 30px;
+    padding: 90px 20px 0 20px;
+    overflow: auto;
   }
 `
 
@@ -50,6 +50,7 @@ const Layout = ({ children, next }) => {
       <Main>
         <Fragment>{children}</Fragment>
       </Main>
+      {next ? <Graph /> : null}
       {next ? <Footer /> : null}
     </>
   )

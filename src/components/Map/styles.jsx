@@ -18,12 +18,14 @@ export const Wrapper = styled.div`
 export const MapWrapper = styled.div`
   height: 895px;
   display: flex;
+  margin: 64px 0;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
     height: 50%;
+    margin: 40px 0;
   }
-  `
+`
 
 export const TextWrapper = styled.div`
   position: relative;
@@ -38,7 +40,7 @@ export const TextWrapper = styled.div`
 `
 
 export const Name = styled.span`
-  color: #C23A3A;
+  color: #c23a3a;
   font-family: TiempoBold, sans-serif;
   font-weight: 900;
   font-size: 28px;
@@ -49,11 +51,12 @@ export const Name = styled.span`
 `
 
 export const Year = styled.span`
-  color: #8E0000;
+  color: #8e0000;
   font-family: Tiempo, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
+  padding: 8px 0;
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -67,27 +70,44 @@ export const Desc = styled.p`
 export const Deaths = styled.div`
   display: flex;
   flex-flow: column;
+  letter-spacing: 4%;
+  color: #797979;
+  font-size: 32px;
+  text-transform: uppercase;
   @media only screen and (max-width: 768px) {
+    font-size: 14px;
     top: -300px;
     position: absolute;
     flex-flow: column-reverse;
+    font-weight: bold;
   }
 `
 export const Text = styled.div`
   color: #797979;
-  fontWeight: 900;
+  font-size: 16px;
+  font-weight: 900;
   letter-spacing: 0.08em;
   @media only screen and (max-width: 768px) {
     letter-spacing: 0.04em;
   }
 `
 export const Span = styled.p`
-@media only screen and (max-width: 768px) {
+  font-size: 16px;
+  @media only screen and (max-width: 768px) {
     display: none;
   }
 `
+
+export const MobileSpan = styled.p`
+  display: none;
+  font-size: 16px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+`
+
 export const Number = styled.span`
-  color: #C23A3A;
+  color: #c23a3a;
   font-size: 72px;
   font-weight: 900;
   line-height: 98px;

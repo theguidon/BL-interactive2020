@@ -2,23 +2,26 @@ import styled from "styled-components"
 
 export const Foo = styled.footer`
   background: #1e1e1e;
-  padding: 60px 0;
+  padding: 96px 100px 72px 100px;
   position: relative;
 
   @media (max-width: 540px) {
-    padding: 30px 0;
+    padding: 60px 30px;
   }
 `
 
 export const Container = styled.div`
-  width: 75%;
-  margin: auto;
+  width: 100%;
+
+  img {
+    height: 30px;
+  }
 `
 
 export const FooDetails = styled.div`
   margin-top: 45px;
 
-  font-family: Tiempos Text, serif;
+  font-family: Tiempo, serif;
 
   p {
     font-style: normal;
