@@ -12,7 +12,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import SEO from "./seo"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Graph from "./Graph"
 import "normalize.css"
 import "../stylesheets/main.scss"
 
@@ -50,6 +50,7 @@ const Layout = ({ children, next }) => {
       <Main>
         <Fragment>{children}</Fragment>
       </Main>
+      {next ? <Graph /> : null}
       {next ? <Footer /> : null}
     </>
   )

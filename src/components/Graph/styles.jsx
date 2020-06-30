@@ -6,16 +6,16 @@ export const Wrapper = styled.div`
   margin: 80px 100px 96px 100px;
 
   @media only screen and (max-width: 768px) {
-    height: 28vh;
+    height: 100%;
     margin: 0 60px;
   }
 
   @media (max-width: 540px) {
-    margin: 0 30px;
+    margin: 56px 0;
   }
 
   @media (max-width: 375px) {
-    margin: 0 16px;
+    margin: 30px 0;
   }
 `
 
@@ -31,11 +31,10 @@ export const ImageWeb = styled.img`
 export const ImageMobile = styled.img`
   display: none;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 
   @media (max-width: 768px) {
     display: block;
-    margin-bottom: 30px;
   }
 `

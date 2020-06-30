@@ -1,14 +1,13 @@
 import styled from "styled-components"
 
 export const Item = styled.div`
-  margin: 20px 30px;
+  margin: 20px auto;
   flex: 0 0 26%;
   @media only screen and (max-width: 767px) {
     flex: 0 0 100%;
-    padding: 16px 0;
+    display: ${props => (props.display ? "none" : "block")};
   }
 `
-
 export const Name = styled.div`
   color: #de8484;
   font-weight: bold;

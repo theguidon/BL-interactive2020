@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Map from "../components/Map"
 import Admin from "../components/Admin"
 import Journalists from "../components/Journalists"
-import Graph from "../components/Graph"
 import ContentWarning from "../components/ContentWarning"
 import "../stylesheets/index.scss"
 import AquinoImg from "../images/Aquino.svg"
@@ -302,6 +301,20 @@ const data = [
         place: "Pagadian City, Zamboanga del Sur",
         description:
           "Yusop hosted a religious program on DXID radio station and refrained from commenting on controversial topics. Yusop was in a pedicab when he was shot in the head by a gunman from a motorcycle. It is not known if Yusop had received death threats or if the incident was related to his work.",
+      },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
       },
     ],
   },
@@ -717,6 +730,13 @@ const data = [
         description:
           "Pasigna was an anchor for a broadcast named South Express Balita on B-96 FM. He was on his way to work when an assailant gunned him down. Police and the local mayor believe his murder to be related to an approaching election. Pasigna had also discussed a controversy over a certificate of candidacy prior to his death.",
       },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
     ],
   },
   {
@@ -1013,6 +1033,20 @@ const data = [
         description:
           "Bacoba was a reporter for Brigada News. He was shot in the head in Quiapo by a gunman who later fled on a motorcycle.",
       },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
     ],
   },
   {
@@ -1164,6 +1198,20 @@ const data = [
         description:
           "Pepino was a radio reporter for Energy 93.7 FM. He was on his way back home with his wife after broadcasting his regular program when he was shot by unidentified suspects who were riding on a motorcycle. As of writing, the police are investigating the motive for this killing.",
       },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
+      {
+        link: "",
+        name: "",
+        date: "",
+        place: "",
+        description: "",
+      },
     ],
   },
 ]
@@ -1289,7 +1337,6 @@ const IndexPage = () => {
             NextPage={NextPage}
             PrevPage={PrevPage}
           />
-          <Graph />
         </div>
       </div>
     )

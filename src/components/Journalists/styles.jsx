@@ -17,12 +17,10 @@ export const Wrapper = styled.div`
     margin: 0 16px;
   }
 `
-
 export const WebWrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  padding: 40px 0;
+  justify-content: flex-start;
   width: 100%;
 
   @media (max-width: 768px) {
@@ -54,7 +52,7 @@ export const Pagination = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-    margin-bottom: 60px;
+    margin: 48px 0;
   }
 `
 export const PagesWrapper = styled.div`
@@ -75,8 +73,10 @@ export const Page = styled.div`
 
 export const Prev = styled.div`
   align-self: center;
+  font-size: 24px;
 `
 
 export const Next = styled.div`
   align-self: center;
+  font-size: 24px;
 `

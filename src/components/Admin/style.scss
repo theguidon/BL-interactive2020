@@ -106,6 +106,12 @@
   font-family: TiempoBold, sans-serif;
   font-weight: 900;
   font-size: 28px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+    color: #c23a3a;
+    letter-spacing: 0;
+  }
 }
 
 .Year {
@@ -114,6 +120,12 @@
   margin-bottom: 15px;
   font-weight: 500;
   padding: 10px 0;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+    color: #c23a3a;
+    letter-spacing: 0;
+  }
 }
 
 .Desc {

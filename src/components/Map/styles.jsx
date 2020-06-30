@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
 export const MapWrapper = styled.div`
   height: 895px;
   display: flex;
+  margin: 64px 0;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
