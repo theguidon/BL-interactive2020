@@ -47,6 +47,8 @@ export const Name = styled.span`
   line-height: 34px;
   @media only screen and (max-width: 768px) {
     text-align: center;
+    font-size: 24px;
+    letter-spacing: 0;
   }
 `
 
@@ -59,12 +61,18 @@ export const Year = styled.span`
   padding: 8px 0;
   @media only screen and (max-width: 768px) {
     text-align: center;
+    letter-spacing: 0;
   }
 `
 
 export const Desc = styled.p`
   font-size: 18px;
   line-height: 27px;
+
+  @media (max-width: 768px) {
+    line-height: 24px;
+    font-size: 16px;
+  }
 `
 
 export const Deaths = styled.div`

@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  border-radius: 16px;
 
   @media (max-width: 540px) {
     align-items: flex-end;
