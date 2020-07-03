@@ -236,9 +236,7 @@
   }
 }
 
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 66px;
+.wrapper {
   overflow: hidden;
+  margin: 60px auto 0 auto;
 }
