@@ -1288,7 +1288,6 @@ const IndexPage = () => {
           </h4>
         </div>
         <Container>
-          <Map data={data[president]} />
           <Admin
             {...{
               data,
@@ -1304,6 +1303,7 @@ const IndexPage = () => {
             }}
           />
         </Container>
+          <Map data={data[president]} />
         <div className="journ">
           <Journalists
             journalists={data[president].journalists}

@@ -20,7 +20,7 @@ function Admin({
   setPage,
 }) {
   return (
-    <section className="sticky">
+    <section className="wrapper">
       <div className="guide guideWeb">
         Click on each president to know the names of the journalists who died
         under each administration.
@@ -29,7 +29,6 @@ function Admin({
         Click on the arrows to know the names of the journalists who died under
         each administration.
       </div>
-      {/* change dots' to 'arrows' on mobile */}
 
       <div className="adminWrapper">
         <div className="sliderWrapper">
@@ -156,23 +155,6 @@ function Admin({
         }
       })}
 
-      {data.map((datum, index) => {
-        if (index === president) {
-          const { name, year, description } = datum
-          return (
-            <div className="Wrapper" key={index}>
-              <div className="Header">
-                <div className="Name">{name}</div>
-                <div className="Year">({year})</div>
-              </div>
-              <div
-                className="Desc"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
-            </div>
-          )
-        }
-      })}
     </section>
   )
 }
