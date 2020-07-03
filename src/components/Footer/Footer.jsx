@@ -11,7 +11,7 @@ const Footer = () => (
       </Link>
       <FooDetails>
         <p>ABOUT THE INTERACTIVE</p>
-        <p>An immersive journalism project by The GUIDON in 2020</p>
+        <p>A year-long project by the Beyond Loyola Staff for AY 2019-2020</p>
         <p>
           Interactive by Bea Martin, Bea Sison, Cobbie Quintos, Giddy Garcia,
           and Harvey Sison
