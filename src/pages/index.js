@@ -1274,13 +1274,12 @@ const IndexPage = () => {
             of the law by leaders who try to stifle critics.
           </h4>
           <h4>
-            In light of the 27th celebration of World Press Freedom Day, this
-            database commemorates Filipino journalists who died between 1986 to
-            2020, most of whom were in the line of duty. These tragic attacks on
-            press freedom endanger not only workers in the field of media, but
-            also the value of truth and information in society. Such brazen acts
-            of repression concern each citizen, and urge all of us to hold the
-            line and carry on the fight for the truth.
+            President Rodrigo Duterte recently <a
+              href="https://www.cnn.ph/news/2020/7/3/duterte-signs-anti-terrorism-law.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >signed</a>{" "} the Anti-Terrorism Bill into law, reinforcing fears that this may be weaponized to silence voices of dissent. In light of the government’s recent underhanded attempts to threaten press freedom, this database commemorates Filipino journalists who died between 1986 to 2020, most of whom were in the line of duty. These tragic attacks on press freedom endanger not only workers in the field of media, but also the value of truth and information in society. Such brazen acts of repression concern each citizen, and urge all of us to hold the line and carry on the fight for the truth.
+
           </h4>
           <h4>
             As of May 8, the following are those who have been silenced in the
