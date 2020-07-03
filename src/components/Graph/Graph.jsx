@@ -1,8 +1,8 @@
 import React from "react"
 import { Wrapper,ImageWeb, ImageMobile } from "./styles"
 
-import graphWeb from "../../images/graph.svg"
-import graphMobile from "../../images/graph.png"
+import graphWeb from "../../images/graph.png"
+import graphMobile from "../../images/graphM.png"
 
 const Graph = () => (
   <Wrapper>
