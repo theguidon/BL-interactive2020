@@ -13,7 +13,8 @@ const Footer = () => (
         <p>ABOUT THE INTERACTIVE</p>
         <p>A year-long project by the Beyond Loyola Staff for AY 2019-2020</p>
         <p>
-          Interactive by Bea Martin, Bea Sison, Cobbie Quintos, Giddy Garcia,
+          A year-long project by the Beyond Loyola Staff for AY 2019-2020</p>
+        <p> Bea Martin, Bea Sison, Cobbie Quintos, Giddy Garcia,
           and Harvey Sison
         </p>
       </FooDetails>
